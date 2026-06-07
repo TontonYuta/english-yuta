@@ -1,0 +1,62 @@
+{
+  "theory_html": "<h2>Học sinh mất gốc thường sai gì? Cách học lại từ đầu</h2><p>Khi mới bắt đầu lại hoặc bị mất gốc tiếng Anh, chúng ta thường mắc phải những sai lầm phổ biến sau:</p><ul><li><strong>Học từ vựng rời rạc (Single words):</strong> Học một từ đơn lẻ mà không biết cách dùng trong câu. (Nên học theo cụm từ - Collocations).</li><li><strong>Dịch từng từ một (Word-by-word translation):</strong> Thói quen dịch word-by-word khiến câu tiếng Anh trở nên ngô nghê và sai ngữ pháp.</li><li><strong>Bỏ qua phát âm:</strong> Phát âm sai dẫn đến không nghe được và cũng không nói được.</li><li><strong>Sợ sai:</strong> Tâm lý sợ sai khiến bạn không dám đặt câu, không dám làm bài.</li></ul><p><strong>Cách học lại từ đầu:</strong></p><ol><li>Học từ vựng theo chủ đề và luôn học kèm câu ví dụ.</li><li>Nắm chắc cấu trúc câu cốt lõi (S-V-O) trước khi học các ngữ pháp phức tạp.</li><li>Đọc các đoạn văn ngắn thường xuyên để quen với ngữ cảnh.</li></ol>",
+  "vocabulary": [
+    {
+      "word": "mistake",
+      "pronunciation": "/mɪˈsteɪk/",
+      "meaning": "(n) lỗi lầm, sai lầm. Cụm từ: make a mistake (phạm sai lầm). Ví dụ: Don't be afraid to make mistakes. (Đừng sợ phạm sai lầm.)"
+    },
+    {
+      "word": "practice",
+      "pronunciation": "/ˈpræk.tɪs/",
+      "meaning": "(v) thực hành, luyện tập. Cụm từ: practice reading daily. Ví dụ: You should practice reading daily. (Bạn nên luyện đọc hàng ngày.)"
+    },
+    {
+      "word": "vocabulary",
+      "pronunciation": "/vəʊˈkæb.jə.lər.i/",
+      "meaning": "(n) từ vựng. Cụm từ: build vocabulary. Ví dụ: Reading helps you build vocabulary. (Việc đọc sách giúp bạn xây dựng vốn từ vựng.)"
+    },
+    {
+      "word": "translate",
+      "pronunciation": "/trænzˈleɪt/",
+      "meaning": "(v) dịch, phiên dịch. Cụm từ: translate into Vietnamese. Ví dụ: Do not translate word-by-word. (Đừng dịch từng từ một.)"
+    },
+    {
+      "word": "sentence",
+      "pronunciation": "/ˈsen.təns/",
+      "meaning": "(n) câu. Cụm từ: make a sentence. Ví dụ: Can you make a sentence with this word? (Bạn có thể đặt một câu với từ này không?)"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Lỗi sai phổ biến nào khiến người học không thể nói tiếng Anh tự nhiên?",
+      "options": ["Học từ vựng theo cụm (Collocations)", "Dịch tiếng Anh sang tiếng Việt từng từ một (word-by-word)", "Luyện nghe thường xuyên", "Đọc các đoạn văn ngắn"],
+      "correct_answer": "Dịch tiếng Anh sang tiếng Việt từng từ một (word-by-word)"
+    },
+    {
+      "id": "q2",
+      "question": "Tìm từ vựng thích hợp điền vào chỗ trống: Don't be afraid to make ___ when you speak English.",
+      "options": ["sentences", "practices", "mistakes", "vocabularies"],
+      "correct_answer": "mistakes"
+    },
+    {
+      "id": "q3",
+      "question": "Cụm từ nào sau đây có nghĩa là 'xây dựng vốn từ vựng'?",
+      "options": ["make vocabulary", "translate vocabulary", "practice vocabulary", "build vocabulary"],
+      "correct_answer": "build vocabulary"
+    },
+    {
+      "id": "q4",
+      "question": "Đâu là cách học từ vựng hiệu quả nhất cho người mất gốc?",
+      "options": ["Chỉ học một từ đơn lẻ mỗi ngày", "Học từ vựng rời rạc và chép phạt", "Học từ vựng kèm theo cụm từ và câu ví dụ cụ thể", "Học thuộc lòng từ điển"],
+      "correct_answer": "Học từ vựng kèm theo cụm từ và câu ví dụ cụ thể"
+    },
+    {
+      "id": "q5",
+      "question": "Hoàn thành câu sau: You should ___ English every day to improve your skills.",
+      "options": ["mistake", "sentence", "translate", "practice"],
+      "correct_answer": "practice"
+    }
+  ]
+}

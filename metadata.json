@@ -1,0 +1,6 @@
+{
+  "name": "English for Lost Roots",
+  "description": "An interactive educational application for beginners to learn English using static data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

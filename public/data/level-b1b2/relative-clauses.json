@@ -1,0 +1,29 @@
+{
+  "theory_html": "<h2>Mệnh đề quan hệ (Relative Clauses) là gì?</h2><p>Ở mức B1-B2, chúng ta không viết các câu ngắn ngủn nữa. Ta cần nối câu để câu văn liền mạch hơn. Mệnh đề quan hệ giúp bổ nghĩa cho một danh từ đứng ngay trước nó.</p><br><h3>Các Đại từ quan hệ cơ bản:</h3><ul><li><b>Who:</b> Thay thế cho người (Làm chủ ngữ).<br/><i>Ví dụ: The man <b>who</b> is standing there is my father.</i></li><li><b>Whom:</b> Thay thế cho người (Làm tân ngữ - ít dùng hơn trong văn nói).</li><li><b>Which:</b> Thay thế cho đồ vật, động vật.<br/><i>Ví dụ: The book <b>which</b> I bought is interesting.</i></li><li><b>That:</b> Dùng thay thế cho cả who/whom/which trong mệnh đề xác định (không có dấu phẩy).</li><li><b>Whose:</b> Chỉ sự sở hữu (Của ai đó/Của cái gì đó).<br/><i>Ví dụ: The boy <b>whose</b> bike was stolen is crying.</i></li></ul>",
+  "vocabulary": [
+    { "word": "Relative", "pronunciation": "/ˈrelətɪv/", "meaning": "Có liên quan / Quan hệ" },
+    { "word": "Clause", "pronunciation": "/klɔːz/", "meaning": "Mệnh đề (Một thành phần có đủ Chủ - Vị)" },
+    { "word": "Replace", "pronunciation": "/rɪˈpleɪs/", "meaning": "Thay thế" },
+    { "word": "Essential", "pronunciation": "/ɪˈsenʃl/", "meaning": "Thiết yếu (Mệnh đề quan hệ xác định)" }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "The laptop ______ I bought yesterday is very fast.",
+      "options": ["who", "which", "whom"],
+      "correct_answer": "which"
+    },
+    {
+      "id": "q2",
+      "question": "Do you know the girl ______ is talking to Mr. John?",
+      "options": ["whose", "which", "who"],
+      "correct_answer": "who"
+    },
+    {
+      "id": "q3",
+      "question": "He is the teacher ______ car is parked outside.",
+      "options": ["that", "who", "whose"],
+      "correct_answer": "whose"
+    }
+  ]
+}

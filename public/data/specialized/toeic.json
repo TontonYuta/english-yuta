@@ -1,0 +1,29 @@
+{
+  "theory_html": "<h2>TOEIC: Business English & Speed Reading</h2><p>Mục tiêu 800+ TOEIC đòi hỏi việc xử lý từ vựng trong môi trường tiếng Anh văn phòng học, công sở (Business English) và tốc độ đọc cực cao để kết nối đa văn bản.</p><ul><li><b>Từ vựng Business:</b> Chủ đề tuyển dụng, Hợp đồng bảo hiểm, Marketing, Logistics.<br/><i>Ví dụ: Thấy từ 'Candidate', hãy nghĩ ngay đến 'Interview', 'Resume', 'Hire'.</i></li><li><b>Kỹ năng Đọc nhanh (Speed Reading):</b> Bạn không có thời gian gạch chân từng chữ. Cần quét mắt bằng cách xác định các <b>Từ khóa (Keywords)</b> và tiêu đề email, ngày gửi, người gửi, chủ đề.</li><li><b>Double/Triple Passages:</b> Trong phần Reading part 7, đáp án thường nằm tại <b>điểm giao thoa</b> giữa 2 hoặc 3 email/thông báo. Một bức thư báo ngày giờ trễ tàu, bức thư sau báo chính sách hoàn tiền -> Từ đó tự suy luận ra hành khách được hoàn tiền.</li></ul>",
+  "vocabulary": [
+    { "word": "Candidate", "pronunciation": "/ˈkændɪdət/", "meaning": "Ứng viên (cho công việc)" },
+    { "word": "Contract", "pronunciation": "/ˈkɒntrækt/", "meaning": "Hợp đồng" },
+    { "word": "Logistics", "pronunciation": "/ləˈdʒɪstɪks/", "meaning": "Vận chuyển / Hậu cần" },
+    { "word": "Reimburse", "pronunciation": "/ˌriːɪmˈbɜːs/", "meaning": "Hoàn trả (tiền phí tổn)" }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Từ nào sau đây thường liên quan mật thiết nhất đến phòng Nhân sự (Human Resources)?",
+      "options": ["Inventory", "Recruitment", "Logistics"],
+      "correct_answer": "Recruitment"
+    },
+    {
+      "id": "q2",
+      "question": "Nếu công ty bạn đi công tác và yêu cầu bạn nộp hóa đơn khách sạn để trả lại tiền, từ nào là phù hợp nhất?",
+      "options": ["Fine", "Invest", "Reimbursement"],
+      "correct_answer": "Reimbursement"
+    },
+    {
+      "id": "q3",
+      "question": "Để làm tốt phần đọc hiểu đa văn bản (Double/Triple passages), chiến lược nào là hiệu quả nhất?",
+      "options": ["Đọc kỹ và dịch toàn bộ nội dung", "Kết nối các thông tin liên quan giữa các văn bản (Ngày tháng, mã số, tên)", "Đọc đáp án và chọn bừa"],
+      "correct_answer": "Kết nối các thông tin liên quan giữa các văn bản (Ngày tháng, mã số, tên)"
+    }
+  ]
+}

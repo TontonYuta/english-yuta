@@ -1,0 +1,92 @@
+{
+  "theory_html": "<h2>Chẩn đoán năng lực (Test đầu vào)</h2><p>Chào mừng bạn đến với khóa học! Hôm nay chúng ta sẽ làm một bài test nhỏ để khởi động và xác định xem bạn đang gặp khó khăn ở những đâu.</p><p> Bài test bao gồm đánh giá về từ vựng, ngữ pháp cơ bản và đọc hiểu ngắn. Đừng lo lắng nếu bạn sai nhiều, 180 ngày tiếp theo sẽ giúp bạn lấp đầy những khoảng trống này bằng nền tảng vững chắc nhất.</p><p>Hãy đọc kỹ các câu hỏi và làm bài test theo khả năng thực tế của bạn nhé.</p>",
+  "vocabulary": [
+    {
+      "word": "diagnostic",
+      "pronunciation": "/ˌdaɪ.əɡˈnɒs.tɪk/",
+      "meaning": "(adj) có tính chẩn đoán"
+    },
+    {
+      "word": "evaluate",
+      "pronunciation": "/ɪˈvæl.ju.eɪt/",
+      "meaning": "(v) đánh giá"
+    },
+    {
+      "word": "foundation",
+      "pronunciation": "/faʊnˈdeɪ.ʃən/",
+      "meaning": "(n) nền tảng, cơ sở"
+    },
+    {
+      "word": "improve",
+      "pronunciation": "/ɪmˈpruːv/",
+      "meaning": "(v) cải thiện, làm cho tốt hơn"
+    },
+    {
+      "word": "progress",
+      "pronunciation": "/ˈprəʊ.ɡres/",
+      "meaning": "(n) sự tiến bộ"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "[Từ vựng] Chọn từ đúng để điền vào chỗ trống: My sister is very ___. She always helps other people.",
+      "options": ["kind", "lazy", "angry", "bad"],
+      "correct_answer": "kind"
+    },
+    {
+      "id": "q2",
+      "question": "[Từ vựng] Chọn từ đúng: We need to buy some ___ for the printer.",
+      "options": ["papers", "paper", "a paper", "the papers"],
+      "correct_answer": "paper"
+    },
+    {
+      "id": "q3",
+      "question": "[Ngữ pháp] Cấu trúc câu: Sắp xếp các từ sau thành câu hoàn chỉnh: (always / the / studies / library / in / he)",
+      "options": ["He always studies the in library.", "He studies always in the library.", "He always studies in the library.", "In the library always he studies."],
+      "correct_answer": "He always studies in the library."
+    },
+    {
+      "id": "q4",
+      "question": "[Ngữ pháp - Thì] Hoàn thành câu: She ___ (go) to school by bus every day.",
+      "options": ["go", "goes", "is going", "went"],
+      "correct_answer": "goes"
+    },
+    {
+      "id": "q5",
+      "question": "[Ngữ pháp - Thì] Hoàn thành câu: Look! The baby ___ (sleep).",
+      "options": ["sleep", "sleeps", "is sleeping", "slept"],
+      "correct_answer": "is sleeping"
+    },
+    {
+      "id": "q6",
+      "question": "[Ngữ pháp - Thì] Hoàn thành câu: I ___ (visit) my grandparents last weekend.",
+      "options": ["visit", "visits", "am visiting", "visited"],
+      "correct_answer": "visited"
+    },
+    {
+      "id": "q7",
+      "question": "[Từ loại] Xác định từ loại của từ được in hoa: It is a BEAUTIFUL day.",
+      "options": ["Danh từ (Noun)", "Động từ (Verb)", "Tính từ (Adjective)", "Trạng từ (Adverb)"],
+      "correct_answer": "Tính từ (Adjective)"
+    },
+    {
+      "id": "q8",
+      "question": "[Từ loại] Xác định từ loại của từ được in hoa: She sings very WELL.",
+      "options": ["Danh từ (Noun)", "Động từ (Verb)", "Tính từ (Adjective)", "Trạng từ (Adverb)"],
+      "correct_answer": "Trạng từ (Adverb)"
+    },
+    {
+      "id": "q9",
+      "question": "[Đọc hiểu] Đọc đoạn văn sau: 'Tom is a doctor. He works in a big hospital in the city center. He usually starts his work at 8 AM and finishes at 5 PM. He loves his job because he wants to help sick people.'\nCâu hỏi: Where does Tom work?",
+      "options": ["In a school", "In a small hospital", "In a big hospital", "In the countryside"],
+      "correct_answer": "In a big hospital"
+    },
+    {
+      "id": "q10",
+      "question": "[Đọc hiểu] Theo đoạn văn trên, tại sao Tom yêu thích công việc của mình?",
+      "options": ["Vì anh ấy làm việc ở trung tâm thành phố.", "Vì anh ấy muốn giúp đỡ người bệnh.", "Vì anh ấy bắt đầu làm việc lúc 8 giờ sáng.", "Vì anh ấy kiếm được nhiều tiền."],
+      "correct_answer": "Vì anh ấy muốn giúp đỡ người bệnh."
+    }
+  ]
+}

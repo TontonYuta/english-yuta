@@ -1,0 +1,29 @@
+{
+  "theory_html": "<h2>Nghệ thuật Paraphrasing trong IELTS</h2><p>Khác với tiếng Anh giao tiếp thông thường, bài thi IELTS Reading (đặc biệt dạng True/False/Not Given) kiểm tra khả năng nhận diện <b>cùng một ý tưởng nhưng được viết bằng các từ vựng khác nhau (Paraphrasing)</b>.</p><p>Thay vì lặp lại từ trong câu hỏi với ý trong bài đọc, tác giả sẽ dùng từ đồng nghĩa, đổi cấu trúc câu, chuyển chủ động thành bị động.</p><br><h3>Các kỹ thuật Paraphrase thông dụng:</h3><ul><li><b>Dùng từ đồng nghĩa (Synonyms):</b> <br/><i>Quy mô lớn:</i> huge => massive => enormous.</li><li><b>Đổi cấu trúc ngữ pháp (Grammar shift):</b><br/><i>The government invested in renewable energy => Renewable energy received government investment.</i></li><li><b>Đổi từ loại (Word class change):</b><br/><i>They <b>grow</b> rapidly => They experience rapid <b>growth</b>.</i></li></ul>",
+  "vocabulary": [
+    { "word": "Paraphrase", "pronunciation": "/ˈpærəfreɪz/", "meaning": "Diễn đạt lại (bằng cách khác nhưng giữ nguyên nghĩa)" },
+    { "word": "Synonym", "pronunciation": "/ˈsɪnənɪm/", "meaning": "Từ đồng nghĩa" },
+    { "word": "Inaccurate", "pronunciation": "/ɪnˈækjərət/", "meaning": "Không chính xác / Sai lệch" },
+    { "word": "Significantly", "pronunciation": "/sɪɡˈnɪfɪkəntli/", "meaning": "Một cách đáng kể / Lớn lao" }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Đâu là cụm từ (Paraphrase) có nghĩa sát nhất với 'global warming'?",
+      "options": ["climate change", "weather condition", "international business"],
+      "correct_answer": "climate change"
+    },
+    {
+      "id": "q2",
+      "question": "Biến đổi cấu trúc: 'The city built a new museum' thành Bị động (Passive voice):",
+      "options": ["A new museum is build by the city.", "A new museum was built by the city.", "The city was building a new museum."],
+      "correct_answer": "A new museum was built by the city."
+    },
+    {
+      "id": "q3",
+      "question": "Tìm từ đồng nghĩa với 'Essential' (Thiết yếu) trong văn phong học thuật:",
+      "options": ["Optional", "Crucial", "Minor"],
+      "correct_answer": "Crucial"
+    }
+  ]
+}

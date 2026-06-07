@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Patrick Hand", cursive;
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-ink: #1A237E;
+  --color-paper: #FDFBF7;
+  --color-highlighter: #FFF06C;
+  --color-red-pen: #D32F2F;
+  --color-sticky-pink: #FFD1DC;
+  --color-sticky-mint: #C1E1C1;
+  --color-sticky-blue: #C1D4E3;
+  --color-sticky-yellow: #FEF08A;
+}
+
+@layer utilities {
+  .bg-notebook {
+    background-color: var(--color-paper);
+    background-image: 
+      linear-gradient(90deg, transparent 79px, rgba(211, 47, 47, 0.2) 79px, rgba(211, 47, 47, 0.2) 81px, transparent 81px),
+      linear-gradient(rgba(26, 35, 126, 0.1) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 2rem;
+  }
+
+  .sketchy-border {
+    border: 2px solid var(--color-ink);
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  }
+  
+  .sketchy-button {
+    border: 2px solid var(--color-ink);
+    border-radius: 15px 225px 15px 255px / 255px 15px 225px 15px;
+    box-shadow: 2px 4px 0px rgba(26, 35, 126, 0.2);
+  }
+
+  .sketchy-button:active {
+    box-shadow: 0px 0px 0px rgba(26, 35, 126, 0.2);
+    transform: translateY(2px);
+  }
+  
+  .sketchy-card {
+    border: 2px solid var(--color-ink);
+    border-radius: 2px 255px 5px 255px / 255px 5px 225px 3px;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "theory_html": "<h2>Cấu trúc nền tảng: S - V - O</h2><p>Tiếng Anh có một quy tắc sống còn mà bạn không bao giờ được quên: Một câu bắt buộc phải có <b>Chủ ngữ (Subject/S)</b> và <b>Động từ (Verb/V)</b>.</p><p>Ví dụ cơ bản nhất: <b>I eat an apple.</b> (Tôi ăn một quả táo).</p><ul><li><b>S (Chủ ngữ):</b> I (Tôi) - Ai là người hiện hành động?</li><li><b>V (Động từ):</b> eat (ăn) - Hành động là gì?</li><li><b>O (Tân ngữ):</b> an apple (táo) - Hành động tác động lên cái gì?</li></ul><h2>Nhận diện Từ Loại</h2><p>Trong cấu trúc trên, chúng ta cần dùng đúng loại từ:</p><ul><li><b>Noun (Danh từ):</b> Chỉ người, vật, sự việc (apple, cat, student). Thường làm S hoặc O.</li><li><b>Verb (Động từ):</b> Chỉ hành động (eat, run, sleep).</li><li><b>Adjective (Tính từ):</b> Bổ nghĩa cho danh từ, đứng trước danh từ (a <b>red</b> apple).</li></ul>",
+  "vocabulary": [
+    { "word": "Subject", "pronunciation": "/ˈsʌbdʒɪkt/", "meaning": "Chủ ngữ (Người/vật thực hiện hành động)" },
+    { "word": "Verb", "pronunciation": "/vɜːb/", "meaning": "Động từ (Hành động hoặc trạng thái)" },
+    { "word": "Object", "pronunciation": "/ˈɒbdʒɪkt/", "meaning": "Tân ngữ (Đối tượng chịu tác động)" },
+    { "word": "Noun", "pronunciation": "/naʊn/", "meaning": "Danh từ" },
+    { "word": "Adjective", "pronunciation": "/ˈædʒɪktɪv/", "meaning": "Tính từ" }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Trong câu 'She loves cats', từ nào đóng vai trò là Động từ (Verb)?",
+      "options": ["She", "loves", "cats"],
+      "correct_answer": "loves"
+    },
+    {
+      "id": "q2",
+      "question": "Từ loại nào thường dùng để miêu tả đặc điểm của một Danh từ?",
+      "options": ["Động từ (Verb)", "Khuyết thiếu (Modal)", "Tính từ (Adjective)"],
+      "correct_answer": "Tính từ (Adjective)"
+    },
+    {
+      "id": "q3",
+      "question": "Mọi câu hoàn chỉnh trong tiếng Anh đều bắt buộc phải có hai thành phần nào?",
+      "options": ["Subject & Object", "Subject & Verb", "Verb & Adjective"],
+      "correct_answer": "Subject & Verb"
+    }
+  ]
+}

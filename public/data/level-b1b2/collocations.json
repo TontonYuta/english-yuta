@@ -1,0 +1,29 @@
+{
+  "theory_html": "<h2>Collocations & Phrasal Verbs là gì?</h2><p>Khi đạt được nền tảng sơ cấp, bạn sẽ nhận ra tra từ điển từng từ một rồi ghép lại đôi khi không tạo ra ngôn ngữ tự nhiên.</p><ul><li><b>Collocations:</b> Các từ thường xuyên đi cùng nhau. Người bản xứ quy định thế, không có logic tuyệt đối.<br/><i>Ví dụ: Ta nói <b>make a mistake</b> (mắc lỗi), chứ không nói <b>do a mistake</b>. Ta nói <b>fast food</b> chứ không nói <b>quick food</b>.</i></li><li><b>Phrasal Verbs:</b> Động từ ghép (Động từ + Giới từ/Trạng từ) mang một nghĩa hoàn toàn mới.<br/><i>Ví dụ: <b>Give up</b> (từ bỏ), <b>Look forward to</b> (mong chờ), <b>Put off</b> (trì hoãn - postpone).</i></li></ul><p>Học theo cụm sẽ giúp phản xạ nói và viết tăng lên rõ rệt!</p>",
+  "vocabulary": [
+    { "word": "Make a decision", "pronunciation": "/meɪk ə dɪˈsɪʒn/", "meaning": "Đưa ra quyết định (Collocation)" },
+    { "word": "Catch fire", "pronunciation": "/kætʃ ˈfaɪər/", "meaning": "Bốc cháy (Collocation)" },
+    { "word": "Give up", "pronunciation": "/ɡɪv ʌp/", "meaning": "Từ bỏ, đầu hàng (Phrasal Verb)" },
+    { "word": "Take off", "pronunciation": "/teɪk ɒf/", "meaning": "Cất cánh / Cởi bỏ (Phrasal Verb)" }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "You should ______ attention to what the teacher says.",
+      "options": ["make", "pay", "give"],
+      "correct_answer": "pay"
+    },
+    {
+      "id": "q2",
+      "question": "Cụm động từ (Phrasal verb) nào có nghĩa là 'trì hoãn' (postpone)?",
+      "options": ["Put on", "Put off", "Put away"],
+      "correct_answer": "Put off"
+    },
+    {
+      "id": "q3",
+      "question": "It is raining heavily. Don't forget to ______ your shoes before entering.",
+      "options": ["take on", "take off", "give up"],
+      "correct_answer": "take off"
+    }
+  ]
+}

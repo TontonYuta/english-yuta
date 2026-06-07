@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "DAY_001",
+    "chapter": "CHẶNG 0 — Khởi động và chẩn đoán",
+    "title": "Buổi 1: Test đầu vào: từ vựng, ngữ pháp, đọc hiểu, dịch câu",
+    "level": "A0",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-001.json"
+  },
+  {
+    "id": "DAY_002",
+    "chapter": "CHẶNG 0 — Khởi động và chẩn đoán",
+    "title": "Buổi 2: Học sinh mất gốc thường sai gì? Cách học lại từ đầu",
+    "level": "A0",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-002.json"
+  },
+  {
+    "id": "DAY_003",
+    "chapter": "CHẶNG 0 — Khởi động và chẩn đoán",
+    "title": "Buổi 3: Cách học từ vựng bằng cụm từ, câu ví dụ, hình ảnh, ngữ cảnh",
+    "level": "A0",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-003.json"
+  },
+  {
+    "id": "DAY_004",
+    "chapter": "CHẶNG 0 — Khởi động và chẩn đoán",
+    "title": "Buổi 4: Cách đọc một câu tiếng Anh: tìm chủ ngữ, động từ, ý chính",
+    "level": "A0",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-004.json"
+  },
+  {
+    "id": "DAY_005",
+    "chapter": "CHẶNG 0 — Khởi động và chẩn đoán",
+    "title": "Buổi 5: Thiết lập sổ từ vựng, lịch ôn cách quãng, bài kiểm tra định kỳ",
+    "level": "A0",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-005.json"
+  },
+  {
+    "id": "DAY_006",
+    "chapter": "CHẶNG 1 — Nhóm 1: Âm, chữ, từ, câu",
+    "title": "Buổi 6: Bảng chữ cái, cách đánh vần tên, cách đọc chữ cái",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-006.json"
+  },
+  {
+    "id": "DAY_007",
+    "chapter": "CHẶNG 1 — Nhóm 1: Âm, chữ, từ, câu",
+    "title": "Buổi 7: Nguyên âm, phụ âm, âm câm, âm cuối cơ bản",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-007.json"
+  },
+  {
+    "id": "DAY_008",
+    "chapter": "CHẶNG 1 — Nhóm 1: Âm, chữ, từ, câu",
+    "title": "Buổi 8: IPA tối thiểu: chỉ học các âm hay gặp, không học nặng lý thuyết",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-008.json"
+  },
+  {
+    "id": "DAY_009",
+    "chapter": "CHẶNG 1 — Nhóm 1: Âm, chữ, từ, câu",
+    "title": "Buổi 9: Từ, cụm từ, câu, dấu câu, viết hoa",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-009.json"
+  },
+  {
+    "id": "DAY_010",
+    "chapter": "CHẶNG 1 — Nhóm 1: Âm, chữ, từ, câu",
+    "title": "Buổi 10: Cách đọc từ mới: đoán âm, tra từ, nghe mẫu",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-010.json"
+  },
+  {
+    "id": "DAY_011",
+    "chapter": "CHẶNG 1 — Nhóm 2: Từ loại cực cơ bản",
+    "title": "Buổi 11: Danh từ: người, vật, nơi chốn, ý tưởng",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-011.json"
+  },
+  {
+    "id": "DAY_012",
+    "chapter": "CHẶNG 1 — Nhóm 2: Từ loại cực cơ bản",
+    "title": "Buổi 12: Động từ: hành động và trạng thái",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-012.json"
+  },
+  {
+    "id": "DAY_013",
+    "chapter": "CHẶNG 1 — Nhóm 2: Từ loại cực cơ bản",
+    "title": "Buổi 13: Tính từ: mô tả người/vật",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-013.json"
+  },
+  {
+    "id": "DAY_014",
+    "chapter": "CHẶNG 1 — Nhóm 2: Từ loại cực cơ bản",
+    "title": "Buổi 14: Trạng từ cơ bản: how, when, where",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-014.json"
+  },
+  {
+    "id": "DAY_015",
+    "chapter": "CHẶNG 1 — Nhóm 2: Từ loại cực cơ bản",
+    "title": "Buổi 15: Đại từ: I, you, he, she, it, we, they",
+    "level": "A0+",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-015.json"
+  },
+  {
+    "id": "DAY_016",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 16: Cấu trúc S + be + noun/adjective",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-016.json"
+  },
+  {
+    "id": "DAY_017",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 17: Cấu trúc S + V",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-017.json"
+  },
+  {
+    "id": "DAY_018",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 18: Cấu trúc S + V + O",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-018.json"
+  },
+  {
+    "id": "DAY_019",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 19: Cụm danh từ: a big house, my new book",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-019.json"
+  },
+  {
+    "id": "DAY_020",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 20: Câu khẳng định, phủ định, nghi vấn là gì?",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-020.json"
+  },
+  {
+    "id": "DAY_021",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 21: Dịch câu Anh–Việt cấp độ 1",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-021.json"
+  },
+  {
+    "id": "DAY_022",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 22: Dịch câu Việt–Anh cấp độ 1",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-022.json"
+  },
+  {
+    "id": "DAY_023",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 23: Mini reading 30–50 từ: tìm ý chính",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-023.json"
+  },
+  {
+    "id": "DAY_024",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 24: Mini listening: nghe từ khóa đơn giản",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-024.json"
+  },
+  {
+    "id": "DAY_025",
+    "chapter": "CHẶNG 1 — Nhóm 3: Câu đơn nền tảng",
+    "title": "Buổi 25: Kiểm tra chặng 1",
+    "level": "A1",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-025.json"
+  },
+  {
+    "id": "DAY_026",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 26: Đại từ nhân xưng + To be",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-026.json"
+  },
+  {
+    "id": "DAY_027",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 27: To be: phủ định và câu hỏi",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-027.json"
+  },
+  {
+    "id": "DAY_028",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 28: Tính từ sở hữu: my, your, his, her...",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-028.json"
+  },
+  {
+    "id": "DAY_029",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 29: This / That / These / Those",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-029.json"
+  },
+  {
+    "id": "DAY_030",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 30: A / An / The: dùng thực tế, không sa đà lý thuyết",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-030.json"
+  },
+  {
+    "id": "DAY_031",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 31: Danh từ số ít, số nhiều",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-031.json"
+  },
+  {
+    "id": "DAY_032",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 32: There is / There are",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-032.json"
+  },
+  {
+    "id": "DAY_033",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 33: Chủ đề từ vựng: personal information",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-033.json"
+  },
+  {
+    "id": "DAY_034",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 34: Chủ đề từ vựng: family",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-034.json"
+  },
+  {
+    "id": "DAY_035",
+    "chapter": "CHẶNG 2 — Nhóm 1: To be và mô tả cơ bản",
+    "title": "Buổi 35: Reading 1: giới thiệu bản thân và gia đình",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-035.json"
+  },
+  {
+    "id": "DAY_036",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 36: Giới từ nơi chốn: in, on, under, near, next to",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-036.json"
+  },
+  {
+    "id": "DAY_037",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 37: Giới từ thời gian: in, on, at",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-037.json"
+  },
+  {
+    "id": "DAY_038",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 38: Số đếm, số thứ tự, ngày tháng",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-038.json"
+  },
+  {
+    "id": "DAY_039",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 39: Hỏi giờ và nói giờ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-039.json"
+  },
+  {
+    "id": "DAY_040",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 40: Chủ đề: house and furniture",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-040.json"
+  },
+  {
+    "id": "DAY_041",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 41: Chủ đề: school and classroom",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-041.json"
+  },
+  {
+    "id": "DAY_042",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 42: Chủ đề: time, days, months, seasons",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-042.json"
+  },
+  {
+    "id": "DAY_043",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 43: Reading 2: nhà cửa, lớp học, thời gian",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-043.json"
+  },
+  {
+    "id": "DAY_044",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 44: Dịch câu có giới từ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-044.json"
+  },
+  {
+    "id": "DAY_045",
+    "chapter": "CHẶNG 2 — Nhóm 2: Nơi chốn, thời gian, sinh hoạt",
+    "title": "Buổi 45: Kiểm tra nhỏ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-045.json"
+  },
+  {
+    "id": "DAY_046",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 46: Động từ thường thông dụng",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-046.json"
+  },
+  {
+    "id": "DAY_047",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 47: Present Simple: khẳng định",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-047.json"
+  },
+  {
+    "id": "DAY_048",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 48: Quy tắc thêm s/es",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-048.json"
+  },
+  {
+    "id": "DAY_049",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 49: Phát âm đuôi s/es",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-049.json"
+  },
+  {
+    "id": "DAY_050",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 50: Present Simple: phủ định",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-050.json"
+  },
+  {
+    "id": "DAY_051",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 51: Present Simple: nghi vấn",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-051.json"
+  },
+  {
+    "id": "DAY_052",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 52: Trạng từ tần suất",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-052.json"
+  },
+  {
+    "id": "DAY_053",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 53: Chủ đề: daily routines",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-053.json"
+  },
+  {
+    "id": "DAY_054",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 54: Chủ đề: hobbies and sports",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-054.json"
+  },
+  {
+    "id": "DAY_055",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 55: Reading 3: một ngày của học sinh",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-055.json"
+  },
+  {
+    "id": "DAY_056",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 56: Writing: viết 5–7 câu về bản thân",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-056.json"
+  },
+  {
+    "id": "DAY_057",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 57: Chữa lỗi câu thường gặp",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-057.json"
+  },
+  {
+    "id": "DAY_058",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 58: Ôn tập To be vs Present Simple",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-058.json"
+  },
+  {
+    "id": "DAY_059",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 59: Mini test",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-059.json"
+  },
+  {
+    "id": "DAY_060",
+    "chapter": "CHẶNG 2 — Nhóm 3: Hiện tại đơn",
+    "title": "Buổi 60: Kiểm tra chặng 2",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-060.json"
+  },
+  {
+    "id": "DAY_061",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 61: Tìm chủ ngữ và động từ chính",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-061.json"
+  },
+  {
+    "id": "DAY_062",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 62: Nhận diện tân ngữ và bổ ngữ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-062.json"
+  },
+  {
+    "id": "DAY_063",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 63: Cụm danh từ dài",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-063.json"
+  },
+  {
+    "id": "DAY_064",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 64: Cụm giới từ trong câu",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-064.json"
+  },
+  {
+    "id": "DAY_065",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 65: Tính từ đứng trước danh từ và sau to be",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-065.json"
+  },
+  {
+    "id": "DAY_066",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 66: Trạng từ chỉ thời gian, nơi chốn, tần suất",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-066.json"
+  },
+  {
+    "id": "DAY_067",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 67: Dịch thoát ý, không dịch từng từ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-067.json"
+  },
+  {
+    "id": "DAY_068",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 68: Đọc câu dài 1: tách cụm",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-068.json"
+  },
+  {
+    "id": "DAY_069",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 69: Đọc câu dài 2: tìm lõi câu",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-069.json"
+  },
+  {
+    "id": "DAY_070",
+    "chapter": "CHẶNG 3 — Nhóm 1: Kỹ thuật đọc câu",
+    "title": "Buổi 70: Kiểm tra đọc câu",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-070.json"
+  },
+  {
+    "id": "DAY_071",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 71: Present Continuous",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-071.json"
+  },
+  {
+    "id": "DAY_072",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 72: Present Simple vs Present Continuous",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-072.json"
+  },
+  {
+    "id": "DAY_073",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 73: Past Simple: động từ có quy tắc",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-073.json"
+  },
+  {
+    "id": "DAY_074",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 74: Phát âm đuôi ed",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-074.json"
+  },
+  {
+    "id": "DAY_075",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 75: Past Simple: động từ bất quy tắc nhóm 1",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-075.json"
+  },
+  {
+    "id": "DAY_076",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 76: Past Simple: phủ định, nghi vấn",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-076.json"
+  },
+  {
+    "id": "DAY_077",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 77: Future Simple: will",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-077.json"
+  },
+  {
+    "id": "DAY_078",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 78: Be going to",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-078.json"
+  },
+  {
+    "id": "DAY_079",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 79: Tương lai: will vs be going to",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-079.json"
+  },
+  {
+    "id": "DAY_080",
+    "chapter": "CHẶNG 3 — Nhóm 2: Các thì cơ bản còn lại",
+    "title": "Buổi 80: Kiểm tra thì cơ bản",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-080.json"
+  },
+  {
+    "id": "DAY_081",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 81: Food and drinks",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-081.json"
+  },
+  {
+    "id": "DAY_082",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 82: Clothes and colors",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-082.json"
+  },
+  {
+    "id": "DAY_083",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 83: Jobs and workplaces",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-083.json"
+  },
+  {
+    "id": "DAY_084",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 84: Health and body",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-084.json"
+  },
+  {
+    "id": "DAY_085",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 85: Transportation and directions",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-085.json"
+  },
+  {
+    "id": "DAY_086",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 86: Shopping and money",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-086.json"
+  },
+  {
+    "id": "DAY_087",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 87: Weather and environment cơ bản",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-087.json"
+  },
+  {
+    "id": "DAY_088",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 88: Technology cơ bản",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-088.json"
+  },
+  {
+    "id": "DAY_089",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 89: Reading 4: đoạn 150–200 từ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-089.json"
+  },
+  {
+    "id": "DAY_090",
+    "chapter": "CHẶNG 3 — Nhóm 3: Chủ đề từ vựng nền tảng",
+    "title": "Buổi 90: Kiểm tra chặng 3",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-090.json"
+  },
+  {
+    "id": "DAY_091",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 91: Liên từ: and, but, so, because",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-091.json"
+  },
+  {
+    "id": "DAY_092",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 92: Although, however, therefore",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-092.json"
+  },
+  {
+    "id": "DAY_093",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 93: When, while, before, after",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-093.json"
+  },
+  {
+    "id": "DAY_094",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 94: If loại 0 và loại 1",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-094.json"
+  },
+  {
+    "id": "DAY_095",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 95: If loại 2",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-095.json"
+  },
+  {
+    "id": "DAY_096",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 96: Mệnh đề nguyên nhân – kết quả",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-096.json"
+  },
+  {
+    "id": "DAY_097",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 97: Mệnh đề tương phản",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-097.json"
+  },
+  {
+    "id": "DAY_098",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 98: Câu ghép vs câu phức",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-098.json"
+  },
+  {
+    "id": "DAY_099",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 99: Đọc đoạn có nhiều liên từ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-099.json"
+  },
+  {
+    "id": "DAY_100",
+    "chapter": "CHẶNG 4 — Nhóm 1: Câu phức và liên kết ý",
+    "title": "Buổi 100: Kiểm tra câu phức",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-100.json"
+  },
+  {
+    "id": "DAY_101",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 101: Who / which / that",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-101.json"
+  },
+  {
+    "id": "DAY_102",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 102: Whom / whose / where / when",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-102.json"
+  },
+  {
+    "id": "DAY_103",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 103: Mệnh đề quan hệ xác định",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-103.json"
+  },
+  {
+    "id": "DAY_104",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 104: Mệnh đề quan hệ không xác định",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-104.json"
+  },
+  {
+    "id": "DAY_105",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 105: Rút gọn mệnh đề quan hệ dạng V-ing",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-105.json"
+  },
+  {
+    "id": "DAY_106",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 106: Rút gọn mệnh đề quan hệ dạng V3",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-106.json"
+  },
+  {
+    "id": "DAY_107",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 107: Bài tập đọc câu có relative clauses",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-107.json"
+  },
+  {
+    "id": "DAY_108",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 108: Bài tập viết lại câu",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-108.json"
+  },
+  {
+    "id": "DAY_109",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 109: Reading 5: bài đọc có mệnh đề quan hệ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-109.json"
+  },
+  {
+    "id": "DAY_110",
+    "chapter": "CHẶNG 4 — Nhóm 2: Mệnh đề quan hệ và rút gọn cơ bản",
+    "title": "Buổi 110: Kiểm tra",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-110.json"
+  },
+  {
+    "id": "DAY_111",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 111: Modal verbs: can, could, should, must, have to",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-111.json"
+  },
+  {
+    "id": "DAY_112",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 112: Gerund and infinitive: V-ing / to V",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-112.json"
+  },
+  {
+    "id": "DAY_113",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 113: Passive voice: hiện tại, quá khứ, tương lai",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-113.json"
+  },
+  {
+    "id": "DAY_114",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 114: Reported speech cơ bản",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-114.json"
+  },
+  {
+    "id": "DAY_115",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 115: Comparisons",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-115.json"
+  },
+  {
+    "id": "DAY_116",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 116: Enough / too / so / such",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-116.json"
+  },
+  {
+    "id": "DAY_117",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 117: Quantifiers: many, much, few, little, some, any",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-117.json"
+  },
+  {
+    "id": "DAY_118",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 118: Articles nâng cao",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-118.json"
+  },
+  {
+    "id": "DAY_119",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 119: Prepositions hay gặp",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-119.json"
+  },
+  {
+    "id": "DAY_120",
+    "chapter": "CHẶNG 4 — Nhóm 3: Các điểm ngữ pháp hay thi",
+    "title": "Buổi 120: Kiểm tra chặng 4",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-120.json"
+  },
+  {
+    "id": "DAY_121",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 121: Skimming: đọc lấy ý chính",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-121.json"
+  },
+  {
+    "id": "DAY_122",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 122: Scanning: tìm thông tin cụ thể",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-122.json"
+  },
+  {
+    "id": "DAY_123",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 123: Main idea questions",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-123.json"
+  },
+  {
+    "id": "DAY_124",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 124: Detail questions",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-124.json"
+  },
+  {
+    "id": "DAY_125",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 125: Reference questions: it, they, this, that",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-125.json"
+  },
+  {
+    "id": "DAY_126",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 126: Vocabulary in context",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-126.json"
+  },
+  {
+    "id": "DAY_127",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 127: Inference questions",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-127.json"
+  },
+  {
+    "id": "DAY_128",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 128: Author’s purpose / tone cơ bản",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-128.json"
+  },
+  {
+    "id": "DAY_129",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 129: Sentence insertion",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-129.json"
+  },
+  {
+    "id": "DAY_130",
+    "chapter": "CHẶNG 5 — Nhóm 1: Kỹ năng xử lý bài đọc",
+    "title": "Buổi 130: Summary / title questions",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-130.json"
+  },
+  {
+    "id": "DAY_131",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 131: Cloze test 1: từ loại",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-131.json"
+  },
+  {
+    "id": "DAY_132",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 132: Cloze test 2: liên từ, đại từ, lượng từ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-132.json"
+  },
+  {
+    "id": "DAY_133",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 133: Cloze test 3: collocations",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-133.json"
+  },
+  {
+    "id": "DAY_134",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 134: Error identification",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-134.json"
+  },
+  {
+    "id": "DAY_135",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 135: Sentence transformation",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-135.json"
+  },
+  {
+    "id": "DAY_136",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 136: Synonym / antonym",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-136.json"
+  },
+  {
+    "id": "DAY_137",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 137: Communication questions",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-137.json"
+  },
+  {
+    "id": "DAY_138",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 138: Pronunciation: nguyên âm, phụ âm",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-138.json"
+  },
+  {
+    "id": "DAY_139",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 139: Stress: 2 âm tiết, 3 âm tiết",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-139.json"
+  },
+  {
+    "id": "DAY_140",
+    "chapter": "CHẶNG 5 — Nhóm 2: Dạng bài THPT thường gặp",
+    "title": "Buổi 140: Mixed practice 1",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-140.json"
+  },
+  {
+    "id": "DAY_141",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 141: Education and lifelong learning",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-141.json"
+  },
+  {
+    "id": "DAY_142",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 142: Technology and AI",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-142.json"
+  },
+  {
+    "id": "DAY_143",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 143: Environment and climate change",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-143.json"
+  },
+  {
+    "id": "DAY_144",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 144: Health and lifestyle",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-144.json"
+  },
+  {
+    "id": "DAY_145",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 145: Culture and tourism",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-145.json"
+  },
+  {
+    "id": "DAY_146",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 146: Jobs and future careers",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-146.json"
+  },
+  {
+    "id": "DAY_147",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 147: Social issues",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-147.json"
+  },
+  {
+    "id": "DAY_148",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 148: Science and inventions",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-148.json"
+  },
+  {
+    "id": "DAY_149",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 149: Full reading practice",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-149.json"
+  },
+  {
+    "id": "DAY_150",
+    "chapter": "CHẶNG 5 — Nhóm 3: Chủ đề đọc hiểu THPT mới",
+    "title": "Buổi 150: Kiểm tra chặng 5",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-150.json"
+  },
+  {
+    "id": "DAY_151",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 151: Tổng quan TOEIC Reading",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-151.json"
+  },
+  {
+    "id": "DAY_152",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 152: Part 5: từ loại",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-152.json"
+  },
+  {
+    "id": "DAY_153",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 153: Part 5: thì và thể",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-153.json"
+  },
+  {
+    "id": "DAY_154",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 154: Part 5: chủ động – bị động",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-154.json"
+  },
+  {
+    "id": "DAY_155",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 155: Part 5: đại từ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-155.json"
+  },
+  {
+    "id": "DAY_156",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 156: Part 5: giới từ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-156.json"
+  },
+  {
+    "id": "DAY_157",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 157: Part 5: liên từ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-157.json"
+  },
+  {
+    "id": "DAY_158",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 158: Part 5: mệnh đề quan hệ",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-158.json"
+  },
+  {
+    "id": "DAY_159",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 159: Part 5: so sánh",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-159.json"
+  },
+  {
+    "id": "DAY_160",
+    "chapter": "CHẶNG 6 — Nhóm 1: TOEIC Part 5",
+    "title": "Buổi 160: Part 5: tốc độ 30 câu / 12–15 phút",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-160.json"
+  },
+  {
+    "id": "DAY_161",
+    "chapter": "CHẶNG 6 — Nhóm 2: TOEIC Part 6",
+    "title": "Buổi 161: Part 6: cấu trúc đoạn văn",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-161.json"
+  },
+  {
+    "id": "DAY_162",
+    "chapter": "CHẶNG 6 — Nhóm 2: TOEIC Part 6",
+    "title": "Buổi 162: Part 6: chọn từ theo ngữ cảnh",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-162.json"
+  },
+  {
+    "id": "DAY_163",
+    "chapter": "CHẶNG 6 — Nhóm 2: TOEIC Part 6",
+    "title": "Buổi 163: Part 6: chọn câu chèn vào đoạn",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-163.json"
+  },
+  {
+    "id": "DAY_164",
+    "chapter": "CHẶNG 6 — Nhóm 2: TOEIC Part 6",
+    "title": "Buổi 164: Part 6: liên kết ý",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-164.json"
+  },
+  {
+    "id": "DAY_165",
+    "chapter": "CHẶNG 6 — Nhóm 2: TOEIC Part 6",
+    "title": "Buổi 165: Part 6: email, notice, memo",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-165.json"
+  },
+  {
+    "id": "DAY_166",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 166: Part 7: single passage",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-166.json"
+  },
+  {
+    "id": "DAY_167",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 167: Part 7: email",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-167.json"
+  },
+  {
+    "id": "DAY_168",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 168: Part 7: advertisement",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-168.json"
+  },
+  {
+    "id": "DAY_169",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 169: Part 7: notice / announcement",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-169.json"
+  },
+  {
+    "id": "DAY_170",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 170: Part 7: article",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-170.json"
+  },
+  {
+    "id": "DAY_171",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 171: Part 7: text message chain",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-171.json"
+  },
+  {
+    "id": "DAY_172",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 172: Part 7: double passages",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-172.json"
+  },
+  {
+    "id": "DAY_173",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 173: Part 7: triple passages",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-173.json"
+  },
+  {
+    "id": "DAY_174",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 174: Part 7: câu hỏi suy luận",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-174.json"
+  },
+  {
+    "id": "DAY_175",
+    "chapter": "CHẶNG 6 — Nhóm 3: TOEIC Part 7",
+    "title": "Buổi 175: TOEIC Reading mock test",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-175.json"
+  },
+  {
+    "id": "DAY_176",
+    "chapter": "CHẶNG 7 — Tổng ôn, luyện đề, cá nhân hóa lỗi sai",
+    "title": "Buổi 176: Test tổng hợp THPTQG số 1 + phân tích lỗi",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-176.json"
+  },
+  {
+    "id": "DAY_177",
+    "chapter": "CHẶNG 7 — Tổng ôn, luyện đề, cá nhân hóa lỗi sai",
+    "title": "Buổi 177: Chữa chuyên sâu lỗi từ vựng và đọc hiểu",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-177.json"
+  },
+  {
+    "id": "DAY_178",
+    "chapter": "CHẶNG 7 — Tổng ôn, luyện đề, cá nhân hóa lỗi sai",
+    "title": "Buổi 178: Test tổng hợp THPTQG số 2",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-178.json"
+  },
+  {
+    "id": "DAY_179",
+    "chapter": "CHẶNG 7 — Tổng ôn, luyện đề, cá nhân hóa lỗi sai",
+    "title": "Buổi 179: Chữa chuyên sâu lỗi ngữ pháp và câu hỏi bẫy",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-179.json"
+  },
+  {
+    "id": "DAY_180",
+    "chapter": "CHẶNG 7 — Tổng ôn, luyện đề, cá nhân hóa lỗi sai",
+    "title": "Buổi 180: Test tổng hợp TOEIC Reading + kế hoạch tự luyện tiếp",
+    "level": "Unknown",
+    "description": "Bài học theo lộ trình",
+    "content_file": "/data/lessons/day-180.json"
+  }
+]
