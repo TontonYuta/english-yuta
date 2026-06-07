@@ -241,6 +241,10 @@ export default function LessonList() {
           {activeTab === 'profile' && <ProfileTab completedCount={completedLessons.length} totalLessons={lessons.length} xp={xp} />}
           {activeTab === 'settings' && <SettingsTab />}
 
+          {/* Developer Credit Footer */}
+          <footer className="mt-16 text-center text-ink/40 text-sm font-medium">
+            Phát triển bởi TontonYuta
+          </footer>
         </div>
       </div>
     </div>

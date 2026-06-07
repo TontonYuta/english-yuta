@@ -184,12 +184,13 @@ export default function LessonDetail() {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col md:flex-row h-[100dvh] w-screen bg-notebook overflow-hidden text-ink font-sans selection:bg-highlighter/50 relative">
+    <div className="fixed inset-0 z-50 flex h-[100dvh] w-screen bg-notebook overflow-hidden text-ink font-sans selection:bg-highlighter/50 relative">
       
       {/* LEFT PANE: Theory / Reading Material */}
       {lessonData?.theory_html && (
-        <div className={`w-full md:w-[45%] lg:w-1/2 h-[100dvh] bg-[#FEF08A] md:border-r-2 border-ink shadow-lg z-30 transition-transform duration-300 ${showMobileTheory ? 'absolute md:relative inset-0 flex' : 'hidden md:flex'} flex-col relative`}>
+        <div className={`w-full md:max-w-[400px] lg:max-w-[500px] xl:max-w-[600px] flex-1 h-[100dvh] bg-[#FEF08A] md:border-r-2 border-ink shadow-lg z-30 transition-transform duration-300 ${showMobileTheory ? 'absolute md:relative inset-0 flex' : 'hidden md:flex'} flex-col relative shrink-0`}>
           {/* Mobile header for Theory */}
+
           {showMobileTheory && (
             <div className="md:hidden flex items-center justify-between p-4 border-b-2 border-ink/20 shrink-0 bg-[#FEF08A] z-40">
                <div className="font-heading font-bold text-xl flex items-center gap-2">
@@ -224,8 +225,8 @@ export default function LessonDetail() {
         </div>
       )}
 
-      {/* RIGHT PANE: Learning Flow (Slider) */}
-      <div className="flex-1 h-[100dvh] flex flex-col relative bg-paper transition-all duration-300 z-10 w-full overflow-hidden">
+      {/* MIDDLE PANE: Learning Flow (Slider) */}
+      <div className="flex-[2] min-w-[300px] h-[100dvh] flex flex-col relative bg-paper transition-all duration-300 z-10 overflow-hidden">
         {/* Universal Header (Progress) */}
         <header className="flex items-center gap-3 md:gap-4 px-4 py-4 pt-6 shrink-0 bg-transparent relative z-20">
           <button onClick={() => navigate('/')} className="text-ink/60 hover:text-ink transition-colors">
@@ -410,14 +411,14 @@ export default function LessonDetail() {
         </footer>
       </div>
       
-      {/* Notebook Panel (Floating on top) */}
+      {/* Notebook Panel (Mobile Overlay) */}
       <AnimatePresence>
         {isNotebookOpen && (
           <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="absolute inset-0 z-50 bg-ink/20 backdrop-blur-sm"
+            className="md:hidden absolute inset-0 z-40 bg-ink/20 backdrop-blur-sm"
             onClick={() => setIsNotebookOpen(false)}
           />
         )}
@@ -429,11 +430,11 @@ export default function LessonDetail() {
             animate={{ x: 0 }} 
             exit={{ x: "100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="absolute inset-y-0 right-0 w-full md:w-[400px] bg-white border-l-2 border-ink z-50 flex flex-col shadow-[-10px_0_40px_rgba(0,0,0,0.1)]"
+            className="md:hidden absolute inset-y-0 right-0 w-[85%] min-w-[320px] max-w-md bg-white border-l-2 border-ink z-50 flex flex-col shadow-[-10px_0_40px_rgba(0,0,0,0.1)]"
           >
             <div className="flex items-center justify-between p-4 border-b-2 border-ink/20 shrink-0 bg-[#FEF08A]">
               <h2 className="text-2xl font-heading font-bold flex items-center gap-3">
-                <NotebookText className="w-6 h-6 outline-none" /> Sổ tay cá nhân
+                <NotebookText className="w-6 h-6 outline-none" /> Sổ tay
               </h2>
               <button 
                 onClick={() => setIsNotebookOpen(false)} 
@@ -446,7 +447,7 @@ export default function LessonDetail() {
             <div className="flex-1 p-6 flex flex-col overflow-y-auto bg-white/50">
                <textarea 
                  className="w-full flex-1 resize-none bg-transparent outline-none font-sans text-xl leading-8 pb-10 text-ink/90 placeholder:text-ink/30"
-                 placeholder="Thêm từ mới, ngữ pháp hoặc những thứ cần nhớ vào đây..."
+                 placeholder="Ghi chú bài học..."
                  value={notebookContent}
                  onChange={(e) => saveNotebook(e.target.value)}
                  style={{ 
@@ -460,6 +461,52 @@ export default function LessonDetail() {
                   textarea::-webkit-input-placeholder { color: rgba(15, 23, 42, 0.3); }
                   textarea { color: #0f172a !important; }
                `}} />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Notebook Panel (Desktop Flex Column) */}
+      <AnimatePresence>
+        {isNotebookOpen && (
+          <motion.div 
+            initial={{ width: 0, opacity: 0 }} 
+            animate={{ width: 350, opacity: 1 }} 
+            exit={{ width: 0, opacity: 0 }}
+            transition={{ type: "spring", damping: 25, stiffness: 200 }}
+            className="hidden md:flex flex-col bg-white border-l-2 border-ink z-50 shadow-[-10px_0_40px_rgba(0,0,0,0.1)] shrink-0 overflow-hidden"
+          >
+            <div className="w-[350px] h-full flex flex-col shrink-0">
+              <div className="flex items-center justify-between p-4 border-b-2 border-ink/20 shrink-0 bg-[#FEF08A]">
+                <h2 className="text-2xl font-heading font-bold flex items-center gap-3">
+                  <NotebookText className="w-6 h-6 outline-none" /> Sổ tay cá nhân
+                </h2>
+                <button 
+                  onClick={() => setIsNotebookOpen(false)} 
+                  className="w-10 h-10 flex items-center justify-center shrink-0 rounded-xl bg-white/50 hover:bg-white transition-colors sketchy-border"
+                >
+                  <X className="w-6 h-6" strokeWidth={2} />
+                </button>
+              </div>
+              
+              <div className="flex-1 p-6 flex flex-col overflow-y-auto bg-white/50">
+                 <textarea 
+                   className="w-full flex-1 resize-none bg-transparent outline-none font-sans text-xl leading-8 pb-10 text-ink/90 placeholder:text-ink/30"
+                   placeholder="Thêm từ mới, ngữ pháp hoặc những thứ cần nhớ vào đây..."
+                   value={notebookContent}
+                   onChange={(e) => saveNotebook(e.target.value)}
+                   style={{ 
+                     backgroundImage: 'linear-gradient(transparent, transparent 31px, currentColor 31px)',
+                     backgroundSize: '100% 32px',
+                     lineHeight: '32px',
+                     color: 'rgba(var(--ink), 0.1)'
+                   }}
+                 />
+                 <style dangerouslySetInnerHTML={{__html: `
+                    textarea::-webkit-input-placeholder { color: rgba(15, 23, 42, 0.3); }
+                    textarea { color: #0f172a !important; }
+                 `}} />
+              </div>
             </div>
           </motion.div>
         )}

@@ -1,5 +1,5 @@
 {
-  "name": "English for Lost Roots",
+  "name": "Học Tiếng Anh từ mất gốc",
   "description": "An interactive educational application for beginners to learn English using static data.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
