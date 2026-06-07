@@ -36,7 +36,8 @@ Cấu trúc chuẩn của 1 file JSON chứa bài học như sau:
       "id": "q1",
       "question": "Tìm nghĩa đúng của từ 'improve':",
       "options": ["Cải thiện", "Phát triển", "Từ bỏ", "Hoàn thành"],
-      "correct_answer": "Cải thiện"
+      "correct_answer": "Cải thiện",
+      "explanation": "Từ 'improve' có nghĩa là cải thiện, làm cho tốt hơn (to make something better)."
     }
   ]
 }
@@ -62,6 +63,7 @@ YÊU CẦU VỀ NỘI DUNG MÔN HỌC BẮT BUỘC PHẢI CHÚ Ý:
   - Từ vựng cần phải ghi kèm câu ví dụ hoặc cụm từ đi kèm nếu có (ghi ở trong trường "meaning").
 3. quiz (Trắc nghiệm): Viết từ 3-10 câu trắc nghiệm (Tùy số lượng bài).
   - Có thể bao gồm các câu hỏi từ vựng, ngữ pháp, hoặc câu hỏi đọc hiểu dựa vào phần lý thuyết phía trên.
+  - BẮT BUỘC phải có trường `explanation` giải thích ngắn gọn lý do tại sao lại chọn đáp án đó hoặc lưu ý cần thiết.
 
 YÊU CẦU VỀ FORMAT TRẢ VỀ:
 Trả về DUY NHẤT 1 cấu trúc JSON (đúng định dạng) chứa 3 key: "theory_html", "vocabulary", và "quiz". Không cần id, không cần title ở root. Không markdown code block, không giải thích gì thêm, bắt đầu bằng "{" và kết thúc bằng "}":
@@ -79,7 +81,8 @@ Trả về DUY NHẤT 1 cấu trúc JSON (đúng định dạng) chứa 3 key: "
       "id": "q1",
       "question": "Câu hỏi đọc hiểu / ngữ pháp",
       "options": ["A", "B", "C", "D"],
-      "correct_answer": "A"
+      "correct_answer": "A",
+      "explanation": "Giải thích chi tiết tại sao đáp án A lại đúng..."
     }
   ]
 }

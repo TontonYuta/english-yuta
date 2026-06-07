@@ -201,6 +201,8 @@ export default function LessonList() {
                         InnerIcon = Star;
                       }
   
+                      const isLocked = !isComplete && !isLatestActive;
+
                       return (
                         <div key={lesson.id} className={`relative z-10 flex flex-col items-center ${alignment} group`}>
                           {/* Tooltip for Active Node */}
@@ -213,8 +215,9 @@ export default function LessonList() {
   
                           {/* Interactive Node */}
                           <button 
-                            onClick={() => navigate(`/lesson/${lesson.id}`)}
-                            className={`w-20 h-20 md:w-24 md:h-24 flex items-center justify-center transition-all ${buttonBgClass} sketchy-button`}
+                            onClick={() => !isLocked && navigate(`/lesson/${lesson.id}`)}
+                            className={`w-20 h-20 md:w-24 md:h-24 flex items-center justify-center transition-all ${buttonBgClass} ${!isLocked ? 'sketchy-button' : 'cursor-not-allowed opacity-80'}`}
+                            disabled={isLocked}
                           >
                             {InnerIcon === Star && isLatestActive ? (
                                <Star className="w-10 h-10 md:w-12 md:h-12 fill-highlighter text-ink drop-shadow-sm" strokeWidth={1.5} />

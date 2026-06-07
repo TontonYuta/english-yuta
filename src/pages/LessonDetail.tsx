@@ -150,14 +150,20 @@ export default function LessonDetail() {
       return (
         <div className="p-4 pb-8 bg-transparent max-w-2xl mx-auto w-full">
           <div className={`p-4 mb-4 sketchy-card rotate-1 shadow-md ${isCorrect ? 'bg-[#C1E1C1] border-ink' : 'bg-[#FFD1DC] border-ink'}`}>
-             <div className={`flex items-start gap-3 font-bold text-ink`}>
+             <div className={`flex items-start gap-3 text-ink`}>
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 border-2 border-ink bg-white`}>
                    {isCorrect ? <CheckCircle2 className="w-5 h-5 text-green-600 border-ink" strokeWidth={2}/> : <AlertCircle className="w-5 h-5 text-red-600" strokeWidth={2}/>}
                 </div>
-                <div className="pt-1 font-heading text-xl">
-                   <p>{isCorrect ? 'Hoàn toàn chính xác!' : 'Sai một chút rồi :('}</p>
+                <div className="pt-1 w-full">
+                   <p className="font-heading font-bold text-xl">{isCorrect ? 'Hoàn toàn chính xác!' : 'Sai một chút rồi :('}</p>
                    {!isCorrect && (
                      <p className="opacity-80 mt-1 font-sans text-lg font-normal">Thử nghĩ lại nhé, đáp án đúng là: <span className="font-bold underline text-red-pen">{currentScreen.question.correct_answer}</span></p>
+                   )}
+                   {currentScreen.question.explanation && (
+                     <div className="mt-3 bg-white/60 p-3 rounded-lg border border-ink/20 font-sans text-base text-ink relative overflow-hidden">
+                       <span className="font-bold text-sm block mb-1 text-ink/60 uppercase tracking-widest">📝 Giải thích / Lưu ý</span>
+                       <p className="whitespace-pre-wrap">{currentScreen.question.explanation}</p>
+                     </div>
                    )}
                 </div>
              </div>
