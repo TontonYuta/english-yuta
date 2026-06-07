@@ -11,6 +11,9 @@ export interface Vocabulary {
   word: string;
   pronunciation: string;
   meaning: string;
+  extra?: string;
+  example?: string;
+  example_translation?: string;
 }
 
 export interface QuizQuestion {

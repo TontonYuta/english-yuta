@@ -60,7 +60,13 @@ Tên bài học hôm nay: "[ĐIỀN TÊN BÀI HỌC VÀO ĐÂY, ví dụ: Buổi
 YÊU CẦU VỀ NỘI DUNG MÔN HỌC BẮT BUỘC PHẢI CHÚ Ý:
 1. theory_html (Lý thuyết và Đọc hiểu): Trình bày theory bằng HTML (Sử dụng các thẻ <h2>, <h3>, <p>, <ul>, <li>, <strong>, <i>). Đoạn văn đọc hiểu dài hãy bỏ vào phần này. Ngữ pháp giải thích cần thật ngắn gọn, dễ hiểu, tránh lý thuyết rườm rà.
 2. vocabulary (Từ vựng): Chọn ngẫu nhiên khoảng 3-8 từ quan trọng trong bài.
-  - Từ vựng cần phải ghi kèm câu ví dụ hoặc cụm từ đi kèm nếu có (ghi ở trong trường "meaning").
+  - Tách bạch rõ ràng danh sách từ vựng thành các trường:
+      + `word`: Từ hoặc cụm từ
+      + `pronunciation`: Phát âm (nếu có)
+      + `meaning`: Nghĩa tiếng Việt & Từ loại (VD: "(n) Sự lựa chọn")
+      + `extra`: (Mở rộng) Các từ loại liên quan hoặc cụm từ (Khuyết cũng được)
+      + `example`: Câu ví dụ bằng tiếng Anh
+      + `example_translation`: Nghĩa tiếng Việt của câu ví dụ
 3. quiz (Trắc nghiệm): Viết từ 3-10 câu trắc nghiệm (Tùy số lượng bài).
   - Có thể bao gồm các câu hỏi từ vựng, ngữ pháp, hoặc câu hỏi đọc hiểu dựa vào phần lý thuyết phía trên.
   - BẮT BUỘC phải có trường `explanation` giải thích ngắn gọn lý do tại sao lại chọn đáp án đó hoặc lưu ý cần thiết.
@@ -71,9 +77,12 @@ Trả về DUY NHẤT 1 cấu trúc JSON (đúng định dạng) chứa 3 key: "
   "theory_html": "<h2>...</h2>",
   "vocabulary": [
     {
-      "word": "từ đơn",
+      "word": "từ đơn/cụm từ",
       "pronunciation": "/phiên âm/",
-      "meaning": "nghĩa và có thể kèm cụm từ/câu ví dụ nếu cần"
+      "meaning": "(từ loại) nghĩa tiếng việt",
+      "extra": "mở rộng từ vựng",
+      "example": "câu ví dụ tiếng anh",
+      "example_translation": "câu ví dụ tiếng việt"
     }
   ],
   "quiz": [

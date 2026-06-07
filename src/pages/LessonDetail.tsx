@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { X, CheckCircle2, AlertCircle, Heart, Trophy, Star, NotebookText, Save, BookOpen } from 'lucide-react';
+import { X, CheckCircle2, AlertCircle, Heart, Trophy, Star, NotebookText, Save, BookOpen, ChevronLeft } from 'lucide-react';
 import { LessonMeta, LessonData, Vocabulary, QuizQuestion } from '../types';
 import { markComplete, isLessonComplete } from '../lib/storage';
 import { motion, AnimatePresence } from 'motion/react';
@@ -89,6 +89,71 @@ export default function LessonDetail() {
       navigate('/');
     }
   };
+
+  const prevScreen = () => {
+    if (currentIdx > 0) {
+      setCurrentIdx(i => i - 1);
+      // Reset interaction states for previous screen
+      setSelectedOption(null);
+      setIsAnswering(false);
+      setVocabRevealed(false);
+    }
+  };
+
+  useEffect(() => {
+    if (screens.length === 0) return;
+    
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Don't trigger if user is typing in textarea or input
+      if (document.activeElement?.tagName === 'TEXTAREA' || document.activeElement?.tagName === 'INPUT') return;
+
+      if (e.key === 'Escape') {
+        if (isNotebookOpen) setIsNotebookOpen(false);
+        if (showMobileTheory) setShowMobileTheory(false);
+        return;
+      }
+
+      const currentScreen = screens[currentIdx];
+
+      if (e.key === ' ' || e.key === 'Enter') {
+        e.preventDefault(); // prevent scrolling
+        if (currentScreen.type === 'intro' || currentScreen.type === 'outro') {
+          nextScreen();
+        } else if (currentScreen.type === 'vocab') {
+          if (!vocabRevealed) {
+            setVocabRevealed(true);
+          } else {
+            nextScreen();
+          }
+        } else if (currentScreen.type === 'quiz') {
+          if (!isAnswering && selectedOption) {
+            setIsAnswering(true);
+          } else if (isAnswering) {
+            nextScreen();
+          }
+        }
+      }
+
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        if (currentScreen.type === 'vocab' && !vocabRevealed) {
+           setVocabRevealed(true);
+        } else if (currentScreen.type === 'quiz' && !isAnswering) {
+           if (selectedOption) setIsAnswering(true);
+        } else {
+           nextScreen();
+        }
+      }
+
+      if (e.key === 'ArrowLeft') {
+         e.preventDefault();
+         prevScreen();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentIdx, screens, isNotebookOpen, showMobileTheory, vocabRevealed, isAnswering, selectedOption]);
 
   if (loading) {
      return <div className="flex h-[100dvh] items-center justify-center text-ink/60 font-heading text-2xl bg-paper">Đang lật vở...</div>;
@@ -235,8 +300,12 @@ export default function LessonDetail() {
       <div className="flex-[2] min-w-[300px] h-[100dvh] flex flex-col relative bg-paper transition-all duration-300 z-10 overflow-hidden">
         {/* Universal Header (Progress) */}
         <header className="flex items-center gap-3 md:gap-4 px-4 py-4 pt-6 shrink-0 bg-transparent relative z-20">
-          <button onClick={() => navigate('/')} className="text-ink/60 hover:text-ink transition-colors">
-            <X className="w-8 h-8" strokeWidth={1.5} />
+          <button 
+            onClick={prevScreen}
+            disabled={currentIdx === 0}
+            className={`text-ink/60 transition-colors ${currentIdx === 0 ? 'opacity-30 cursor-not-allowed' : 'hover:text-ink'}`}
+          >
+            <ChevronLeft className="w-8 h-8" strokeWidth={2} />
           </button>
 
           {/* Mobile Theory Toggle */}
@@ -265,6 +334,10 @@ export default function LessonDetail() {
           >
             <NotebookText className="w-6 h-6" strokeWidth={1.5} />
           </button>
+
+          <button onClick={() => navigate('/')} className="text-ink/60 hover:text-ink transition-colors ml-1">
+            <X className="w-8 h-8" strokeWidth={1.5} />
+          </button>
         </header>
 
         {/* Main Content Area */}
@@ -291,13 +364,13 @@ export default function LessonDetail() {
 
               {/* VOCAB SCREEN */}
               {currentScreen.type === 'vocab' && (
-                <div className="my-auto flex flex-col items-center justify-center w-full max-w-sm mx-auto">
-                  <h2 className="text-3xl font-bold text-ink mb-12 text-center w-full leading-tight font-heading pb-2">
+                <div className="my-auto flex flex-col items-center justify-center w-full max-w-lg mx-auto">
+                  <h2 className="text-3xl font-bold text-ink mb-8 text-center w-full leading-tight font-heading pb-2">
                     Từ mới cần nhớ
                   </h2>
                   
                   {/* 3D Flip Card */}
-                  <div className="relative w-full h-[320px]" style={{ perspective: '1000px' }}>
+                  <div className="relative w-full h-[520px] md:h-[620px]" style={{ perspective: '1200px' }}>
                     <div 
                       className="w-full h-full transition-all duration-500 cursor-pointer relative"
                       style={{ transformStyle: 'preserve-3d', transform: vocabRevealed ? 'rotateY(180deg)' : 'rotateY(0)' }}
@@ -305,20 +378,80 @@ export default function LessonDetail() {
                     >
                       {/* Front side */}
                       <div className="absolute inset-0 w-full h-full bg-white border-2 border-ink sketchy-card p-8 shadow-md flex flex-col items-center justify-center text-center backface-hidden" style={{ backfaceVisibility: 'hidden' }}>
-                        <div className="absolute top-2 left-1/2 -translate-x-1/2 w-12 h-4 bg-sky-200/50 backdrop-blur-sm -rotate-2 opacity-60 z-20"></div>
-                        <h3 className="text-4xl md:text-5xl font-bold text-ink mb-4 font-heading">{currentScreen.vocab.word}</h3>
-                        <p className="text-ink/60 font-mono text-lg md:text-xl mb-4">/{currentScreen.vocab.pronunciation}/</p>
-                        <div className="mt-8 text-ink/40 font-heading animate-pulse flex items-center gap-2">
-                          <span>Chạm để lật thẻ</span>
+                        <div className="absolute top-2 left-1/2 -translate-x-1/2 w-20 h-6 bg-sky-200/50 backdrop-blur-sm -rotate-2 opacity-60 z-20"></div>
+                        <h3 className="text-5xl md:text-6xl font-bold text-ink mb-6 font-heading leading-tight">{currentScreen.vocab.word}</h3>
+                        {currentScreen.vocab.pronunciation && (
+                          <p className="text-ink/60 font-mono text-2xl md:text-3xl mb-8">/{currentScreen.vocab.pronunciation}/</p>
+                        )}
+                        <div className="mt-12 text-ink/40 font-heading animate-pulse flex items-center gap-2">
+                          <span className="text-xl">Chạm hoặc nhấn phím Space để lật thẻ</span>
                         </div>
                       </div>
 
                       {/* Back side */}
-                      <div className="absolute inset-0 w-full h-full bg-[#C1E1C1] border-2 border-ink sketchy-card p-8 shadow-md flex flex-col items-center justify-center text-center backface-hidden" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
-                        <div className="absolute top-2 left-1/2 -translate-x-1/2 w-12 h-4 bg-white/50 backdrop-blur-sm -rotate-2 opacity-60 z-20"></div>
-                        <h3 className="text-2xl md:text-3xl font-bold text-ink mb-2 font-heading opacity-50">{currentScreen.vocab.word}</h3>
-                        <div className="w-16 h-[2px] bg-ink/20 my-4"></div>
-                        <p className="text-xl md:text-2xl font-bold font-heading text-ink text-left w-full whitespace-pre-wrap">{currentScreen.vocab.meaning}</p>
+                      <div className="absolute inset-0 w-full h-full bg-[#C1E1C1] border-2 border-ink sketchy-card p-6 md:p-8 shadow-md flex flex-col items-center text-left backface-hidden" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
+                        <div className="absolute top-2 left-1/2 -translate-x-1/2 w-20 h-6 bg-white/50 backdrop-blur-sm -rotate-2 opacity-60 z-20"></div>
+                        <h3 className="text-4xl md:text-5xl font-bold text-ink mb-2 font-heading opacity-50 shrink-0 text-center w-full break-words">{currentScreen.vocab.word}</h3>
+                        <div className="w-24 h-[4px] bg-ink/20 my-5 shrink-0 mx-auto"></div>
+                        <div className="w-full text-left flex flex-col gap-5 overflow-y-auto custom-scrollbar pr-3 pb-6">
+                           
+                           {/* Interpret the meaning text and split by semicolon */}
+                           <div className="flex flex-col gap-3">
+                             {currentScreen.vocab.meaning.split(/(?:;|\\n|\n)+/).map((part, idx) => {
+                               const trimmed = part.trim();
+                               if (!trimmed) return null;
+                               
+                               // Auto-format "ví dụ:" parts if they leaked into meaning
+                               if (trimmed.toLowerCase().startsWith('ví dụ:')) {
+                                  return (
+                                    <div key={idx} className="mt-2 bg-white/40 p-4 rounded-xl border-2 border-ink/20 shadow-sm">
+                                      <span className="font-bold text-sm uppercase tracking-widest opacity-60 block mb-2">Ví dụ câu</span>
+                                      <p className="text-xl md:text-2xl text-ink font-sans leading-snug font-medium">"{trimmed.replace(/ví dụ:/i, '').trim()}"</p>
+                                    </div>
+                                  );
+                               }
+
+                               // Auto-format "cụm từ:" parts
+                               if (trimmed.toLowerCase().startsWith('cụm từ:')) {
+                                  return (
+                                    <p key={idx} className="text-xl md:text-2xl font-medium text-ink/80 border-l-4 border-ink/20 pl-4 py-1 italic">
+                                      <span className="font-bold mr-2 not-italic">Khác:</span> 
+                                      {trimmed.replace(/cụm từ:/i, '').trim()}
+                                    </p>
+                                  );
+                               }
+
+                               return <p key={idx} className="text-2xl md:text-3xl font-bold font-heading text-ink whitespace-pre-wrap leading-tight">{trimmed}</p>;
+                             })}
+                           </div>
+                           
+                           {currentScreen.vocab.extra && (
+                             <div className="flex flex-col gap-3">
+                               {currentScreen.vocab.extra.split(/(?:;|\\n|\n)+/).map((part, idx) => {
+                                 const trimmed = part.trim();
+                                 if (!trimmed) return null;
+                                 return (
+                                   <p key={idx} className="text-xl md:text-2xl font-medium text-ink/80 border-l-4 border-ink/20 pl-4 py-1 italic mt-1">
+                                     <span className="font-bold mr-2 not-italic">Khác:</span> 
+                                     <span className="whitespace-pre-wrap leading-relaxed">{trimmed}</span>
+                                   </p>
+                                 )
+                               })}
+                             </div>
+                           )}
+                           
+                           {currentScreen.vocab.example && (
+                             <div className="mt-4 bg-white/40 p-5 rounded-2xl border-2 border-ink/20 shadow-sm">
+                               <p className="font-bold text-ink text-sm uppercase tracking-widest mb-3 opacity-60">Ví dụ câu</p>
+                               <p className="text-2xl md:text-3xl text-ink font-sans leading-relaxed font-medium">"{currentScreen.vocab.example}"</p>
+                               {currentScreen.vocab.example_translation && (
+                                 <div className="mt-4 pt-4 border-t-2 border-ink/10">
+                                    <p className="text-xl md:text-2xl text-ink/80 font-medium">Dịch: {currentScreen.vocab.example_translation}</p>
+                                 </div>
+                               )}
+                             </div>
+                           )}
+                        </div>
                       </div>
                     </div>
                   </div>
