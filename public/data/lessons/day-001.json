@@ -8,17 +8,17 @@
         "(n) test: bài kiểm tra, sự thử nghiệm",
         "(v) test: kiểm tra, thử nghiệm"
       ],
-      "phrase_example": "Pass a test",
-      "phrase_translation": "Thi đỗ / Vượt qua bài kiểm tra.",
-      "sentence_example": "I have a math test tomorrow.",
-      "sentence_translation": "Tôi có 1 bài kiểm tra toán vào ngày mai."
+      "phrase_example": "Take a test",
+      "phrase_translation": "Làm bài kiểm tra.",
+      "sentence_example": "Today, you will take a short test.",
+      "sentence_translation": "Hôm nay, bạn sẽ làm một bài kiểm tra ngắn."
     },
     {
       "word": "question",
       "pronunciation": "/ˈkwes.tʃən/",
       "meanings": [
         "(n) question: câu hỏi",
-        "(v) question: chất vấn, đi hỏi"
+        "(v) question: hỏi, chất vấn"
       ],
       "phrase_example": "Ask a question",
       "phrase_translation": "Đặt một câu hỏi.",
@@ -43,8 +43,8 @@
       "meanings": [
         "(v) choose: chọn, lựa chọn"
       ],
-      "phrase_example": "Choose between A and B",
-      "phrase_translation": "Chọn giữa A và B.",
+      "phrase_example": "Choose the correct answer",
+      "phrase_translation": "Chọn đáp án đúng.",
       "sentence_example": "Choose A, B, C, or D.",
       "sentence_translation": "Chọn A, B, C hoặc D."
     },
@@ -53,18 +53,18 @@
       "pronunciation": "/kəmˈpliːt/",
       "meanings": [
         "(v) complete: hoàn thành, điền cho hoàn chỉnh",
-        "(adj) complete: trọn vẹn, hoàn toàn"
+        "(adj) complete: trọn vẹn, hoàn chỉnh"
       ],
-      "phrase_example": "Incomplete work",
-      "phrase_translation": "Công việc chưa hoàn thành.",
-      "sentence_example": "Complete the sentence.",
-      "sentence_translation": "Hoàn thành câu."
+      "phrase_example": "Complete the sentence",
+      "phrase_translation": "Hoàn thành câu.",
+      "sentence_example": "Complete the sentence with the correct word.",
+      "sentence_translation": "Hoàn thành câu với từ đúng."
     },
     {
       "word": "sentence",
       "pronunciation": "/ˈsen.təns/",
       "meanings": [
-        "(n) sentence: câu (ngữ pháp)"
+        "(n) sentence: câu, câu văn"
       ],
       "phrase_example": "Write a sentence",
       "phrase_translation": "Viết một câu.",
@@ -89,7 +89,7 @@
         "(n) mistake: lỗi sai"
       ],
       "phrase_example": "Make a mistake",
-      "phrase_translation": "Mắc một lỗi sai.",
+      "phrase_translation": "Mắc lỗi.",
       "sentence_example": "Mistakes help you learn.",
       "sentence_translation": "Lỗi sai giúp bạn học."
     },
@@ -97,19 +97,18 @@
       "word": "level",
       "pronunciation": "/ˈlev.əl/",
       "meanings": [
-        "(n) level: trình độ, mức độ",
-        "(adj) level: bằng phẳng, thăng bằng"
+        "(n) level: trình độ, mức độ"
       ],
       "phrase_example": "Beginner level",
       "phrase_translation": "Trình độ người mới bắt đầu.",
-      "sentence_example": "What is your English level?",
-      "sentence_translation": "Trình độ tiếng Anh của bạn là gì?"
+      "sentence_example": "This test helps you know your English level.",
+      "sentence_translation": "Bài kiểm tra này giúp bạn biết trình độ tiếng Anh của mình."
     },
     {
       "word": "improve",
       "pronunciation": "/ɪmˈpruːv/",
       "meanings": [
-        "(v) improve: cải thiện"
+        "(v) improve: cải thiện, làm cho tốt hơn"
       ],
       "phrase_example": "Improve my English",
       "phrase_translation": "Cải thiện tiếng Anh của tôi.",
@@ -120,7 +119,8 @@
       "word": "progress",
       "pronunciation": "/ˈprəʊ.ɡres/",
       "meanings": [
-        "(n) progress: sự tiến bộ"
+        "(n) progress: sự tiến bộ",
+        "(v) progress: tiến bộ, phát triển"
       ],
       "phrase_example": "Small progress",
       "phrase_translation": "Sự tiến bộ nhỏ.",
@@ -131,7 +131,7 @@
       "word": "foundation",
       "pronunciation": "/faʊnˈdeɪ.ʃən/",
       "meanings": [
-        "(n) foundation: nền tảng"
+        "(n) foundation: nền tảng, cơ sở"
       ],
       "phrase_example": "A strong foundation",
       "phrase_translation": "Một nền tảng vững chắc.",
@@ -185,7 +185,7 @@
       "question": "[Từ lệnh] Từ 'question' có nghĩa là gì?",
       "options": ["Câu trả lời", "Câu hỏi", "Bài đọc", "Lỗi sai"],
       "correct_answer": "Câu hỏi",
-      "explanation": "'Question' là danh từ, nghĩa là 'câu hỏi'. 'Answer' mới là 'câu trả lời'."
+      "explanation": "'Question' thường dùng với nghĩa danh từ là 'câu hỏi'. 'Answer' mới là 'câu trả lời'."
     },
     {
       "id": "q3",
