@@ -4,197 +4,172 @@
     {
       "word": "test",
       "pronunciation": "/test/",
-      "part_of_speech": "n/v",
-      "meaning": "bài kiểm tra; kiểm tra",
-      "phrases": [
-        "take a test = làm bài kiểm tra",
-        "a short test = một bài kiểm tra ngắn",
-        "test your level = kiểm tra trình độ của bạn"
+      "meanings": [
+        "(n) test: bài kiểm tra, sự thử nghiệm",
+        "(v) test: kiểm tra, thử nghiệm"
       ],
-      "example": "Today, you will take a short test.",
-      "example_translation": "Hôm nay, bạn sẽ làm một bài kiểm tra ngắn."
+      "phrase_example": "Pass a test",
+      "phrase_translation": "Thi đỗ / Vượt qua bài kiểm tra.",
+      "sentence_example": "I have a math test tomorrow.",
+      "sentence_translation": "Tôi có 1 bài kiểm tra toán vào ngày mai."
     },
     {
       "word": "question",
       "pronunciation": "/ˈkwes.tʃən/",
-      "part_of_speech": "n",
-      "meaning": "câu hỏi",
-      "phrases": [
-        "ask a question = hỏi một câu hỏi",
-        "answer a question = trả lời một câu hỏi",
-        "read the question = đọc câu hỏi"
+      "meanings": [
+        "(n) question: câu hỏi",
+        "(v) question: chất vấn, đi hỏi"
       ],
-      "example": "Read the question carefully before you choose an answer.",
-      "example_translation": "Hãy đọc câu hỏi cẩn thận trước khi chọn đáp án."
+      "phrase_example": "Ask a question",
+      "phrase_translation": "Đặt một câu hỏi.",
+      "sentence_example": "Read the question carefully.",
+      "sentence_translation": "Hãy đọc câu hỏi cẩn thận."
     },
     {
       "word": "answer",
       "pronunciation": "/ˈɑːn.sər/",
-      "part_of_speech": "n/v",
-      "meaning": "câu trả lời; trả lời",
-      "phrases": [
-        "correct answer = đáp án đúng",
-        "wrong answer = đáp án sai",
-        "answer the question = trả lời câu hỏi"
+      "meanings": [
+        "(n) answer: câu trả lời",
+        "(v) answer: trả lời"
       ],
-      "example": "Choose the correct answer.",
-      "example_translation": "Chọn đáp án đúng."
+      "phrase_example": "Correct answer",
+      "phrase_translation": "Đáp án đúng.",
+      "sentence_example": "Choose the correct answer.",
+      "sentence_translation": "Chọn đáp án đúng."
     },
     {
       "word": "choose",
       "pronunciation": "/tʃuːz/",
-      "part_of_speech": "v",
-      "meaning": "chọn",
-      "phrases": [
-        "choose A, B, C, or D = chọn A, B, C hoặc D",
-        "choose the best answer = chọn đáp án tốt nhất",
-        "choose the correct option = chọn lựa chọn đúng"
+      "meanings": [
+        "(v) choose: chọn, lựa chọn"
       ],
-      "example": "Choose A, B, C, or D.",
-      "example_translation": "Chọn A, B, C hoặc D."
+      "phrase_example": "Choose between A and B",
+      "phrase_translation": "Chọn giữa A và B.",
+      "sentence_example": "Choose A, B, C, or D.",
+      "sentence_translation": "Chọn A, B, C hoặc D."
     },
     {
       "word": "complete",
       "pronunciation": "/kəmˈpliːt/",
-      "part_of_speech": "v/adj",
-      "meaning": "hoàn thành; đầy đủ, hoàn chỉnh",
-      "phrases": [
-        "complete the sentence = hoàn thành câu",
-        "complete the paragraph = hoàn thành đoạn văn",
-        "a complete answer = một câu trả lời đầy đủ"
+      "meanings": [
+        "(v) complete: hoàn thành, điền cho hoàn chỉnh",
+        "(adj) complete: trọn vẹn, hoàn toàn"
       ],
-      "example": "Complete the sentence with the correct word.",
-      "example_translation": "Hoàn thành câu với từ đúng."
+      "phrase_example": "Incomplete work",
+      "phrase_translation": "Công việc chưa hoàn thành.",
+      "sentence_example": "Complete the sentence.",
+      "sentence_translation": "Hoàn thành câu."
     },
     {
       "word": "sentence",
       "pronunciation": "/ˈsen.təns/",
-      "part_of_speech": "n",
-      "meaning": "câu",
-      "phrases": [
-        "make a sentence = đặt câu",
-        "complete a sentence = hoàn thành một câu",
-        "translate a sentence = dịch một câu"
+      "meanings": [
+        "(n) sentence: câu (ngữ pháp)"
       ],
-      "example": "Make a sentence with the word improve.",
-      "example_translation": "Hãy đặt một câu với từ improve."
+      "phrase_example": "Write a sentence",
+      "phrase_translation": "Viết một câu.",
+      "sentence_example": "This sentence is easy.",
+      "sentence_translation": "Câu này dễ."
     },
     {
       "word": "paragraph",
       "pronunciation": "/ˈpær.ə.ɡræf/",
-      "part_of_speech": "n",
-      "meaning": "đoạn văn",
-      "phrases": [
-        "read the paragraph = đọc đoạn văn",
-        "a short paragraph = một đoạn văn ngắn",
-        "answer questions about the paragraph = trả lời câu hỏi về đoạn văn"
+      "meanings": [
+        "(n) paragraph: đoạn văn"
       ],
-      "example": "Read the paragraph and answer the questions.",
-      "example_translation": "Đọc đoạn văn và trả lời các câu hỏi."
+      "phrase_example": "A short paragraph",
+      "phrase_translation": "Một đoạn văn ngắn.",
+      "sentence_example": "Read the paragraph.",
+      "sentence_translation": "Đọc đoạn văn."
     },
     {
       "word": "mistake",
       "pronunciation": "/mɪˈsteɪk/",
-      "part_of_speech": "n",
-      "meaning": "lỗi sai",
-      "phrases": [
-        "make a mistake = mắc lỗi",
-        "correct a mistake = sửa lỗi",
-        "learn from mistakes = học từ lỗi sai"
+      "meanings": [
+        "(n) mistake: lỗi sai"
       ],
-      "example": "Mistakes help you learn.",
-      "example_translation": "Lỗi sai giúp bạn học."
+      "phrase_example": "Make a mistake",
+      "phrase_translation": "Mắc một lỗi sai.",
+      "sentence_example": "Mistakes help you learn.",
+      "sentence_translation": "Lỗi sai giúp bạn học."
     },
     {
       "word": "level",
       "pronunciation": "/ˈlev.əl/",
-      "part_of_speech": "n",
-      "meaning": "trình độ; mức độ",
-      "phrases": [
-        "English level = trình độ tiếng Anh",
-        "beginner level = trình độ mới bắt đầu",
-        "test your level = kiểm tra trình độ của bạn"
+      "meanings": [
+        "(n) level: trình độ, mức độ",
+        "(adj) level: bằng phẳng, thăng bằng"
       ],
-      "example": "This test helps you know your English level.",
-      "example_translation": "Bài kiểm tra này giúp bạn biết trình độ tiếng Anh của mình."
+      "phrase_example": "Beginner level",
+      "phrase_translation": "Trình độ người mới bắt đầu.",
+      "sentence_example": "What is your English level?",
+      "sentence_translation": "Trình độ tiếng Anh của bạn là gì?"
     },
     {
       "word": "improve",
       "pronunciation": "/ɪmˈpruːv/",
-      "part_of_speech": "v",
-      "meaning": "cải thiện, làm cho tốt hơn",
-      "phrases": [
-        "improve English = cải thiện tiếng Anh",
-        "improve vocabulary = cải thiện vốn từ vựng",
-        "improve reading skills = cải thiện kỹ năng đọc"
+      "meanings": [
+        "(v) improve: cải thiện"
       ],
-      "example": "I want to improve my English.",
-      "example_translation": "Tôi muốn cải thiện tiếng Anh của mình."
+      "phrase_example": "Improve my English",
+      "phrase_translation": "Cải thiện tiếng Anh của tôi.",
+      "sentence_example": "I want to improve my English.",
+      "sentence_translation": "Tôi muốn cải thiện tiếng Anh của mình."
     },
     {
       "word": "progress",
       "pronunciation": "/ˈprəʊ.ɡres/",
-      "part_of_speech": "n/v",
-      "meaning": "sự tiến bộ; tiến bộ",
-      "phrases": [
-        "make progress = tiến bộ",
-        "small progress = sự tiến bộ nhỏ",
-        "make progress every day = tiến bộ mỗi ngày"
+      "meanings": [
+        "(n) progress: sự tiến bộ"
       ],
-      "example": "Small progress every day is important.",
-      "example_translation": "Sự tiến bộ nhỏ mỗi ngày rất quan trọng."
+      "phrase_example": "Small progress",
+      "phrase_translation": "Sự tiến bộ nhỏ.",
+      "sentence_example": "Small progress every day is important.",
+      "sentence_translation": "Sự tiến bộ nhỏ mỗi ngày rất quan trọng."
     },
     {
       "word": "foundation",
       "pronunciation": "/faʊnˈdeɪ.ʃən/",
-      "part_of_speech": "n",
-      "meaning": "nền tảng, cơ sở",
-      "phrases": [
-        "a strong foundation = một nền tảng vững chắc",
-        "build a foundation = xây dựng nền tảng",
-        "grammar foundation = nền tảng ngữ pháp"
+      "meanings": [
+        "(n) foundation: nền tảng"
       ],
-      "example": "Vocabulary is an important foundation.",
-      "example_translation": "Từ vựng là một nền tảng quan trọng."
+      "phrase_example": "A strong foundation",
+      "phrase_translation": "Một nền tảng vững chắc.",
+      "sentence_example": "Vocabulary is an important foundation.",
+      "sentence_translation": "Từ vựng là một nền tảng quan trọng."
     },
     {
       "word": "read",
       "pronunciation": "/riːd/",
-      "part_of_speech": "v",
-      "meaning": "đọc",
-      "phrases": [
-        "read a sentence = đọc một câu",
-        "read a paragraph = đọc một đoạn văn",
-        "read carefully = đọc cẩn thận"
+      "meanings": [
+        "(v) read: đọc"
       ],
-      "example": "Read the paragraph and answer the questions.",
-      "example_translation": "Đọc đoạn văn và trả lời các câu hỏi."
+      "phrase_example": "Read a paragraph",
+      "phrase_translation": "Đọc một đoạn văn.",
+      "sentence_example": "Read the paragraph and answer the questions.",
+      "sentence_translation": "Đọc đoạn văn và trả lời câu hỏi."
     },
     {
       "word": "find",
       "pronunciation": "/faɪnd/",
-      "part_of_speech": "v",
-      "meaning": "tìm, tìm thấy",
-      "phrases": [
-        "find the mistake = tìm lỗi sai",
-        "find the answer = tìm câu trả lời",
-        "find the main idea = tìm ý chính"
+      "meanings": [
+        "(v) find: tìm, tìm thấy"
       ],
-      "example": "Find the mistake in this sentence.",
-      "example_translation": "Tìm lỗi sai trong câu này."
+      "phrase_example": "Find the mistake",
+      "phrase_translation": "Tìm lỗi sai.",
+      "sentence_example": "Find the mistake in this sentence.",
+      "sentence_translation": "Tìm lỗi sai trong câu này."
     },
     {
       "word": "translate",
       "pronunciation": "/trænzˈleɪt/",
-      "part_of_speech": "v",
-      "meaning": "dịch",
-      "phrases": [
-        "translate a sentence = dịch một câu",
-        "translate into Vietnamese = dịch sang tiếng Việt",
-        "translate word by word = dịch từng từ một"
+      "meanings": [
+        "(v) translate: dịch, biên dịch"
       ],
-      "example": "Translate the sentence into Vietnamese.",
-      "example_translation": "Dịch câu sang tiếng Việt."
+      "phrase_example": "Translate the sentence",
+      "phrase_translation": "Dịch câu.",
+      "sentence_example": "Translate the sentence into Vietnamese.",
+      "sentence_translation": "Dịch câu sang tiếng Việt."
     }
   ],
   "quiz": [

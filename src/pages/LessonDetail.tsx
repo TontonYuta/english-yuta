@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { X, CheckCircle2, AlertCircle, Heart, Trophy, Star, NotebookText, Save, BookOpen, ChevronLeft } from 'lucide-react';
+import { X, CheckCircle2, AlertCircle, Heart, Trophy, Star, NotebookText, Save, BookOpen, ChevronLeft, Volume2 } from 'lucide-react';
 import { LessonMeta, LessonData, Vocabulary, QuizQuestion } from '../types';
-import { markComplete, isLessonComplete } from '../lib/storage';
+import { markComplete, isLessonComplete, saveError } from '../lib/storage';
+import { playCorrectSound, playWrongSound, playFinishSound, speakWord } from '../lib/sounds';
+import confetti from 'canvas-confetti';
 import { motion, AnimatePresence } from 'motion/react';
 
 // Flat screen types for micro-learning flow (excluding theory)
@@ -69,6 +71,10 @@ export default function LessonDetail() {
         flattenedScreens.push({ type: 'outro' });
 
         setScreens(flattenedScreens);
+        
+        // Auto play finish sound and confetti if already on outro
+        // But since this is init, currentIdx is 0.
+        
         setLoading(false);
       })
       .catch(err => {
@@ -79,13 +85,23 @@ export default function LessonDetail() {
 
   const nextScreen = () => {
     if (currentIdx < screens.length - 1) {
-      setCurrentIdx(i => i + 1);
+      const nextIdx = currentIdx + 1;
+      setCurrentIdx(nextIdx);
       // Reset interaction states for next screen
       setSelectedOption(null);
       setIsAnswering(false);
       setVocabRevealed(false);
+      
+      if (screens[nextIdx].type === 'outro') {
+        playFinishSound();
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 }
+        });
+        if (id) markComplete(id);
+      }
     } else {
-      if (id) markComplete(id);
       navigate('/');
     }
   };
@@ -97,6 +113,25 @@ export default function LessonDetail() {
       setSelectedOption(null);
       setIsAnswering(false);
       setVocabRevealed(false);
+    }
+  };
+
+  // Handle quiz answering
+  const handleAnswer = () => {
+    if (currentScreen.type !== 'quiz' || !selectedOption) return;
+    setIsAnswering(true);
+    
+    const isCorrect = selectedOption === currentScreen.question.correct_answer;
+    if (isCorrect) {
+      playCorrectSound();
+    } else {
+      playWrongSound();
+      saveError({
+        question: currentScreen.question.question,
+        wrong_answer: selectedOption,
+        correct_answer: currentScreen.question.correct_answer,
+        explanation: currentScreen.question.explanation || ''
+      });
     }
   };
 
@@ -127,7 +162,7 @@ export default function LessonDetail() {
           }
         } else if (currentScreen.type === 'quiz') {
           if (!isAnswering && selectedOption) {
-            setIsAnswering(true);
+            handleAnswer();
           } else if (isAnswering) {
             nextScreen();
           }
@@ -139,7 +174,7 @@ export default function LessonDetail() {
         if (currentScreen.type === 'vocab' && !vocabRevealed) {
            setVocabRevealed(true);
         } else if (currentScreen.type === 'quiz' && !isAnswering) {
-           if (selectedOption) setIsAnswering(true);
+           if (selectedOption) handleAnswer();
         } else {
            nextScreen();
         }
@@ -200,7 +235,7 @@ export default function LessonDetail() {
           <div className="p-4 bg-transparent pb-8 max-w-2xl mx-auto w-full">
             <button 
               disabled={disabled}
-              onClick={() => setIsAnswering(true)} 
+              onClick={handleAnswer} 
               className={`w-full py-4 font-heading text-2xl transition-all sketchy-button
                 ${disabled ? 'bg-white text-ink/40 border-ink/40 cursor-not-allowed shadow-none' : 'bg-[#FFD1DC] hover:bg-pink-300 text-ink'}`}
             >
@@ -379,6 +414,15 @@ export default function LessonDetail() {
                       {/* Front side */}
                       <div className="absolute inset-0 w-full h-full bg-white border-2 border-ink sketchy-card p-8 shadow-md flex flex-col items-center justify-center text-center backface-hidden" style={{ backfaceVisibility: 'hidden' }}>
                         <div className="absolute top-2 left-1/2 -translate-x-1/2 w-20 h-6 bg-sky-200/50 backdrop-blur-sm -rotate-2 opacity-60 z-20"></div>
+                        
+                        <button 
+                          onClick={(e) => { e.stopPropagation(); speakWord(currentScreen.vocab.word); }}
+                          className="absolute top-6 right-6 p-3 rounded-full hover:bg-ink/5 transition-colors z-30"
+                          title="Nghe phát âm"
+                        >
+                          <Volume2 className="w-8 h-8 md:w-10 md:h-10 text-ink/40 hover:text-ink/60" />
+                        </button>
+                        
                         <h3 className="text-5xl md:text-6xl font-bold text-ink mb-6 font-heading leading-tight">{currentScreen.vocab.word}</h3>
                         {currentScreen.vocab.pronunciation && (
                           <p className="text-ink/60 font-mono text-2xl md:text-3xl mb-8">/{currentScreen.vocab.pronunciation}/</p>
@@ -391,62 +435,48 @@ export default function LessonDetail() {
                       {/* Back side */}
                       <div className="absolute inset-0 w-full h-full bg-[#C1E1C1] border-2 border-ink sketchy-card p-6 md:p-8 shadow-md flex flex-col items-center text-left backface-hidden" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
                         <div className="absolute top-2 left-1/2 -translate-x-1/2 w-20 h-6 bg-white/50 backdrop-blur-sm -rotate-2 opacity-60 z-20"></div>
+                        
+                        <button 
+                          onClick={(e) => { e.stopPropagation(); speakWord(currentScreen.vocab.word); }}
+                          className="absolute top-6 right-6 p-2 rounded-full hover:bg-ink/5 transition-colors z-30 opacity-50"
+                        >
+                          <Volume2 className="w-8 h-8 text-ink/80 hover:text-ink" />
+                        </button>
+
                         <h3 className="text-4xl md:text-5xl font-bold text-ink mb-2 font-heading opacity-50 shrink-0 text-center w-full break-words">{currentScreen.vocab.word}</h3>
                         <div className="w-24 h-[4px] bg-ink/20 my-5 shrink-0 mx-auto"></div>
                         <div className="w-full text-left flex flex-col gap-5 overflow-y-auto custom-scrollbar pr-3 pb-6">
                            
-                           {/* Interpret the meaning text and split by semicolon */}
+                           {/* Meanings */}
                            <div className="flex flex-col gap-3">
-                             {currentScreen.vocab.meaning.split(/(?:;|\\n|\n)+/).map((part, idx) => {
-                               const trimmed = part.trim();
-                               if (!trimmed) return null;
-                               
-                               // Auto-format "ví dụ:" parts if they leaked into meaning
-                               if (trimmed.toLowerCase().startsWith('ví dụ:')) {
-                                  return (
-                                    <div key={idx} className="mt-2 bg-white/40 p-4 rounded-xl border-2 border-ink/20 shadow-sm">
-                                      <span className="font-bold text-sm uppercase tracking-widest opacity-60 block mb-2">Ví dụ câu</span>
-                                      <p className="text-xl md:text-2xl text-ink font-sans leading-snug font-medium">"{trimmed.replace(/ví dụ:/i, '').trim()}"</p>
-                                    </div>
-                                  );
-                               }
-
-                               // Auto-format "cụm từ:" parts
-                               if (trimmed.toLowerCase().startsWith('cụm từ:')) {
-                                  return (
-                                    <p key={idx} className="text-xl md:text-2xl font-medium text-ink/80 border-l-4 border-ink/20 pl-4 py-1 italic">
-                                      <span className="font-bold mr-2 not-italic">Khác:</span> 
-                                      {trimmed.replace(/cụm từ:/i, '').trim()}
-                                    </p>
-                                  );
-                               }
-
-                               return <p key={idx} className="text-2xl md:text-3xl font-bold font-heading text-ink whitespace-pre-wrap leading-tight">{trimmed}</p>;
-                             })}
+                             {currentScreen.vocab.meanings?.map((meaning, idx) => (
+                               <p key={idx} className="text-2xl md:text-3xl font-bold font-heading text-ink whitespace-pre-wrap leading-tight">{meaning}</p>
+                             ))}
                            </div>
                            
-                           {currentScreen.vocab.extra && (
-                             <div className="flex flex-col gap-3">
-                               {currentScreen.vocab.extra.split(/(?:;|\\n|\n)+/).map((part, idx) => {
-                                 const trimmed = part.trim();
-                                 if (!trimmed) return null;
-                                 return (
-                                   <p key={idx} className="text-xl md:text-2xl font-medium text-ink/80 border-l-4 border-ink/20 pl-4 py-1 italic mt-1">
-                                     <span className="font-bold mr-2 not-italic">Khác:</span> 
-                                     <span className="whitespace-pre-wrap leading-relaxed">{trimmed}</span>
-                                   </p>
-                                 )
-                               })}
+                           {/* Phrase */}
+                           {currentScreen.vocab.phrase_example && (
+                             <div className="flex flex-col mt-2">
+                               <p className="text-xl md:text-2xl font-medium text-ink/80 border-l-4 border-ink/20 pl-4 py-1 italic">
+                                 <span className="font-bold mr-2 not-italic">Ví dụ cụm từ:</span> 
+                                 <span className="whitespace-pre-wrap leading-relaxed">{currentScreen.vocab.phrase_example}</span>
+                               </p>
+                               {currentScreen.vocab.phrase_translation && (
+                                 <p className="text-xl md:text-2xl font-medium text-ink/80 border-l-4 border-transparent pl-4 py-1 italic">
+                                   <span className="whitespace-pre-wrap leading-relaxed">Dịch: {currentScreen.vocab.phrase_translation}</span>
+                                 </p>
+                               )}
                              </div>
                            )}
                            
-                           {currentScreen.vocab.example && (
+                           {/* Sentence */}
+                           {currentScreen.vocab.sentence_example && (
                              <div className="mt-4 bg-white/40 p-5 rounded-2xl border-2 border-ink/20 shadow-sm">
                                <p className="font-bold text-ink text-sm uppercase tracking-widest mb-3 opacity-60">Ví dụ câu</p>
-                               <p className="text-2xl md:text-3xl text-ink font-sans leading-relaxed font-medium">"{currentScreen.vocab.example}"</p>
-                               {currentScreen.vocab.example_translation && (
+                               <p className="text-2xl md:text-3xl text-ink font-sans leading-relaxed font-medium">"{currentScreen.vocab.sentence_example}"</p>
+                               {currentScreen.vocab.sentence_translation && (
                                  <div className="mt-4 pt-4 border-t-2 border-ink/10">
-                                    <p className="text-xl md:text-2xl text-ink/80 font-medium">Dịch: {currentScreen.vocab.example_translation}</p>
+                                    <p className="text-xl md:text-2xl text-ink/80 font-medium">Dịch: {currentScreen.vocab.sentence_translation}</p>
                                  </div>
                                )}
                              </div>

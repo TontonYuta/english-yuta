@@ -1,8 +1,8 @@
 import { useState, useEffect, useMemo, ChangeEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Check, Lock, Star, Menu, Grid, Users, ChevronDown, ChevronUp, Gift, UserCircle, Edit3, Save, Settings, AlertTriangle } from 'lucide-react';
-import { LessonMeta } from '../types';
-import { getCompletionStatus } from '../lib/storage';
+import { Check, Lock, Star, Menu, Grid, Users, ChevronDown, ChevronUp, Gift, UserCircle, Edit3, Save, Settings, AlertTriangle, Book, Trash2, Flame } from 'lucide-react';
+import { LessonMeta, ErrorItem } from '../types';
+import { getCompletionStatus, getStreak, getErrors, removeError } from '../lib/storage';
 
 export default function LessonList() {
   const [lessons, setLessons] = useState<LessonMeta[]>([]);
@@ -11,7 +11,7 @@ export default function LessonList() {
   const navigate = useNavigate();
 
   const [expandedChapters, setExpandedChapters] = useState<Record<string, boolean>>({});
-  const [activeTab, setActiveTab] = useState<'learn' | 'profile' | 'settings'>('learn');
+  const [activeTab, setActiveTab] = useState<'learn' | 'profile' | 'notebook' | 'settings'>('learn');
 
   useEffect(() => {
     fetch('/data/course-index.json')
@@ -100,6 +100,12 @@ export default function LessonList() {
             className={`w-full flex items-center gap-3 px-4 py-3 rounded-2xl transition-colors sketchy-border ${activeTab === 'profile' ? 'bg-highlighter/30 shadow-sm border-ink' : 'border-transparent hover:border-ink hover:bg-black/5'}`}
           >
             <Users className="w-6 h-6" strokeWidth={1.5} /> Hồ sơ
+          </button>
+          <button 
+            onClick={() => setActiveTab('notebook')}
+            className={`w-full flex items-center gap-3 px-4 py-3 rounded-2xl transition-colors sketchy-border ${activeTab === 'notebook' ? 'bg-highlighter/30 shadow-sm border-ink' : 'border-transparent hover:border-ink hover:bg-black/5'}`}
+          >
+            <Book className="w-6 h-6" strokeWidth={1.5} /> Sổ tay lỗi sai
           </button>
           <button 
             onClick={() => setActiveTab('settings')}
@@ -242,6 +248,7 @@ export default function LessonList() {
             })
           )}
           {activeTab === 'profile' && <ProfileTab completedCount={completedLessons.length} totalLessons={lessons.length} xp={xp} />}
+          {activeTab === 'notebook' && <ErrorNotebookTab />}
           {activeTab === 'settings' && <SettingsTab />}
 
           {/* Developer Credit Footer */}
@@ -281,7 +288,10 @@ function ProfileTab({ completedCount, totalLessons, xp }: { completedCount: numb
     setIsEditing(false);
   };
 
-  const currentDayInStreak = completedCount; // simplified logic
+   // Streak
+  const { streak } = getStreak();
+  // We use currentDayInStreak for UI boxes, cap it to 14
+  const currentDayInStreak = Math.min(streak, 14);
 
   // Calculate gifts based on XP
   const gifts = [
@@ -416,7 +426,9 @@ function ProfileTab({ completedCount, totalLessons, xp }: { completedCount: numb
       </div>
 
       <div className="bg-[#C1E1C1] text-ink p-8 mt-12 shadow-md relative sketchy-card -rotate-1 mx-2">
-        <h3 className="text-3xl font-heading font-bold mb-4">Mục tiêu học tập liên tục</h3>
+        <h3 className="text-3xl font-heading font-bold mb-4 flex items-center gap-2">
+          Chuỗi học tập <Flame className="w-8 h-8 text-orange-500 fill-orange-500"/> {streak} ngày
+        </h3>
         <p className="text-xl opacity-80 mb-6">Mỗi ngày 1 bài học, không để "Tờ giấy trắng" biến thành "Tờ giấy thi lại"!</p>
         
         <div className="grid grid-cols-4 md:grid-cols-7 gap-3">
@@ -436,10 +448,85 @@ function ProfileTab({ completedCount, totalLessons, xp }: { completedCount: numb
   );
 }
 
+function ErrorNotebookTab() {
+  const [errors, setErrors] = useState<ErrorItem[]>([]);
+
+  useEffect(() => {
+    setErrors(getErrors());
+  }, []);
+
+  const handleDelete = (id: string) => {
+    removeError(id);
+    setErrors(getErrors());
+  };
+
+  return (
+    <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-2xl mx-auto">
+      <div className="bg-[#FFD1DC] text-ink p-8 mb-8 shadow-md relative sketchy-card rotate-1 mx-2">
+        <div className="absolute top-2 left-1/2 -translate-x-1/2 w-12 h-4 bg-white/50 backdrop-blur-sm -rotate-2 opacity-50 z-20"></div>
+        <h2 className="text-4xl font-heading font-bold mb-6 flex items-center gap-3">
+          <Book className="w-10 h-10 text-ink" strokeWidth={1.5} /> Sổ tay lỗi sai
+        </h2>
+        <p className="text-lg opacity-80 mb-8 border-b-2 border-ink/20 pb-4">
+          Nơi lưu giữ những lần vấp ngã. Hãy xem lại cấu trúc hoặc từ vựng bị sai nhé!
+        </p>
+
+        {errors.length === 0 ? (
+          <div className="bg-white/50 p-8 rounded-2xl sketchy-border flex flex-col items-center justify-center text-center -rotate-1">
+             <div className="text-6xl mb-4">🌟</div>
+             <p className="text-2xl font-bold font-heading text-ink">Thật tuyệt vời!</p>
+             <p className="text-lg opacity-80 mt-2">Bạn không có bất kỳ lỗi sai nào được ghi lại.</p>
+          </div>
+        ) : (
+          <div className="space-y-6">
+             {errors.map((error, idx) => (
+                <div key={error.id} className="bg-white p-6 sketchy-card -rotate-1 hover:rotate-0 transition-transform">
+                  <div className="flex items-start justify-between gap-4">
+                    <div className="flex-1">
+                       <span className="font-heading font-bold text-ink/40 uppercase tracking-widest text-sm mb-2 block">Lần sai thứ {idx + 1}</span>
+                       <p className="text-xl md:text-2xl font-medium text-ink leading-relaxed font-sans mb-4">{error.question}</p>
+                       
+                       <div className="space-y-2 mb-4 bg-black/5 p-4 rounded-xl border border-ink/10">
+                         <div className="flex items-center gap-2 text-red-600 line-through decoration-red-600/50 decoration-2">
+                            <span className="font-bold shrink-0">Bạn chọn:</span> 
+                            <span>{error.wrong_answer}</span>
+                         </div>
+                         <div className="flex items-center gap-2 text-green-700">
+                            <span className="font-bold shrink-0">Đáp án đúng:</span> 
+                            <span>{error.correct_answer}</span>
+                         </div>
+                       </div>
+
+                       {error.explanation && (
+                         <div className="mt-4 bg-[#FEF08A]/50 p-4 rounded-xl border border-ink/20 font-sans text-base text-ink relative overflow-hidden">
+                           <span className="font-bold text-sm block mb-1 text-ink/80">📝 Giải thích</span>
+                           <p className="whitespace-pre-wrap">{error.explanation}</p>
+                         </div>
+                       )}
+                    </div>
+                    <button 
+                      onClick={() => handleDelete(error.id)}
+                      className="w-10 h-10 flex shrink-0 items-center justify-center bg-red-100 hover:bg-red-200 text-red-600 rounded-xl transition-colors border-2 border-red-300 shadow-sm"
+                      title="Đã thuộc, xóa lỗi này!"
+                    >
+                      <Trash2 className="w-5 h-5" />
+                    </button>
+                  </div>
+                </div>
+             ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function SettingsTab() {
   const handleResetProgress = () => {
     if (window.confirm("Bạn có chắc chắn muốn xóa toàn bộ tiến trình học tập? Hành động này không thể hoàn tác.")) {
-      localStorage.removeItem('english_lessons_completed');
+      localStorage.removeItem('completed_lessons');
+      localStorage.removeItem('daily_streak');
+      localStorage.removeItem('error_notebook');
       window.location.reload();
     }
   };

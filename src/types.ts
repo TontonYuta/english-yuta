@@ -9,11 +9,21 @@ export interface LessonMeta {
 
 export interface Vocabulary {
   word: string;
-  pronunciation: string;
-  meaning: string;
-  extra?: string;
-  example?: string;
-  example_translation?: string;
+  pronunciation?: string;
+  meanings: string[];
+  phrase_example?: string;
+  phrase_translation?: string;
+  sentence_example?: string;
+  sentence_translation?: string;
+}
+
+export interface ErrorItem {
+  id: string;
+  question: string;
+  wrong_answer: string;
+  correct_answer: string;
+  explanation: string;
+  timestamp: string;
 }
 
 export interface QuizQuestion {
