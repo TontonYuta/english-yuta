@@ -1,5 +1,652 @@
 {
-  "theory_html": "<h2>Inference questions</h2><p>Nội dung đang được biên soạn cho buổi 127.</p>",
-  "vocabulary": [],
-  "quiz": []
+"theory_html": "<h2>Buổi 127: Inference questions</h2><p>Ở buổi 123, chúng ta đã học <strong>main idea questions</strong>. Buổi 124 học <strong>detail questions</strong>. Buổi 125 học <strong>reference questions</strong>. Buổi 126 học <strong>vocabulary in context</strong>. Sang buổi 127, chúng ta học một dạng câu hỏi khó hơn trong đọc hiểu: <strong>inference questions</strong>, tức là <strong>câu hỏi suy luận</strong>.</p><p>Inference questions không hỏi thông tin được nói thẳng trong bài. Thay vào đó, em phải dựa vào các chi tiết trong bài để suy ra điều hợp lý. Ví dụ, nếu bài nói: <strong>Anna read the same passage three times and smiled when she finished the quiz</strong>, bài không nói trực tiếp Anna cảm thấy tự tin, nhưng ta có thể suy ra rằng cô ấy có thể đã hiểu bài tốt hơn hoặc cảm thấy hài lòng.</p><h3>1. Mục tiêu bài học</h3><ul><li>Hiểu <strong>inference question</strong> là gì.</li><li>Nhận diện các câu hỏi suy luận thường gặp.</li><li>Biết phân biệt thông tin được nói trực tiếp và thông tin suy ra.</li><li>Biết dùng bằng chứng trong bài để suy luận.</li><li>Biết không suy luận quá xa khỏi nội dung đoạn văn.</li><li>Biết chú ý từ khóa như <strong>probably</strong>, <strong>suggest</strong>, <strong>imply</strong>, <strong>most likely</strong>.</li><li>Biết loại đáp án không có bằng chứng trong bài.</li><li>Biết luyện suy luận từ hành động, cảm xúc, nguyên nhân và kết quả.</li></ul><h3>2. Inference question là gì?</h3><p><strong>Inference question</strong> là câu hỏi yêu cầu em suy ra một điều không được nói trực tiếp, nhưng được gợi ý bởi thông tin trong bài.</p><p>Các dạng câu hỏi thường gặp:</p><ul><li><strong>What can be inferred from the passage?</strong> = Có thể suy ra điều gì từ đoạn văn?</li><li><strong>What does the passage suggest about Anna?</strong> = Đoạn văn gợi ý điều gì về Anna?</li><li><strong>What is probably true about Ben?</strong> = Điều gì có lẽ đúng về Ben?</li><li><strong>What can we learn from the passage?</strong> = Ta có thể rút ra điều gì từ đoạn văn?</li><li><strong>Why does Anna probably feel confident?</strong> = Vì sao Anna có lẽ cảm thấy tự tin?</li></ul><p>Trong các câu hỏi này, đáp án đúng thường không xuất hiện y nguyên trong bài. Nó phải dựa trên bằng chứng rõ ràng từ bài đọc.</p><h3>3. Inference khác detail như thế nào?</h3><table border='1' cellpadding='6' cellspacing='0'><tr><th>Dạng câu hỏi</th><th>Đặc điểm</th><th>Ví dụ</th></tr><tr><td><strong>Detail question</strong></td><td>Đáp án được nói trực tiếp trong bài</td><td>What time did Anna arrive?</td></tr><tr><td><strong>Inference question</strong></td><td>Đáp án cần suy ra từ chi tiết trong bài</td><td>What can be inferred about Anna?</td></tr></table><p>Ví dụ:</p><p><strong>Anna arrived at the library at 4:15 and studied until 6:30.</strong></p><ul><li>Detail: Anna đến lúc mấy giờ? → <strong>4:15</strong>.</li><li>Inference: Có thể suy ra gì về Anna? → <strong>She spent more than two hours studying.</strong></li></ul><h3>4. Từ khóa nhận diện inference questions</h3><p>Khi thấy các từ sau trong câu hỏi, em cần nghĩ đến suy luận:</p><ul><li><strong>infer</strong> = suy ra.</li><li><strong>imply</strong> = ngụ ý.</li><li><strong>suggest</strong> = gợi ý.</li><li><strong>probably</strong> = có lẽ.</li><li><strong>most likely</strong> = có khả năng nhất.</li><li><strong>can be concluded</strong> = có thể kết luận.</li><li><strong>can be learned</strong> = có thể rút ra.</li></ul><p>Ví dụ:</p><ul><li><strong>It can be inferred that Anna...</strong></li><li><strong>The passage suggests that Ben...</strong></li><li><strong>Mai most likely...</strong></li></ul><h3>5. Quy trình làm inference questions</h3><ol><li><strong>Đọc câu hỏi.</strong> Xác định đây là câu hỏi suy luận.</li><li><strong>Tìm vùng thông tin liên quan.</strong> Dùng từ khóa trong câu hỏi để scan bài.</li><li><strong>Đọc kỹ câu chứa thông tin và câu xung quanh.</strong></li><li><strong>Gạch chân bằng chứng.</strong> Không suy luận nếu không có bằng chứng.</li><li><strong>Tự nói suy luận đơn giản.</strong> Ví dụ: Anna học lâu → Anna chăm chỉ hoặc đang chuẩn bị kỹ.</li><li><strong>So sánh với đáp án.</strong> Chọn đáp án được hỗ trợ bởi bài đọc.</li><li><strong>Loại đáp án quá xa, quá mạnh hoặc trái thông tin.</strong></li></ol><h3>6. Suy luận phải dựa trên bằng chứng</h3><p><strong>Evidence</strong> nghĩa là bằng chứng. Với inference questions, đáp án đúng phải có bằng chứng trong bài.</p><p>Ví dụ:</p><p><strong>Anna read the passage twice and checked every answer carefully.</strong></p><p>Có thể suy ra:</p><ul><li><strong>Anna was careful.</strong> = Anna cẩn thận.</li><li><strong>Anna wanted to avoid mistakes.</strong> = Anna muốn tránh lỗi.</li></ul><p>Không nên suy ra quá xa:</p><ul><li><i>Anna will become an English teacher.</i> = Anna sẽ trở thành giáo viên tiếng Anh. Bài không nói đủ bằng chứng cho điều này.</li></ul><h3>7. Cẩn thận với đáp án quá mạnh</h3><p>Trong inference questions, các đáp án có từ quá mạnh thường dễ sai nếu bài không chứng minh rõ.</p><p>Các từ cần cẩn thận:</p><ul><li><strong>always</strong> = luôn luôn.</li><li><strong>never</strong> = không bao giờ.</li><li><strong>all</strong> = tất cả.</li><li><strong>must</strong> = chắc chắn phải.</li><li><strong>only</strong> = duy nhất.</li></ul><p>Ví dụ, bài chỉ nói Anna luyện đọc trong hai tuần. Không nên chọn: <strong>Anna always understands every English passage.</strong> Đây là suy luận quá mạnh.</p><h3>8. Suy luận từ cảm xúc</h3><p>Đôi khi bài không nói trực tiếp cảm xúc, nhưng hành động cho ta manh mối.</p><ul><li><strong>Anna smiled after answering all questions.</strong> → Có thể suy ra Anna hài lòng hoặc tự tin hơn.</li><li><strong>Ben looked at the clock many times before the test.</strong> → Có thể suy ra Ben lo lắng hoặc đang vội.</li><li><strong>Mai thanked Anna after the lesson.</strong> → Có thể suy ra Mai thấy sự giúp đỡ của Anna hữu ích.</li></ul><p>Nhưng cần nhớ: chỉ chọn suy luận gần với bằng chứng nhất.</p><h3>9. Suy luận từ nguyên nhân và kết quả</h3><p>Các từ như <strong>because</strong>, <strong>so</strong>, <strong>therefore</strong>, <strong>as a result</strong> giúp ta suy luận quan hệ nguyên nhân - kết quả.</p><ul><li><strong>The room was noisy, so Anna moved to the library.</strong> → Anna muốn nơi yên tĩnh hơn.</li><li><strong>Ben practiced every day. As a result, he answered faster.</strong> → Luyện tập giúp Ben cải thiện tốc độ.</li><li><strong>Mai forgot her notebook, so she borrowed one from Anna.</strong> → Mai cần vở để học.</li></ul><h3>10. Suy luận từ sự thay đổi</h3><p>Nhiều đoạn văn nói về sự thay đổi trước và sau. Đây là nguồn suy luận quan trọng.</p><ul><li><strong>At first, Anna was nervous. After two weeks, she felt confident.</strong> → Anna tiến bộ hoặc quen hơn với kỹ năng mới.</li><li><strong>Ben used to make many mistakes. Now he makes only a few.</strong> → Ben đã cải thiện.</li><li><strong>Mai once read slowly, but now she can find details quickly.</strong> → Mai đã luyện scanning hiệu quả.</li></ul><h3>11. Các đáp án sai thường gặp</h3><table border='1' cellpadding='6' cellspacing='0'><tr><th>Loại đáp án sai</th><th>Đặc điểm</th><th>Ví dụ</th></tr><tr><td>Trái thông tin</td><td>Ngược với bài đọc</td><td>Bài nói Anna tiến bộ, đáp án nói Anna kém hơn.</td></tr><tr><td>Không có bằng chứng</td><td>Nghe hợp lý nhưng bài không gợi ý</td><td>Anna sẽ đi du học.</td></tr><tr><td>Quá mạnh</td><td>Dùng always, never, all, only khi bài không nói tuyệt đối</td><td>Anna always answers perfectly.</td></tr><tr><td>Nhầm người</td><td>Lấy thông tin của Ben cho Anna</td><td>Ben đến muộn, nhưng đáp án nói Anna đến muộn.</td></tr><tr><td>Chỉ là chi tiết</td><td>Không trả lời suy luận cần hỏi</td><td>Anna has a notebook.</td></tr></table><h3>12. Mini reading: Anna Learns to Infer</h3><p><strong>Read the passage:</strong></p><p>Anna used to choose answers only when she saw the same words in the passage. This helped her with some detail questions, but it did not help much with inference questions. Her teacher told her to look for evidence and think about what the writer suggested. During practice, Anna read a story about Ben. Ben arrived early, opened his notebook and reviewed every example before the test. He did not talk much, and he checked the time twice. Anna said that Ben was probably nervous but well prepared. Her teacher smiled because Anna used evidence instead of guessing.</p><p><strong>Word count:</strong> 99 words.</p><h3>13. Dịch gợi ý</h3><p>Anna trước đây thường chỉ chọn đáp án khi cô ấy thấy những từ giống trong đoạn văn. Cách này giúp cô ấy với một số câu hỏi chi tiết, nhưng không giúp nhiều với câu hỏi suy luận. Giáo viên bảo cô ấy tìm bằng chứng và nghĩ về điều người viết gợi ý. Trong lúc luyện tập, Anna đọc một câu chuyện về Ben. Ben đến sớm, mở vở và ôn mọi ví dụ trước bài kiểm tra. Cậu ấy không nói nhiều, và cậu ấy kiểm tra thời gian hai lần. Anna nói rằng Ben có lẽ lo lắng nhưng chuẩn bị tốt. Giáo viên mỉm cười vì Anna dùng bằng chứng thay vì đoán mò.</p><h3>14. Phân tích inference trong bài đọc</h3><ul><li><strong>Ben arrived early</strong> → Ben có thể nghiêm túc hoặc muốn chuẩn bị trước.</li><li><strong>opened his notebook and reviewed every example</strong> → Ben chuẩn bị kỹ.</li><li><strong>did not talk much</strong> → Ben có thể tập trung hoặc hơi lo.</li><li><strong>checked the time twice</strong> → Ben có thể lo lắng về thời gian.</li><li><strong>Anna said Ben was probably nervous but well prepared</strong> → Đây là suy luận dựa trên nhiều bằng chứng.</li><li><strong>teacher smiled</strong> → Giáo viên hài lòng vì Anna suy luận có bằng chứng.</li></ul><h3>15. Mini listening script</h3><p><strong>Script:</strong> Listen and choose the best inference. Ben arrived early before the test. He opened his notebook and reviewed every example. He did not talk much, and he checked the time twice. What can be inferred about Ben? He was probably nervous but well prepared. The answer is not that Ben knew nothing, and it is not that Ben never studied. The best inference must be supported by evidence.</p><p><strong>Keywords:</strong> inference, infer, imply, suggest, probably, most likely, evidence, clue, support, conclusion, nervous, prepared, careful, not directly stated.</p><h3>16. Tự luyện trên lớp</h3><p><strong>Bài 1: Phân biệt detail và inference</strong></p><ul><li><strong>Ben arrived early.</strong> → detail.</li><li><strong>Ben was probably well prepared.</strong> → inference.</li><li><strong>Anna used evidence instead of guessing.</strong> → detail.</li><li><strong>The teacher was pleased with Anna's answer.</strong> → inference từ việc teacher smiled.</li></ul><p><strong>Bài 2: Chọn suy luận hợp lý</strong></p><p>Đoạn ngắn: <strong>Mai read the passage twice, underlined the keywords and checked her answer before choosing.</strong></p><ul><li>Suy luận hợp lý: <strong>Mai was careful.</strong></li><li>Suy luận quá xa: <strong>Mai will become a famous writer.</strong></li><li>Suy luận trái bài: <strong>Mai chose answers without reading.</strong></li></ul><p><strong>Bài 3: Tìm bằng chứng</strong></p><p>Câu suy luận: <strong>Ben was nervous before the test.</strong></p><p>Bằng chứng có thể là: <strong>He did not talk much</strong> và <strong>he checked the time twice</strong>.</p><h3>17. Production: Tự tạo inference questions</h3><p>Hãy viết một đoạn văn tiếng Anh 80–120 từ về một học sinh trước bài kiểm tra. Trong đoạn văn, không nói thẳng cảm xúc của học sinh. Chỉ mô tả hành động như đến sớm, kiểm tra vở, nhìn đồng hồ, đọc lại ví dụ. Sau đó tạo 4 câu hỏi suy luận:</p><ul><li><strong>What can be inferred about the student?</strong></li><li><strong>What does the passage suggest about the student's preparation?</strong></li><li><strong>How did the student probably feel?</strong></li><li><strong>Which sentence gives evidence for your answer?</strong></li></ul><p>Việc tự tạo câu hỏi suy luận giúp em hiểu rằng inference không phải đoán tự do, mà là suy luận dựa trên bằng chứng.</p><h3>18. Bài tập về nhà</h3><ul><li>Đọc 5 đoạn văn ngắn và viết 2 inference questions cho mỗi đoạn.</li><li>Với mỗi câu hỏi, ghi đáp án đúng và bằng chứng trong bài.</li><li>Tạo 5 đáp án sai kiểu quá mạnh với always, never, all, only.</li><li>Tạo 5 đáp án sai kiểu không có bằng chứng.</li><li>Gạch chân các chi tiết giúp suy luận cảm xúc hoặc thái độ nhân vật.</li><li>Dịch bài đọc trong buổi 127 sang tiếng Việt tự nhiên.</li><li>Viết một đoạn 8–10 câu về một học sinh luyện đọc, rồi viết 3 suy luận hợp lý từ đoạn đó.</li></ul><h3>19. Ghi nhớ cuối buổi</h3><p><strong>Inference questions</strong> hỏi điều có thể suy ra từ bài đọc. Đáp án đúng thường không được nói thẳng, nhưng phải có bằng chứng rõ ràng trong bài. Khi làm dạng này, hãy tìm từ khóa, đọc vùng thông tin liên quan, gạch chân bằng chứng, rồi chọn suy luận hợp lý nhất. Không suy luận quá xa, không chọn đáp án quá mạnh nếu bài không nói tuyệt đối, và không chọn đáp án chỉ vì nghe hợp lý. Suy luận tốt là suy luận được bài đọc hỗ trợ.</p>",
+"vocabulary": [
+{
+"word": "inference",
+"pronunciation": "/ˈɪn.fɚ.əns/",
+"meanings": [
+"(n) inference: sự suy luận, điều suy ra"
+],
+"phrase_example": "Make an inference",
+"phrase_translation": "Đưa ra một suy luận.",
+"sentence_example": "Anna makes an inference from the details in the passage.",
+"sentence_translation": "Anna đưa ra một suy luận từ các chi tiết trong đoạn văn."
+},
+{
+"word": "infer",
+"pronunciation": "/ɪnˈfɝː/",
+"meanings": [
+"(v) infer: suy ra"
+],
+"phrase_example": "Infer from evidence",
+"phrase_translation": "Suy ra từ bằng chứng.",
+"sentence_example": "Students can infer that Ben is nervous.",
+"sentence_translation": "Học sinh có thể suy ra rằng Ben đang lo lắng."
+},
+{
+"word": "imply",
+"pronunciation": "/ɪmˈplaɪ/",
+"meanings": [
+"(v) imply: ngụ ý"
+],
+"phrase_example": "Imply an idea",
+"phrase_translation": "Ngụ ý một ý.",
+"sentence_example": "The passage implies that Anna is improving.",
+"sentence_translation": "Đoạn văn ngụ ý rằng Anna đang tiến bộ."
+},
+{
+"word": "suggest",
+"pronunciation": "/səˈdʒest/",
+"meanings": [
+"(v) suggest: gợi ý, cho thấy"
+],
+"phrase_example": "Suggest a reason",
+"phrase_translation": "Gợi ý một lý do.",
+"sentence_example": "Ben's actions suggest that he is prepared.",
+"sentence_translation": "Hành động của Ben cho thấy cậu ấy đã chuẩn bị."
+},
+{
+"word": "probably",
+"pronunciation": "/ˈprɑː.bə.bli/",
+"meanings": [
+"(adv) probably: có lẽ, có khả năng"
+],
+"phrase_example": "Probably nervous",
+"phrase_translation": "Có lẽ lo lắng.",
+"sentence_example": "Ben is probably nervous before the test.",
+"sentence_translation": "Ben có lẽ lo lắng trước bài kiểm tra."
+},
+{
+"word": "most likely",
+"pronunciation": "/moʊst ˈlaɪ.kli/",
+"meanings": [
+"(adv phrase) most likely: có khả năng nhất"
+],
+"phrase_example": "Most likely prepared",
+"phrase_translation": "Có khả năng nhất là đã chuẩn bị.",
+"sentence_example": "Anna is most likely ready for the quiz.",
+"sentence_translation": "Anna có khả năng nhất là đã sẵn sàng cho bài kiểm tra ngắn."
+},
+{
+"word": "evidence",
+"pronunciation": "/ˈev.ə.dəns/",
+"meanings": [
+"(n) evidence: bằng chứng, căn cứ"
+],
+"phrase_example": "Find evidence",
+"phrase_translation": "Tìm bằng chứng.",
+"sentence_example": "A good inference needs evidence.",
+"sentence_translation": "Một suy luận tốt cần bằng chứng."
+},
+{
+"word": "clue",
+"pronunciation": "/kluː/",
+"meanings": [
+"(n) clue: manh mối"
+],
+"phrase_example": "Use clues",
+"phrase_translation": "Dùng các manh mối.",
+"sentence_example": "Ben's actions are clues about his feelings.",
+"sentence_translation": "Hành động của Ben là các manh mối về cảm xúc của cậu ấy."
+},
+{
+"word": "support",
+"pronunciation": "/səˈpɔːrt/",
+"meanings": [
+"(v) support: hỗ trợ, củng cố"
+],
+"phrase_example": "Support an inference",
+"phrase_translation": "Củng cố một suy luận.",
+"sentence_example": "The details support Anna's answer.",
+"sentence_translation": "Các chi tiết củng cố câu trả lời của Anna."
+},
+{
+"word": "conclusion",
+"pronunciation": "/kənˈkluː.ʒən/",
+"meanings": [
+"(n) conclusion: kết luận"
+],
+"phrase_example": "Draw a conclusion",
+"phrase_translation": "Rút ra kết luận.",
+"sentence_example": "Students draw a conclusion from the passage.",
+"sentence_translation": "Học sinh rút ra kết luận từ đoạn văn."
+},
+{
+"word": "nervous",
+"pronunciation": "/ˈnɝː.vəs/",
+"meanings": [
+"(adj) nervous: lo lắng"
+],
+"phrase_example": "Feel nervous",
+"phrase_translation": "Cảm thấy lo lắng.",
+"sentence_example": "Ben checked the time twice, so he was probably nervous.",
+"sentence_translation": "Ben kiểm tra thời gian hai lần, vì vậy cậu ấy có lẽ lo lắng."
+},
+{
+"word": "prepared",
+"pronunciation": "/prɪˈperd/",
+"meanings": [
+"(adj) prepared: đã chuẩn bị"
+],
+"phrase_example": "Well prepared",
+"phrase_translation": "Chuẩn bị tốt.",
+"sentence_example": "Ben reviewed every example, so he was well prepared.",
+"sentence_translation": "Ben ôn mọi ví dụ, vì vậy cậu ấy đã chuẩn bị tốt."
+},
+{
+"word": "guessing",
+"pronunciation": "/ˈɡes.ɪŋ/",
+"meanings": [
+"(n) guessing: sự đoán mò"
+],
+"phrase_example": "Avoid guessing",
+"phrase_translation": "Tránh đoán mò.",
+"sentence_example": "Anna used evidence instead of guessing.",
+"sentence_translation": "Anna dùng bằng chứng thay vì đoán mò."
+},
+{
+"word": "directly stated",
+"pronunciation": "/dəˈrekt.li ˈsteɪ.t̬ɪd/",
+"meanings": [
+"(phrase) directly stated: được nói trực tiếp"
+],
+"phrase_example": "Not directly stated",
+"phrase_translation": "Không được nói trực tiếp.",
+"sentence_example": "An inference is often not directly stated.",
+"sentence_translation": "Một suy luận thường không được nói trực tiếp."
+},
+{
+"word": "too strong",
+"pronunciation": "/tuː strɔːŋ/",
+"meanings": [
+"(adj phrase) too strong: quá mạnh, quá tuyệt đối"
+],
+"phrase_example": "A too strong answer",
+"phrase_translation": "Một đáp án quá mạnh.",
+"sentence_example": "An answer with always can be too strong.",
+"sentence_translation": "Một đáp án có always có thể quá mạnh."
+}
+],
+"quiz": [
+{
+"id": "q1",
+"question": "[Ý chính] Buổi 127 học dạng câu hỏi nào?",
+"options": [
+"Inference questions",
+"Vocabulary in context only",
+"Reference questions only",
+"Articles nâng cao"
+],
+"correct_answer": "Inference questions",
+"explanation": "Buổi 127 học câu hỏi suy luận trong đọc hiểu."
+},
+{
+"id": "q2",
+"question": "[Khái niệm] Inference question là gì?",
+"options": [
+"Câu hỏi yêu cầu suy ra điều hợp lý từ bằng chứng trong bài",
+"Câu hỏi hỏi đúng một giờ cụ thể",
+"Câu hỏi hỏi tiêu đề duy nhất",
+"Câu hỏi chia động từ"
+],
+"correct_answer": "Câu hỏi yêu cầu suy ra điều hợp lý từ bằng chứng trong bài",
+"explanation": "Inference questions hỏi điều không nói thẳng nhưng được gợi ý bởi bài đọc."
+},
+{
+"id": "q3",
+"question": "[Khái niệm] Infer nghĩa là gì?",
+"options": [
+"Suy ra",
+"Dịch",
+"Đếm",
+"Xóa"
+],
+"correct_answer": "Suy ra",
+"explanation": "Infer nghĩa là suy ra từ bằng chứng hoặc manh mối."
+},
+{
+"id": "q4",
+"question": "[Dấu hiệu] Câu nào là inference question?",
+"options": [
+"What can be inferred from the passage?",
+"What time did Anna arrive?",
+"How many notebooks did Anna bring?",
+"Where is Room 204?"
+],
+"correct_answer": "What can be inferred from the passage?",
+"explanation": "Câu này dùng từ inferred, yêu cầu suy luận."
+},
+{
+"id": "q5",
+"question": "[Dấu hiệu] Từ nào thường xuất hiện trong inference questions?",
+"options": [
+"probably",
+"how many",
+"what time",
+"which room"
+],
+"correct_answer": "probably",
+"explanation": "Probably là dấu hiệu hay gặp trong câu hỏi suy luận."
+},
+{
+"id": "q6",
+"question": "[Phân biệt] Detail question khác inference question thế nào?",
+"options": [
+"Detail hỏi thông tin nói trực tiếp; inference hỏi điều suy ra",
+"Detail luôn hỏi ý chính",
+"Inference luôn hỏi số lượng",
+"Hai dạng giống nhau hoàn toàn"
+],
+"correct_answer": "Detail hỏi thông tin nói trực tiếp; inference hỏi điều suy ra",
+"explanation": "Detail dựa vào thông tin trực tiếp, inference cần suy luận từ bằng chứng."
+},
+{
+"id": "q7",
+"question": "[Chiến lược] Một inference tốt cần gì?",
+"options": [
+"Evidence from the passage",
+"A random guess",
+"Only personal opinion",
+"The longest answer"
+],
+"correct_answer": "Evidence from the passage",
+"explanation": "Suy luận đúng phải được hỗ trợ bởi bằng chứng trong bài."
+},
+{
+"id": "q8",
+"question": "[Chiến lược] Khi làm inference question, không nên làm gì?",
+"options": [
+"Suy luận quá xa khỏi bài đọc",
+"Tìm bằng chứng",
+"Đọc câu liên quan",
+"Loại đáp án trái thông tin"
+],
+"correct_answer": "Suy luận quá xa khỏi bài đọc",
+"explanation": "Inference không phải đoán tự do; phải bám vào bài."
+},
+{
+"id": "q9",
+"question": "[Đáp án sai] Đáp án có từ always/never/all/only thường cần cẩn thận vì sao?",
+"options": [
+"Vì có thể quá mạnh nếu bài không nói tuyệt đối",
+"Vì luôn đúng",
+"Vì luôn là chi tiết trực tiếp",
+"Vì không bao giờ xuất hiện trong tiếng Anh"
+],
+"correct_answer": "Vì có thể quá mạnh nếu bài không nói tuyệt đối",
+"explanation": "Các từ tuyệt đối dễ làm đáp án trở nên quá mạnh."
+},
+{
+"id": "q10",
+"question": "[Ví dụ] Anna read the passage twice and checked every answer carefully. Có thể suy ra gì?",
+"options": [
+"Anna was careful.",
+"Anna never studies.",
+"Anna did not read the passage.",
+"Anna hates English."
+],
+"correct_answer": "Anna was careful.",
+"explanation": "Đọc hai lần và kiểm tra từng đáp án là bằng chứng cho sự cẩn thận."
+},
+{
+"id": "q11",
+"question": "[Ví dụ] Ben looked at the clock many times before the test. Có thể suy ra gì?",
+"options": [
+"Ben was probably nervous or worried about time.",
+"Ben never had a test.",
+"Ben was sleeping.",
+"Ben was in a restaurant."
+],
+"correct_answer": "Ben was probably nervous or worried about time.",
+"explanation": "Nhìn đồng hồ nhiều lần trước bài kiểm tra gợi ý sự lo lắng hoặc chú ý thời gian."
+},
+{
+"id": "q12",
+"question": "[Ví dụ] Mai thanked Anna after the lesson. Có thể suy ra gì?",
+"options": [
+"Mai found Anna's help useful.",
+"Mai was angry with Anna.",
+"Mai never studied with Anna.",
+"Anna forgot Mai's name."
+],
+"correct_answer": "Mai found Anna's help useful.",
+"explanation": "Việc cảm ơn sau bài học gợi ý rằng Mai thấy sự giúp đỡ hữu ích."
+},
+{
+"id": "q13",
+"question": "[Nguyên nhân-kết quả] The room was noisy, so Anna moved to the library. Có thể suy ra gì?",
+"options": [
+"Anna wanted a quieter place.",
+"Anna wanted more noise.",
+"Anna stopped reading forever.",
+"Anna lost her notebook."
+],
+"correct_answer": "Anna wanted a quieter place.",
+"explanation": "Vì phòng ồn nên Anna chuyển sang thư viện; suy ra cô ấy muốn nơi yên tĩnh hơn."
+},
+{
+"id": "q14",
+"question": "[Sự thay đổi] At first, Anna was nervous. After two weeks, she felt confident. Có thể suy ra gì?",
+"options": [
+"Anna improved or became more comfortable.",
+"Anna became worse.",
+"Anna never practiced.",
+"Anna stopped studying."
+],
+"correct_answer": "Anna improved or became more comfortable.",
+"explanation": "Sự thay đổi từ lo lắng sang tự tin gợi ý sự tiến bộ."
+},
+{
+"id": "q15",
+"question": "[Đáp án quá mạnh] Bài chỉ nói Anna luyện đọc hai tuần. Đáp án nào quá mạnh?",
+"options": [
+"Anna always understands every English passage.",
+"Anna practiced reading.",
+"Anna may feel more confident.",
+"Anna learned a reading strategy."
+],
+"correct_answer": "Anna always understands every English passage.",
+"explanation": "Always và every làm đáp án quá tuyệt đối so với bằng chứng."
+},
+{
+"id": "q16",
+"question": "[Đáp án không có bằng chứng] Bài nói Anna học trong thư viện. Đáp án nào suy luận quá xa?",
+"options": [
+"Anna will become a famous teacher.",
+"Anna studies in a quiet place.",
+"Anna may want to focus.",
+"Anna uses the library to study."
+],
+"correct_answer": "Anna will become a famous teacher.",
+"explanation": "Bài không cung cấp bằng chứng rằng Anna sẽ trở thành giáo viên nổi tiếng."
+},
+{
+"id": "q17",
+"question": "[Reading] Trước đây Anna chọn đáp án khi nào?",
+"options": [
+"When she saw the same words in the passage",
+"Only when the teacher smiled",
+"Only after Ben answered",
+"When she finished the test"
+],
+"correct_answer": "When she saw the same words in the passage",
+"explanation": "Bài đọc nói Anna used to choose answers only when she saw the same words."
+},
+{
+"id": "q18",
+"question": "[Reading] Cách cũ giúp Anna với dạng câu hỏi nào?",
+"options": [
+"Some detail questions",
+"All inference questions",
+"No questions at all",
+"Only listening questions"
+],
+"correct_answer": "Some detail questions",
+"explanation": "Bài đọc nói cách này helped her with some detail questions."
+},
+{
+"id": "q19",
+"question": "[Reading] Cách cũ không giúp nhiều với dạng nào?",
+"options": [
+"Inference questions",
+"Spelling only",
+"Numbers only",
+"Pronunciation practice"
+],
+"correct_answer": "Inference questions",
+"explanation": "Bài đọc nói it did not help much with inference questions."
+},
+{
+"id": "q20",
+"question": "[Reading] Giáo viên bảo Anna làm gì?",
+"options": [
+"Look for evidence and think about what the writer suggested",
+"Choose answers randomly",
+"Ignore evidence",
+"Only copy the same words"
+],
+"correct_answer": "Look for evidence and think about what the writer suggested",
+"explanation": "Bài đọc nói giáo viên bảo cô ấy tìm bằng chứng và nghĩ về điều người viết gợi ý."
+},
+{
+"id": "q21",
+"question": "[Reading] Anna đọc câu chuyện về ai?",
+"options": [
+"Ben",
+"Mai",
+"The teacher only",
+"A famous writer"
+],
+"correct_answer": "Ben",
+"explanation": "Bài đọc nói Anna read a story about Ben."
+},
+{
+"id": "q22",
+"question": "[Reading] Ben đến khi nào?",
+"options": [
+"Early",
+"Late",
+"After the test",
+"At night only"
+],
+"correct_answer": "Early",
+"explanation": "Bài đọc nói Ben arrived early."
+},
+{
+"id": "q23",
+"question": "[Reading] Ben làm gì trước bài kiểm tra?",
+"options": [
+"Opened his notebook and reviewed every example",
+"Closed his notebook and slept",
+"Left the classroom",
+"Played the piano"
+],
+"correct_answer": "Opened his notebook and reviewed every example",
+"explanation": "Bài đọc nói Ben mở vở và ôn mọi ví dụ trước bài kiểm tra."
+},
+{
+"id": "q24",
+"question": "[Reading] Ben có nói nhiều không?",
+"options": [
+"No, he did not talk much.",
+"Yes, he talked a lot.",
+"The passage says he sang.",
+"He talked to every student."
+],
+"correct_answer": "No, he did not talk much.",
+"explanation": "Bài đọc nói he did not talk much."
+},
+{
+"id": "q25",
+"question": "[Reading] Ben kiểm tra thời gian mấy lần?",
+"options": [
+"Twice",
+"Once",
+"Five times",
+"Never"
+],
+"correct_answer": "Twice",
+"explanation": "Bài đọc nói he checked the time twice."
+},
+{
+"id": "q26",
+"question": "[Reading] Anna suy luận Ben như thế nào?",
+"options": [
+"Probably nervous but well prepared",
+"Definitely lazy and careless",
+"Never studied before",
+"Angry with the teacher"
+],
+"correct_answer": "Probably nervous but well prepared",
+"explanation": "Bài đọc nói Anna said that Ben was probably nervous but well prepared."
+},
+{
+"id": "q27",
+"question": "[Reading] Vì sao giáo viên mỉm cười?",
+"options": [
+"Because Anna used evidence instead of guessing",
+"Because Anna guessed randomly",
+"Because Ben forgot everything",
+"Because the test was canceled"
+],
+"correct_answer": "Because Anna used evidence instead of guessing",
+"explanation": "Bài đọc nói giáo viên mỉm cười vì Anna dùng bằng chứng thay vì đoán mò."
+},
+{
+"id": "q28",
+"question": "[Inference] Có thể suy ra gì từ việc Ben arrived early?",
+"options": [
+"He wanted time to prepare.",
+"He missed the test.",
+"He never cared about the test.",
+"He was not in school."
+],
+"correct_answer": "He wanted time to prepare.",
+"explanation": "Đến sớm trước bài kiểm tra gợi ý rằng Ben muốn có thời gian chuẩn bị."
+},
+{
+"id": "q29",
+"question": "[Inference] Có thể suy ra gì từ việc Ben reviewed every example?",
+"options": [
+"He was well prepared.",
+"He did not study.",
+"He disliked examples.",
+"He forgot his notebook."
+],
+"correct_answer": "He was well prepared.",
+"explanation": "Ôn mọi ví dụ là bằng chứng cho việc chuẩn bị kỹ."
+},
+{
+"id": "q30",
+"question": "[Inference] Có thể suy ra gì từ việc Ben did not talk much và checked the time twice?",
+"options": [
+"He was probably nervous.",
+"He was probably sleeping.",
+"He did not have a test.",
+"He was teaching music."
+],
+"correct_answer": "He was probably nervous.",
+"explanation": "Không nói nhiều và xem giờ nhiều lần trước bài kiểm tra gợi ý sự lo lắng."
+},
+{
+"id": "q31",
+"question": "[Inference] Có thể suy ra gì về Anna ở cuối bài?",
+"options": [
+"She learned to support her answers with evidence.",
+"She still only guessed randomly.",
+"She stopped reading.",
+"She ignored the teacher."
+],
+"correct_answer": "She learned to support her answers with evidence.",
+"explanation": "Bài nói giáo viên mỉm cười vì Anna dùng bằng chứng thay vì đoán."
+},
+{
+"id": "q32",
+"question": "[Inference] Đáp án nào được bài đọc hỗ trợ tốt nhất?",
+"options": [
+"Anna is improving at inference questions.",
+"Anna will never answer detail questions again.",
+"Ben always gets perfect scores.",
+"The teacher was angry with Anna."
+],
+"correct_answer": "Anna is improving at inference questions.",
+"explanation": "Anna đã biết dùng bằng chứng để suy luận, nên có thể nói cô ấy đang tiến bộ."
+},
+{
+"id": "q33",
+"question": "[Sai vì trái thông tin] Đáp án nào trái với bài đọc?",
+"options": [
+"Anna used no evidence and only guessed.",
+"Ben arrived early.",
+"Ben reviewed examples.",
+"The teacher smiled."
+],
+"correct_answer": "Anna used no evidence and only guessed.",
+"explanation": "Bài nói Anna dùng bằng chứng thay vì đoán mò."
+},
+{
+"id": "q34",
+"question": "[Sai vì quá mạnh] Đáp án nào quá mạnh so với bài đọc?",
+"options": [
+"Ben will always answer every test perfectly.",
+"Ben was probably nervous.",
+"Ben reviewed examples.",
+"Anna used evidence."
+],
+"correct_answer": "Ben will always answer every test perfectly.",
+"explanation": "Bài không chứng minh Ben luôn trả lời hoàn hảo mọi bài kiểm tra."
+},
+{
+"id": "q35",
+"question": "[Sai vì không có bằng chứng] Đáp án nào không có đủ bằng chứng?",
+"options": [
+"Ben wants to become a professional writer.",
+"Ben prepared before the test.",
+"Ben checked the time.",
+"Anna learned from her teacher."
+],
+"correct_answer": "Ben wants to become a professional writer.",
+"explanation": "Bài không nhắc hoặc gợi ý Ben muốn trở thành nhà văn chuyên nghiệp."
+},
+{
+"id": "q36",
+"question": "[Chiến lược] Khi chọn đáp án inference, em nên hỏi gì?",
+"options": [
+"Bài đọc có bằng chứng nào hỗ trợ đáp án này không?",
+"Đáp án này có dài nhất không?",
+"Đáp án này có từ đẹp không?",
+"Đáp án này có đứng ở vị trí C không?"
+],
+"correct_answer": "Bài đọc có bằng chứng nào hỗ trợ đáp án này không?",
+"explanation": "Inference cần bằng chứng từ đoạn văn."
+},
+{
+"id": "q37",
+"question": "[Chiến lược] Nếu đáp án nghe hợp lý nhưng không có bằng chứng trong bài, nên làm gì?",
+"options": [
+"Loại đáp án đó",
+"Chọn ngay",
+"Chọn nếu nó dài",
+"Chọn nếu có probably"
+],
+"correct_answer": "Loại đáp án đó",
+"explanation": "Đáp án inference phải được bài đọc hỗ trợ."
+},
+{
+"id": "q38",
+"question": "[Chiến lược] Với inference questions, bằng chứng thường nằm ở đâu?",
+"options": [
+"Trong câu liên quan và các câu xung quanh",
+"Chỉ trong đáp án",
+"Chỉ trong tiêu đề sách",
+"Không cần bằng chứng"
+],
+"correct_answer": "Trong câu liên quan và các câu xung quanh",
+"explanation": "Cần đọc vùng thông tin liên quan để tìm manh mối."
+},
+{
+"id": "q39",
+"question": "[Ứng dụng] Câu 'The teacher smiled because Anna used evidence' gợi ý điều gì?",
+"options": [
+"The teacher was pleased with Anna's method.",
+"The teacher was angry.",
+"The teacher did not understand Anna.",
+"The teacher left the room."
+],
+"correct_answer": "The teacher was pleased with Anna's method.",
+"explanation": "Mỉm cười vì Anna dùng bằng chứng gợi ý giáo viên hài lòng."
+},
+{
+"id": "q40",
+"question": "[Ghi nhớ] Quy tắc đúng nhất khi làm inference questions là gì?",
+"options": [
+"Tìm bằng chứng trong bài, suy luận gần với bằng chứng nhất, tránh đáp án quá xa hoặc quá mạnh.",
+"Đoán theo cảm giác cá nhân.",
+"Chọn đáp án có từ giống bài đọc nhất trong mọi trường hợp.",
+"Chỉ đọc tiêu đề rồi chọn."
+],
+"correct_answer": "Tìm bằng chứng trong bài, suy luận gần với bằng chứng nhất, tránh đáp án quá xa hoặc quá mạnh.",
+"explanation": "Đây là quy tắc quan trọng nhất của câu hỏi suy luận."
+}
+]
 }

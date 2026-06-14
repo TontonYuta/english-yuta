@@ -1,5 +1,652 @@
 {
-  "theory_html": "<h2>Part 7: triple passages</h2><p>Nội dung đang được biên soạn cho buổi 173.</p>",
-  "vocabulary": [],
-  "quiz": []
+"theory_html": "<h2>Buổi 173: Part 7 - Triple Passages</h2><p>Buổi 173 tiếp tục học <strong>TOEIC Reading Part 7</strong>. Ở buổi 172, em đã học <strong>double passages</strong>, tức là đọc hai văn bản liên quan và liên kết thông tin giữa chúng. Buổi này nâng lên dạng khó hơn: <strong>triple passages</strong>, nghĩa là đọc <strong>ba văn bản liên quan với nhau</strong>. Đây là một trong những dạng khó nhất của TOEIC Reading vì thông tin có thể nằm rải rác ở ba nguồn khác nhau.</p><p>Triple passages thường gồm ba văn bản ngắn liên quan đến cùng một sự việc, ví dụ: một advertisement, một email và một receipt; hoặc một notice, một text message chain và một schedule; hoặc một article, một email và một form. Câu hỏi có thể chỉ cần một văn bản, hai văn bản, hoặc cả ba văn bản. Vì vậy, kỹ năng quan trọng nhất không phải là dịch từng chữ, mà là <strong>xác định vai trò của từng văn bản</strong>, <strong>tìm mối liên hệ giữa ba văn bản</strong> và <strong>đối chiếu bằng chứng</strong>.</p><h3>1. Mục tiêu bài học</h3><ul><li>Hiểu triple passages là gì trong TOEIC Part 7.</li><li>Biết phân biệt single passage, double passages và triple passages.</li><li>Biết nhận diện vai trò của từng văn bản trong bộ ba văn bản.</li><li>Biết đọc ba văn bản theo thứ tự hợp lý mà không bị rối.</li><li>Biết xác định câu hỏi cần văn bản 1, văn bản 2, văn bản 3 hay nhiều văn bản cùng lúc.</li><li>Biết tìm thông tin được xác nhận, bổ sung hoặc thay đổi qua ba văn bản.</li><li>Biết xử lý câu hỏi cross-text và inference trong triple passages.</li><li>Biết tránh bẫy nhầm người, nhầm ngày, nhầm điều kiện và nhầm thông tin cũ với thông tin mới.</li></ul><h3>2. Triple passages là gì?</h3><p><strong>Triple passages</strong> là dạng bài có ba văn bản liên quan với nhau. Ba văn bản này có thể thuộc nhiều loại khác nhau, nhưng chúng thường xoay quanh cùng một tình huống.</p><p>Ví dụ các bộ ba thường gặp:</p><ul><li><strong>Advertisement + email + receipt</strong>: quảng cáo, email đặt hàng và biên lai.</li><li><strong>Notice + schedule + text message</strong>: thông báo, lịch trình và tin nhắn trao đổi.</li><li><strong>Email + invoice + delivery notice</strong>: email đặt hàng, hóa đơn và thông báo giao hàng.</li><li><strong>Article + email + registration form</strong>: bài viết, email phản hồi và mẫu đăng ký.</li><li><strong>Memo + policy document + message</strong>: memo nội bộ, tài liệu quy định và tin nhắn hỏi thêm.</li></ul><p>Trong triple passages, mỗi văn bản thường có một vai trò. Văn bản 1 có thể giới thiệu thông tin ban đầu. Văn bản 2 có thể phản hồi hoặc đặt yêu cầu. Văn bản 3 có thể xác nhận kết quả, đưa chi tiết thanh toán hoặc cập nhật thông tin cuối cùng.</p><h3>3. So sánh single, double và triple passages</h3><table border='1' cellpadding='6' cellspacing='0'><tr><th>Dạng bài</th><th>Số văn bản</th><th>Kỹ năng chính</th></tr><tr><td>Single passage</td><td>1</td><td>Tìm ý chính, chi tiết và bằng chứng trong một văn bản</td></tr><tr><td>Double passages</td><td>2</td><td>Liên kết thông tin giữa hai văn bản</td></tr><tr><td>Triple passages</td><td>3</td><td>Tổng hợp và đối chiếu thông tin từ ba văn bản</td></tr></table><p>Dạng triple passages không nhất thiết có từ vựng khó hơn, nhưng khó hơn vì lượng thông tin nhiều hơn. Nếu em không có phương pháp, em sẽ dễ đọc lặp lại nhiều lần và mất thời gian.</p><h3>4. Vai trò của từng văn bản</h3><p>Khi gặp ba văn bản, đừng đọc ngay từng chữ. Trước hết, hãy xác định loại và vai trò của từng văn bản.</p><table border='1' cellpadding='6' cellspacing='0'><tr><th>Vai trò</th><th>Ý nghĩa</th><th>Ví dụ</th></tr><tr><td>Văn bản giới thiệu</td><td>Cung cấp thông tin ban đầu</td><td>advertisement, notice, article</td></tr><tr><td>Văn bản phản hồi</td><td>Người đọc hỏi, đặt hàng, đăng ký hoặc phản hồi</td><td>email, text message</td></tr><tr><td>Văn bản xác nhận</td><td>Xác nhận chi tiết cuối cùng</td><td>receipt, invoice, confirmation message</td></tr><tr><td>Văn bản cập nhật</td><td>Thay đổi thông tin trước đó</td><td>updated schedule, new notice, follow-up email</td></tr></table><p>Ví dụ: nếu văn bản 1 là advertisement về khóa học, văn bản 2 là email của học viên hỏi đăng ký, văn bản 3 là receipt, thì em hiểu rằng ba văn bản liên quan đến việc một người đăng ký khóa học và thanh toán.</p><h3>5. Các loại câu hỏi trong triple passages</h3><p>Triple passages có các dạng câu hỏi quen thuộc, nhưng câu khó thường yêu cầu dùng nhiều văn bản.</p><table border='1' cellpadding='6' cellspacing='0'><tr><th>Dạng câu hỏi</th><th>Ví dụ</th><th>Cách làm</th></tr><tr><td>Detail</td><td>How much did Ms. Tran pay?</td><td>Tìm ở receipt hoặc invoice</td></tr><tr><td>Purpose</td><td>Why did Mr. Kim send the email?</td><td>Tìm trong email hoặc message</td></tr><tr><td>Inference</td><td>What can be inferred about the customer?</td><td>Kết hợp thông tin từ nhiều văn bản</td></tr><tr><td>Cross-text</td><td>Which benefit did Ms. Tran receive because she registered early?</td><td>Đối chiếu advertisement và receipt</td></tr><tr><td>Main idea</td><td>What are the three passages mainly about?</td><td>Xác định tình huống chung của cả ba văn bản</td></tr></table><p>Trong triple passages, câu hỏi không phải lúc nào cũng nói rõ cần dùng văn bản nào. Em phải tự nhận ra dựa trên keyword.</p><h3>6. Quy trình làm triple passages</h3><ol><li><strong>Nhìn nhanh cả ba văn bản.</strong> Xác định loại: advertisement, email, receipt, notice, schedule...</li><li><strong>Ghi vai trò mỗi văn bản.</strong> Văn bản nào giới thiệu, văn bản nào phản hồi, văn bản nào xác nhận?</li><li><strong>Đọc văn bản 1 để hiểu bối cảnh.</strong></li><li><strong>Đọc văn bản 2 để biết ai phản hồi hoặc yêu cầu gì.</strong></li><li><strong>Đọc văn bản 3 để tìm thông tin cuối cùng, cập nhật hoặc xác nhận.</strong></li><li><strong>Đọc câu hỏi và gạch chân keyword.</strong></li><li><strong>Xác định câu hỏi cần văn bản nào.</strong></li><li><strong>Tìm evidence đúng chỗ.</strong></li><li><strong>Nếu câu hỏi cần nhiều văn bản, đối chiếu trước khi chọn.</strong></li></ol><p>Mẹo quan trọng: sau khi đọc nhanh ba văn bản, hãy tự nói một câu tóm tắt: “Ba văn bản này nói về việc ai làm gì, ở đâu, khi nào và kết quả cuối cùng là gì?”</p><h3>7. Cách xác định câu hỏi cần bao nhiêu văn bản</h3><ul><li>Nếu hỏi một chi tiết trên receipt như total amount, thường chỉ cần văn bản 3.</li><li>Nếu hỏi người viết email muốn làm gì, thường cần văn bản 2.</li><li>Nếu hỏi điều kiện để được giảm giá, có thể cần văn bản 1.</li><li>Nếu hỏi người đó có được giảm giá không và vì sao, thường cần văn bản 1 và văn bản 3.</li><li>Nếu hỏi tình huống chung của cả bộ bài, cần hiểu cả ba văn bản.</li><li>Nếu hỏi thông tin nào đã thay đổi, cần so sánh ít nhất hai văn bản.</li></ul><p>Các câu hỏi khó thường có dạng: <strong>What can be inferred...</strong>, <strong>According to the three texts...</strong>, <strong>What is true about...</strong>, <strong>Why did...</strong>, <strong>Which statement is correct?</strong></p><h3>8. Thông tin thường cần đối chiếu</h3><p>Trong triple passages, TOEIC thường bẫy ở các loại thông tin sau:</p><ul><li><strong>Ngày tháng:</strong> ngày đăng ký, ngày hết hạn ưu đãi, ngày giao hàng, ngày diễn ra sự kiện.</li><li><strong>Số tiền:</strong> giá gốc, giảm giá, phí phụ, tổng tiền.</li><li><strong>Số lượng:</strong> số sản phẩm đặt, số vé, số người tham dự.</li><li><strong>Điều kiện:</strong> đăng ký trước ngày nào, mua bao nhiêu sản phẩm, thành viên mới hay cũ.</li><li><strong>Địa điểm:</strong> nơi cũ, nơi mới, nơi nhận hàng, nơi sự kiện diễn ra.</li><li><strong>Hành động tiếp theo:</strong> gọi, xác nhận, đến nhận, gửi tài liệu, đăng ký lại.</li></ul><h3>9. Bẫy thường gặp trong triple passages</h3><ul><li>Đọc văn bản 1 rồi nghĩ đã đủ thông tin.</li><li>Không đọc kỹ văn bản 3 nên bỏ lỡ thông tin cuối cùng.</li><li>Nhầm ưu đãi được quảng cáo với ưu đãi thực sự áp dụng.</li><li>Nhầm ngày yêu cầu với ngày xác nhận.</li><li>Nhầm người hỏi thông tin với người thanh toán.</li><li>Chọn đáp án đúng với một văn bản nhưng sai khi đối chiếu với văn bản khác.</li><li>Bỏ qua phí phụ như service fee, delivery fee, registration fee.</li><li>Suy luận quá xa ngoài bằng chứng.</li></ul><h3>10. Paraphrase trong triple passages</h3><table border='1' cellpadding='6' cellspacing='0'><tr><th>Trong văn bản</th><th>Trong câu hỏi/đáp án có thể là</th><th>Nghĩa</th></tr><tr><td>register</td><td>sign up</td><td>đăng ký</td></tr><tr><td>receipt</td><td>proof of payment</td><td>biên lai, bằng chứng thanh toán</td></tr><tr><td>total amount</td><td>final cost</td><td>tổng tiền cuối cùng</td></tr><tr><td>discount</td><td>reduced price</td><td>giảm giá</td></tr><tr><td>additional fee</td><td>extra charge</td><td>phí thêm</td></tr><tr><td>confirm</td><td>verify</td><td>xác nhận</td></tr><tr><td>attend</td><td>participate in</td><td>tham dự</td></tr></table><p>Trong triple passages, paraphrase có thể xuất hiện giữa văn bản 1 và văn bản 3. Ví dụ văn bản 1 nói <strong>register before June 20</strong>, văn bản 3 ghi <strong>early registration discount</strong>. Đây là cùng một ý.</p><h3>11. Bài đọc mẫu: Advertisement, Email and Receipt</h3><p><strong>Passage 1 - Advertisement</strong></p><p><strong>Summer Business English Workshop</strong></p><p>BrightWay Training Center is offering a one-day Business English workshop on July 15. The workshop includes email writing, meeting expressions and presentation practice. The regular fee is $120. Participants who register before July 1 will receive a 25 percent discount. Lunch is not included, but all study materials will be provided.</p><p><strong>Passage 2 - Email</strong></p><p>Dear BrightWay Training Center,</p><p>I would like to register for the Business English workshop on July 15. I saw the advertisement and would like to know whether the early registration discount is still available. I also want to confirm whether study materials are included in the fee.</p><p>Sincerely,<br>Anna Nguyen</p><p><strong>Passage 3 - Receipt</strong></p><p><strong>Receipt</strong><br>Customer: Anna Nguyen<br>Workshop: Business English Workshop<br>Date: July 15<br>Regular fee: $120<br>Discount: 25 percent<br>Total paid: $90<br>Materials: Included<br>Lunch: Not included</p><p><strong>Word count:</strong> 138 words.</p><h3>12. Dịch gợi ý</h3><p><strong>Văn bản 1 - Quảng cáo</strong></p><p><strong>Hội thảo Tiếng Anh Công việc mùa hè</strong></p><p>Trung tâm Đào tạo BrightWay đang cung cấp một hội thảo Tiếng Anh Công việc kéo dài một ngày vào ngày 15 tháng 7. Hội thảo bao gồm viết email, các cách diễn đạt trong cuộc họp và luyện thuyết trình. Phí thông thường là 120 đô la. Người tham gia đăng ký trước ngày 1 tháng 7 sẽ được giảm giá 25 phần trăm. Bữa trưa không bao gồm, nhưng tất cả tài liệu học sẽ được cung cấp.</p><p><strong>Văn bản 2 - Email</strong></p><p>Gửi Trung tâm Đào tạo BrightWay,</p><p>Tôi muốn đăng ký hội thảo Tiếng Anh Công việc vào ngày 15 tháng 7. Tôi đã thấy quảng cáo và muốn biết liệu giảm giá đăng ký sớm còn áp dụng không. Tôi cũng muốn xác nhận liệu tài liệu học có được bao gồm trong phí hay không.</p><p>Trân trọng,<br>Anna Nguyen</p><p><strong>Văn bản 3 - Biên lai</strong></p><p><strong>Biên lai</strong><br>Khách hàng: Anna Nguyen<br>Hội thảo: Hội thảo Tiếng Anh Công việc<br>Ngày: 15 tháng 7<br>Phí thông thường: 120 đô la<br>Giảm giá: 25 phần trăm<br>Tổng đã trả: 90 đô la<br>Tài liệu: Đã bao gồm<br>Bữa trưa: Không bao gồm</p><h3>13. Phân tích bài đọc</h3><ul><li><strong>Passage 1</strong> là advertisement giới thiệu workshop.</li><li><strong>Passage 2</strong> là email của Anna Nguyen để đăng ký và hỏi thông tin.</li><li><strong>Passage 3</strong> là receipt xác nhận thanh toán.</li><li><strong>Business English workshop</strong> xuất hiện ở cả ba văn bản.</li><li><strong>July 15</strong> là ngày diễn ra workshop, được xác nhận ở email và receipt.</li><li><strong>Regular fee: $120</strong> là phí gốc.</li><li><strong>25 percent discount</strong> xuất hiện trong advertisement và receipt.</li><li><strong>Total paid: $90</strong> cho thấy Anna được giảm giá.</li><li><strong>Materials: Included</strong> xác nhận tài liệu đã bao gồm.</li><li><strong>Lunch: Not included</strong> là thông tin dễ bị bẫy.</li></ul><h3>14. Mini listening script</h3><p><strong>Script:</strong> Listen to a short lesson about triple passages in TOEIC Part 7. Triple passages include three related texts. First, identify the type of each text. One text may advertise a service, another may show a customer's request, and the third may confirm payment. Some questions require only one text, but many questions require information from two or three texts. Always check names, dates, fees, discounts, included items and conditions. Do not choose an answer unless it is supported by evidence from the correct text or texts.</p><p><strong>Keywords:</strong> triple passages, advertisement, email, receipt, register, sign up, workshop, regular fee, discount, total paid, included, not included, materials, lunch, customer, condition, final cost, cross-text evidence.</p><h3>15. Tự luyện trên lớp</h3><p><strong>Bài 1: Nhận diện vai trò ba văn bản</strong></p><ul><li>Passage 1: advertisement giới thiệu workshop và ưu đãi.</li><li>Passage 2: email của Anna muốn đăng ký và hỏi xác nhận.</li><li>Passage 3: receipt xác nhận thanh toán và thông tin bao gồm.</li></ul><p><strong>Bài 2: Đối chiếu thông tin</strong></p><ul><li>Workshop: Business English Workshop.</li><li>Ngày học: July 15.</li><li>Phí gốc: $120.</li><li>Giảm giá: 25 percent.</li><li>Tổng đã trả: $90.</li><li>Tài liệu: included.</li><li>Bữa trưa: not included.</li></ul><p><strong>Bài 3: Cách tính số tiền</strong></p><p>Regular fee là $120. Discount 25 percent nghĩa là giảm $30. Vì vậy total paid là $90. Receipt xác nhận Anna thật sự được nhận discount.</p><p><strong>Bài 4: Tự hỏi khi làm triple passages</strong></p><ul><li>Ba văn bản thuộc loại nào?</li><li>Mỗi văn bản có vai trò gì?</li><li>Câu hỏi cần văn bản nào?</li><li>Thông tin nào được xác nhận ở nhiều văn bản?</li><li>Thông tin nào chỉ xuất hiện ở receipt?</li><li>Có điều kiện hoặc ngoại lệ nào không?</li><li>Đáp án có bằng chứng ở đâu?</li></ul><h3>16. Bài tập về nhà</h3><ul><li>Học 15 từ vựng/cụm từ của buổi 173.</li><li>Đọc lại bộ ba văn bản mẫu và tự viết 6 câu hỏi Part 7.</li><li>Trong 6 câu hỏi đó, viết ít nhất 3 câu cần dùng từ hai văn bản trở lên.</li><li>Gạch chân bằng chứng trong từng văn bản.</li><li>Tạo một bộ triple passages gồm advertisement, email và receipt về một khóa học hoặc sự kiện.</li><li>Ôn paraphrase: register/sign up, receipt/proof of payment, total amount/final cost, discount/reduced price, additional fee/extra charge.</li></ul><h3>17. Ghi nhớ cuối buổi</h3><p>Trong TOEIC Part 7 dạng <strong>triple passages</strong>, em phải đọc ba văn bản liên quan và xác định vai trò của từng văn bản. Đừng đọc rời rạc. Hãy tìm mối liên hệ: văn bản nào giới thiệu, văn bản nào phản hồi, văn bản nào xác nhận hoặc cập nhật. Câu hỏi dễ có thể dùng một văn bản, nhưng câu khó thường cần đối chiếu hai hoặc ba văn bản. Luôn kiểm tra tên người, ngày tháng, số tiền, điều kiện, thông tin được bao gồm và thông tin không bao gồm. Đáp án đúng phải có evidence rõ ràng trong văn bản phù hợp.</p>",
+"vocabulary": [
+{
+"word": "triple passages",
+"pronunciation": "/ˈtrɪp.əl ˈpæs.ɪdʒɪz/",
+"meanings": [
+"(n phrase) triple passages: ba văn bản liên quan"
+],
+"phrase_example": "Practice triple passages",
+"phrase_translation": "Luyện ba văn bản liên quan.",
+"sentence_example": "Triple passages require students to compare three related texts.",
+"sentence_translation": "Triple passages yêu cầu học sinh so sánh ba văn bản liên quan."
+},
+{
+"word": "advertisement",
+"pronunciation": "/ˌæd.vɚˈtaɪz.mənt/",
+"meanings": [
+"(n) advertisement: quảng cáo"
+],
+"phrase_example": "Read an advertisement",
+"phrase_translation": "Đọc một quảng cáo.",
+"sentence_example": "The advertisement introduces a Business English workshop.",
+"sentence_translation": "Quảng cáo giới thiệu một hội thảo Tiếng Anh Công việc."
+},
+{
+"word": "email",
+"pronunciation": "/ˈiː.meɪl/",
+"meanings": [
+"(n) email: thư điện tử"
+],
+"phrase_example": "Send an email",
+"phrase_translation": "Gửi một email.",
+"sentence_example": "Anna sends an email to register for the workshop.",
+"sentence_translation": "Anna gửi email để đăng ký hội thảo."
+},
+{
+"word": "receipt",
+"pronunciation": "/rɪˈsiːt/",
+"meanings": [
+"(n) receipt: biên lai"
+],
+"phrase_example": "Check the receipt",
+"phrase_translation": "Kiểm tra biên lai.",
+"sentence_example": "The receipt confirms Anna's payment.",
+"sentence_translation": "Biên lai xác nhận khoản thanh toán của Anna."
+},
+{
+"word": "register",
+"pronunciation": "/ˈredʒ.ə.stɚ/",
+"meanings": [
+"(v) register: đăng ký"
+],
+"phrase_example": "Register before July 1",
+"phrase_translation": "Đăng ký trước ngày 1 tháng 7.",
+"sentence_example": "Participants who register before July 1 receive a discount.",
+"sentence_translation": "Người tham gia đăng ký trước ngày 1 tháng 7 sẽ được giảm giá."
+},
+{
+"word": "sign up",
+"pronunciation": "/saɪn ʌp/",
+"meanings": [
+"(phr.v) sign up: đăng ký"
+],
+"phrase_example": "Sign up for a workshop",
+"phrase_translation": "Đăng ký một hội thảo.",
+"sentence_example": "Anna wants to sign up for the Business English workshop.",
+"sentence_translation": "Anna muốn đăng ký hội thảo Tiếng Anh Công việc."
+},
+{
+"word": "workshop",
+"pronunciation": "/ˈwɝːk.ʃɑːp/",
+"meanings": [
+"(n) workshop: hội thảo, buổi tập huấn"
+],
+"phrase_example": "A one-day workshop",
+"phrase_translation": "Một hội thảo kéo dài một ngày.",
+"sentence_example": "The workshop will be held on July 15.",
+"sentence_translation": "Hội thảo sẽ được tổ chức vào ngày 15 tháng 7."
+},
+{
+"word": "regular fee",
+"pronunciation": "/ˈreɡ.jə.lɚ fiː/",
+"meanings": [
+"(n phrase) regular fee: phí thông thường"
+],
+"phrase_example": "Regular fee of 120 dollars",
+"phrase_translation": "Phí thông thường là 120 đô la.",
+"sentence_example": "The regular fee for the workshop is 120 dollars.",
+"sentence_translation": "Phí thông thường của hội thảo là 120 đô la."
+},
+{
+"word": "discount",
+"pronunciation": "/ˈdɪs.kaʊnt/",
+"meanings": [
+"(n/v) discount: sự giảm giá; giảm giá"
+],
+"phrase_example": "Receive a discount",
+"phrase_translation": "Nhận giảm giá.",
+"sentence_example": "Anna received a 25 percent discount.",
+"sentence_translation": "Anna đã nhận được giảm giá 25 phần trăm."
+},
+{
+"word": "total paid",
+"pronunciation": "/ˈtoʊ.t̬əl peɪd/",
+"meanings": [
+"(n phrase) total paid: tổng số tiền đã trả"
+],
+"phrase_example": "Total paid is 90 dollars",
+"phrase_translation": "Tổng đã trả là 90 đô la.",
+"sentence_example": "The receipt shows that the total paid was 90 dollars.",
+"sentence_translation": "Biên lai cho thấy tổng số tiền đã trả là 90 đô la."
+},
+{
+"word": "included",
+"pronunciation": "/ɪnˈkluː.dɪd/",
+"meanings": [
+"(adj) included: được bao gồm"
+],
+"phrase_example": "Materials included",
+"phrase_translation": "Tài liệu được bao gồm.",
+"sentence_example": "Study materials are included in the fee.",
+"sentence_translation": "Tài liệu học được bao gồm trong phí."
+},
+{
+"word": "not included",
+"pronunciation": "/nɑːt ɪnˈkluː.dɪd/",
+"meanings": [
+"(phrase) not included: không được bao gồm"
+],
+"phrase_example": "Lunch not included",
+"phrase_translation": "Bữa trưa không được bao gồm.",
+"sentence_example": "Lunch is not included in the workshop fee.",
+"sentence_translation": "Bữa trưa không được bao gồm trong phí hội thảo."
+},
+{
+"word": "materials",
+"pronunciation": "/məˈtɪr.i.əlz/",
+"meanings": [
+"(n) materials: tài liệu, vật liệu"
+],
+"phrase_example": "Study materials",
+"phrase_translation": "Tài liệu học.",
+"sentence_example": "All study materials will be provided.",
+"sentence_translation": "Tất cả tài liệu học sẽ được cung cấp."
+},
+{
+"word": "condition",
+"pronunciation": "/kənˈdɪʃ.ən/",
+"meanings": [
+"(n) condition: điều kiện"
+],
+"phrase_example": "Check the condition",
+"phrase_translation": "Kiểm tra điều kiện.",
+"sentence_example": "Registering before July 1 is the condition for the discount.",
+"sentence_translation": "Đăng ký trước ngày 1 tháng 7 là điều kiện để được giảm giá."
+},
+{
+"word": "final cost",
+"pronunciation": "/ˈfaɪ.nəl kɑːst/",
+"meanings": [
+"(n phrase) final cost: chi phí cuối cùng"
+],
+"phrase_example": "Find the final cost",
+"phrase_translation": "Tìm chi phí cuối cùng.",
+"sentence_example": "The final cost after the discount was 90 dollars.",
+"sentence_translation": "Chi phí cuối cùng sau khi giảm giá là 90 đô la."
+}
+],
+"quiz": [
+{
+"id": "q1",
+"question": "[Ý chính] Buổi 173 học trọng tâm gì?",
+"options": [
+"Part 7: triple passages",
+"Part 7: double passages",
+"Part 7: text message chain",
+"Part 6: chọn từ theo ngữ cảnh"
+],
+"correct_answer": "Part 7: triple passages",
+"explanation": "Buổi 173 tập trung vào dạng ba văn bản liên quan trong TOEIC Part 7."
+},
+{
+"id": "q2",
+"question": "[Khái niệm] Triple passages nghĩa là gì?",
+"options": [
+"Ba văn bản liên quan",
+"Hai văn bản liên quan",
+"Một văn bản đơn",
+"Một câu có chỗ trống"
+],
+"correct_answer": "Ba văn bản liên quan",
+"explanation": "Triple passages gồm ba văn bản có mối liên hệ với nhau."
+},
+{
+"id": "q3",
+"question": "[Strategy] Kỹ năng quan trọng nhất trong triple passages là gì?",
+"options": [
+"Xác định vai trò từng văn bản và đối chiếu bằng chứng",
+"Chỉ đọc văn bản đầu tiên",
+"Chọn đáp án dài nhất",
+"Bỏ qua ngày tháng và số tiền"
+],
+"correct_answer": "Xác định vai trò từng văn bản và đối chiếu bằng chứng",
+"explanation": "Dạng này yêu cầu hiểu ba văn bản liên hệ như thế nào."
+},
+{
+"id": "q4",
+"question": "[Comparison] Triple passages khác double passages ở điểm nào?",
+"options": [
+"Triple passages có ba văn bản, double passages có hai văn bản",
+"Triple passages chỉ có một câu",
+"Double passages luôn dễ hơn Part 5",
+"Triple passages không cần evidence"
+],
+"correct_answer": "Triple passages có ba văn bản, double passages có hai văn bản",
+"explanation": "Sự khác biệt cơ bản là số lượng văn bản cần đọc."
+},
+{
+"id": "q5",
+"question": "[Text roles] Văn bản nào thường xác nhận thanh toán?",
+"options": [
+"Receipt",
+"Headline",
+"Greeting",
+"Article title"
+],
+"correct_answer": "Receipt",
+"explanation": "Receipt là biên lai, thường xác nhận khoản thanh toán."
+},
+{
+"id": "q6",
+"question": "[Text roles] Advertisement thường có vai trò gì?",
+"options": [
+"Giới thiệu sản phẩm, dịch vụ, sự kiện hoặc ưu đãi",
+"Xác nhận thanh toán cuối cùng",
+"Chỉ là lời chào",
+"Chỉ là chữ ký"
+],
+"correct_answer": "Giới thiệu sản phẩm, dịch vụ, sự kiện hoặc ưu đãi",
+"explanation": "Advertisement thường cung cấp thông tin ban đầu và thu hút người đọc."
+},
+{
+"id": "q7",
+"question": "[Text roles] Email trong triple passages thường có vai trò gì?",
+"options": [
+"Phản hồi, hỏi thông tin hoặc đăng ký",
+"Luôn là hóa đơn",
+"Luôn là bài báo",
+"Không liên quan đến văn bản khác"
+],
+"correct_answer": "Phản hồi, hỏi thông tin hoặc đăng ký",
+"explanation": "Email thường thể hiện yêu cầu hoặc phản hồi của một người."
+},
+{
+"id": "q8",
+"question": "[Strategy] Sau khi nhìn nhanh ba văn bản, nên làm gì?",
+"options": [
+"Ghi vai trò của từng văn bản",
+"Đoán đáp án ngay",
+"Bỏ qua văn bản thứ ba",
+"Chỉ đọc câu cuối"
+],
+"correct_answer": "Ghi vai trò của từng văn bản",
+"explanation": "Biết vai trò từng văn bản giúp không bị rối thông tin."
+},
+{
+"id": "q9",
+"question": "[Question type] Câu hỏi 'What can be inferred about Anna?' thường cần gì?",
+"options": [
+"Bằng chứng từ một hoặc nhiều văn bản",
+"Chỉ cảm giác cá nhân",
+"Chỉ đáp án dài nhất",
+"Không cần đọc bài"
+],
+"correct_answer": "Bằng chứng từ một hoặc nhiều văn bản",
+"explanation": "Inference trong triple passages phải dựa trên evidence."
+},
+{
+"id": "q10",
+"question": "[Question type] Câu hỏi về total paid thường tìm ở đâu?",
+"options": [
+"Receipt",
+"Greeting",
+"Headline only",
+"Không có văn bản nào"
+],
+"correct_answer": "Receipt",
+"explanation": "Total paid thường nằm trong receipt hoặc invoice."
+},
+{
+"id": "q11",
+"question": "[Vocabulary] Receipt nghĩa là gì?",
+"options": [
+"Biên lai",
+"Quảng cáo",
+"Bài báo",
+"Tin nhắn"
+],
+"correct_answer": "Biên lai",
+"explanation": "Receipt là biên lai xác nhận thanh toán."
+},
+{
+"id": "q12",
+"question": "[Vocabulary] Register và sign up cùng nghĩa gần nhất là gì?",
+"options": [
+"Đăng ký",
+"Hủy bỏ",
+"Giao hàng",
+"Đóng cửa"
+],
+"correct_answer": "Đăng ký",
+"explanation": "Register và sign up đều có nghĩa là đăng ký."
+},
+{
+"id": "q13",
+"question": "[Vocabulary] Regular fee nghĩa là gì?",
+"options": [
+"Phí thông thường",
+"Phí thêm",
+"Giảm giá",
+"Biên lai"
+],
+"correct_answer": "Phí thông thường",
+"explanation": "Regular fee là mức phí gốc hoặc phí thông thường trước ưu đãi."
+},
+{
+"id": "q14",
+"question": "[Vocabulary] Total paid nghĩa là gì?",
+"options": [
+"Tổng số tiền đã trả",
+"Tài liệu học",
+"Điều kiện đăng ký",
+"Ngày diễn ra sự kiện"
+],
+"correct_answer": "Tổng số tiền đã trả",
+"explanation": "Total paid là số tiền người mua đã thanh toán."
+},
+{
+"id": "q15",
+"question": "[Vocabulary] Included nghĩa là gì?",
+"options": [
+"Được bao gồm",
+"Không có sẵn",
+"Bị hủy",
+"Được giao"
+],
+"correct_answer": "Được bao gồm",
+"explanation": "Included nghĩa là đã nằm trong phí hoặc trong gói."
+},
+{
+"id": "q16",
+"question": "[Vocabulary] Not included nghĩa là gì?",
+"options": [
+"Không được bao gồm",
+"Được bao gồm",
+"Đã giảm giá",
+"Đã thanh toán"
+],
+"correct_answer": "Không được bao gồm",
+"explanation": "Not included nghĩa là không nằm trong phí hoặc gói."
+},
+{
+"id": "q17",
+"question": "[Paraphrase] Receipt có thể được paraphrase thành gì?",
+"options": [
+"proof of payment",
+"free trial",
+"side entrance",
+"project overview"
+],
+"correct_answer": "proof of payment",
+"explanation": "Receipt là bằng chứng thanh toán."
+},
+{
+"id": "q18",
+"question": "[Paraphrase] Additional fee có thể được paraphrase thành gì?",
+"options": [
+"extra charge",
+"included item",
+"headline",
+"sender"
+],
+"correct_answer": "extra charge",
+"explanation": "Additional fee và extra charge đều là phí thêm."
+},
+{
+"id": "q19",
+"question": "[Paraphrase] Attend có thể được paraphrase thành gì?",
+"options": [
+"participate in",
+"cancel",
+"deliver",
+"reply"
+],
+"correct_answer": "participate in",
+"explanation": "Attend và participate in đều có nghĩa là tham dự."
+},
+{
+"id": "q20",
+"question": "[Reading sample] Passage 1 là loại văn bản gì?",
+"options": [
+"Advertisement",
+"Receipt",
+"Email",
+"Text message chain"
+],
+"correct_answer": "Advertisement",
+"explanation": "Passage 1 giới thiệu Summer Business English Workshop và ưu đãi."
+},
+{
+"id": "q21",
+"question": "[Reading sample] Passage 2 là loại văn bản gì?",
+"options": [
+"Email",
+"Receipt",
+"Advertisement",
+"Article"
+],
+"correct_answer": "Email",
+"explanation": "Passage 2 bắt đầu bằng Dear và kết thúc bằng Sincerely, Anna Nguyen."
+},
+{
+"id": "q22",
+"question": "[Reading sample] Passage 3 là loại văn bản gì?",
+"options": [
+"Receipt",
+"Advertisement",
+"Email",
+"Notice"
+],
+"correct_answer": "Receipt",
+"explanation": "Passage 3 có tiêu đề Receipt và thông tin total paid."
+},
+{
+"id": "q23",
+"question": "[Reading sample] Hội thảo được tổ chức vào ngày nào?",
+"options": [
+"July 15",
+"July 1",
+"June 20",
+"August 8"
+],
+"correct_answer": "July 15",
+"explanation": "Cả advertisement, email và receipt đều nhắc workshop on July 15."
+},
+{
+"id": "q24",
+"question": "[Reading sample] Hội thảo kéo dài bao lâu?",
+"options": [
+"One day",
+"Six weeks",
+"Two hours",
+"One year"
+],
+"correct_answer": "One day",
+"explanation": "Advertisement nói one-day Business English workshop."
+},
+{
+"id": "q25",
+"question": "[Reading sample] Hội thảo bao gồm nội dung nào?",
+"options": [
+"Email writing, meeting expressions and presentation practice",
+"Cooking, hotel booking and delivery",
+"Accounting, taxes and law only",
+"Sports, music and movies"
+],
+"correct_answer": "Email writing, meeting expressions and presentation practice",
+"explanation": "Advertisement nêu rõ ba nội dung này."
+},
+{
+"id": "q26",
+"question": "[Reading sample] Phí thông thường của workshop là bao nhiêu?",
+"options": [
+"$120",
+"$90",
+"$30",
+"$25"
+],
+"correct_answer": "$120",
+"explanation": "Advertisement và receipt đều ghi regular fee là $120."
+},
+{
+"id": "q27",
+"question": "[Reading sample] Điều kiện để nhận discount là gì?",
+"options": [
+"Register before July 1",
+"Register after July 15",
+"Buy lunch",
+"Bring a receipt"
+],
+"correct_answer": "Register before July 1",
+"explanation": "Advertisement nói participants who register before July 1 receive a 25 percent discount."
+},
+{
+"id": "q28",
+"question": "[Reading sample] Mức giảm giá là bao nhiêu?",
+"options": [
+"25 percent",
+"10 percent",
+"15 percent",
+"50 percent"
+],
+"correct_answer": "25 percent",
+"explanation": "Advertisement và receipt đều nêu discount 25 percent."
+},
+{
+"id": "q29",
+"question": "[Reading sample] Anna Nguyen muốn xác nhận điều gì trong email?",
+"options": [
+"Discount còn áp dụng không và materials có được bao gồm không",
+"Lối vào chính có đóng không",
+"Ghế văn phòng có giao không",
+"Báo cáo bán hàng có chỉnh sửa không"
+],
+"correct_answer": "Discount còn áp dụng không và materials có được bao gồm không",
+"explanation": "Email của Anna hỏi về early registration discount và study materials."
+},
+{
+"id": "q30",
+"question": "[Reading sample] Tổng số tiền Anna đã trả là bao nhiêu?",
+"options": [
+"$90",
+"$120",
+"$30",
+"$150"
+],
+"correct_answer": "$90",
+"explanation": "Receipt ghi Total paid: $90."
+},
+{
+"id": "q31",
+"question": "[Calculation] 25 percent của $120 là bao nhiêu?",
+"options": [
+"$30",
+"$90",
+"$25",
+"$120"
+],
+"correct_answer": "$30",
+"explanation": "25 phần trăm của 120 là 30."
+},
+{
+"id": "q32",
+"question": "[Calculation] Vì sao Anna trả $90?",
+"options": [
+"$120 trừ $30 discount",
+"$120 cộng $30",
+"$90 trừ $25",
+"$30 cộng $25"
+],
+"correct_answer": "$120 trừ $30 discount",
+"explanation": "Phí gốc $120, giảm 25 percent là $30, còn $90."
+},
+{
+"id": "q33",
+"question": "[Reading sample] Study materials có được bao gồm không?",
+"options": [
+"Có, materials are included",
+"Không, materials not included",
+"Chỉ bao gồm lunch",
+"Không được nhắc ở receipt"
+],
+"correct_answer": "Có, materials are included",
+"explanation": "Advertisement nói study materials will be provided và receipt ghi Materials: Included."
+},
+{
+"id": "q34",
+"question": "[Reading sample] Lunch có được bao gồm không?",
+"options": [
+"Không, lunch is not included",
+"Có, lunch is included",
+"Chỉ bao gồm nếu trả $120",
+"Không có thông tin nào"
+],
+"correct_answer": "Không, lunch is not included",
+"explanation": "Advertisement và receipt đều cho thấy lunch is not included."
+},
+{
+"id": "q35",
+"question": "[Cross-text] Thông tin nào được xác nhận bởi cả advertisement và receipt?",
+"options": [
+"Discount là 25 percent",
+"Lunch được bao gồm",
+"Workshop kéo dài sáu tuần",
+"Anna trả $120"
+],
+"correct_answer": "Discount là 25 percent",
+"explanation": "Advertisement nêu điều kiện discount 25 percent; receipt xác nhận Anna nhận discount 25 percent."
+},
+{
+"id": "q36",
+"question": "[Inference] Có thể suy luận điều gì về Anna?",
+"options": [
+"She qualified for the early registration discount.",
+"She paid the regular fee without a discount.",
+"She registered for a different workshop.",
+"She received free lunch."
+],
+"correct_answer": "She qualified for the early registration discount.",
+"explanation": "Receipt cho thấy Anna được giảm 25 percent và trả $90 thay vì $120."
+},
+{
+"id": "q37",
+"question": "[Inference] Có thể suy luận điều gì về lunch?",
+"options": [
+"Participants may need to pay for lunch separately or bring their own.",
+"Lunch is free for all participants.",
+"Lunch is the main topic of the workshop.",
+"Lunch is included in the $90."
+],
+"correct_answer": "Participants may need to pay for lunch separately or bring their own.",
+"explanation": "Vì lunch not included, người tham gia có thể cần tự lo bữa trưa."
+},
+{
+"id": "q38",
+"question": "[Trap] Đáp án nào sai theo ba văn bản?",
+"options": [
+"Anna paid $120 for the workshop.",
+"The workshop is on July 15.",
+"Materials are included.",
+"The discount is 25 percent."
+],
+"correct_answer": "Anna paid $120 for the workshop.",
+"explanation": "Receipt ghi Anna paid $90, không phải $120."
+},
+{
+"id": "q39",
+"question": "[Main idea] Ý chính tốt nhất của buổi 173 là gì?",
+"options": [
+"Triple passages yêu cầu đọc ba văn bản liên quan, xác định vai trò từng văn bản và đối chiếu evidence.",
+"Triple passages chỉ cần đọc văn bản đầu tiên.",
+"Triple passages không có câu hỏi cross-text.",
+"Triple passages chỉ hỏi phát âm."
+],
+"correct_answer": "Triple passages yêu cầu đọc ba văn bản liên quan, xác định vai trò từng văn bản và đối chiếu evidence.",
+"explanation": "Buổi học nhấn mạnh vai trò của từng văn bản và liên kết thông tin."
+},
+{
+"id": "q40",
+"question": "[Ghi nhớ] Bài học quan trọng nhất của buổi 173 là gì?",
+"options": [
+"Trong triple passages, câu khó thường cần đối chiếu hai hoặc ba văn bản trước khi chọn đáp án.",
+"Trong triple passages, cứ thấy từ giống là chọn ngay.",
+"Không cần đọc receipt vì advertisement đã đủ.",
+"Không cần chú ý included và not included."
+],
+"correct_answer": "Trong triple passages, câu khó thường cần đối chiếu hai hoặc ba văn bản trước khi chọn đáp án.",
+"explanation": "Dạng này bẫy ở thông tin rải rác, điều kiện, tổng tiền và thông tin được/không được bao gồm."
+}
+]
 }

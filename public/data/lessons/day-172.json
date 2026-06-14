@@ -1,5 +1,652 @@
 {
-  "theory_html": "<h2>Part 7: double passages</h2><p>Nội dung đang được biên soạn cho buổi 172.</p>",
-  "vocabulary": [],
-  "quiz": []
+"theory_html": "<h2>Buổi 172: Part 7 - Double Passages</h2><p>Buổi 172 tiếp tục học <strong>TOEIC Reading Part 7</strong>. Ở buổi 166, em đã học single passage. Từ buổi 167 đến 171, em đã học nhiều loại văn bản đơn như email, advertisement, notice/announcement, article và text message chain. Buổi này chuyển sang một bước khó hơn: <strong>double passages</strong>, nghĩa là đọc <strong>hai văn bản liên quan với nhau</strong> và trả lời câu hỏi dựa trên một hoặc cả hai văn bản.</p><p>Double passages khó hơn single passage vì thông tin không nằm trong một văn bản duy nhất. Một câu hỏi có thể yêu cầu em đọc văn bản thứ nhất, văn bản thứ hai, hoặc kết hợp cả hai. Ví dụ, văn bản thứ nhất là một email đặt hàng, văn bản thứ hai là hóa đơn; câu hỏi có thể hỏi sản phẩm nào đã được đặt, giá cuối cùng là bao nhiêu, hoặc điều gì đã thay đổi giữa email và hóa đơn. Vì vậy, kỹ năng quan trọng nhất của double passages là <strong>liên kết thông tin giữa hai văn bản</strong>.</p><h3>1. Mục tiêu bài học</h3><ul><li>Hiểu double passages là gì trong TOEIC Part 7.</li><li>Biết các cặp văn bản thường gặp trong double passages.</li><li>Biết đọc từng văn bản riêng rồi liên kết thông tin giữa hai văn bản.</li><li>Biết phân biệt câu hỏi chỉ cần một văn bản và câu hỏi cần cả hai văn bản.</li><li>Biết tìm keyword và evidence ở đúng văn bản.</li><li>Biết nhận diện thông tin thay đổi, bổ sung hoặc xác nhận giữa hai văn bản.</li><li>Biết xử lý câu hỏi detail, inference, purpose và cross-text questions.</li><li>Biết tránh bẫy nhầm thông tin của văn bản 1 với văn bản 2.</li></ul><h3>2. Double passages là gì?</h3><p><strong>Double passages</strong> là dạng bài có hai văn bản đi cùng nhau. Hai văn bản này thường có liên hệ về cùng một sự việc, cùng một người, cùng một sản phẩm, cùng một lịch trình hoặc cùng một giao dịch.</p><p>Ví dụ các cặp văn bản thường gặp:</p><ul><li>Email + invoice: email đặt hàng và hóa đơn.</li><li>Email + schedule: email hỏi lịch và lịch trình.</li><li>Advertisement + email: quảng cáo và email phản hồi.</li><li>Notice + email: thông báo và email hỏi thêm thông tin.</li><li>Article + email: bài viết và email trao đổi về bài viết.</li><li>Text message chain + notice: tin nhắn và thông báo liên quan.</li><li>Receipt + email: biên lai và email xác nhận.</li></ul><p>Điểm quan trọng là hai văn bản không đứng riêng hoàn toàn. Chúng có ít nhất một mối liên hệ. Em cần tìm mối liên hệ đó.</p><h3>3. Double passages khác single passage thế nào?</h3><table border='1' cellpadding='6' cellspacing='0'><tr><th>Dạng bài</th><th>Đặc điểm</th><th>Kỹ năng trọng tâm</th></tr><tr><td>Single passage</td><td>Một văn bản</td><td>Tìm ý chính, chi tiết, suy luận trong một văn bản</td></tr><tr><td>Double passages</td><td>Hai văn bản liên quan</td><td>Liên kết thông tin giữa hai văn bản</td></tr><tr><td>Triple passages</td><td>Ba văn bản liên quan</td><td>Tổng hợp nhiều nguồn thông tin</td></tr></table><p>Trong double passages, một số câu hỏi chỉ cần đọc một văn bản. Nhưng các câu khó thường yêu cầu em kết hợp cả hai văn bản. Đây là lý do người học dễ sai nếu chỉ đọc một phần.</p><h3>4. Các cặp văn bản thường gặp</h3><table border='1' cellpadding='6' cellspacing='0'><tr><th>Cặp văn bản</th><th>Mối liên hệ thường gặp</th><th>Thông tin cần chú ý</th></tr><tr><td>Email + invoice</td><td>yêu cầu mua hàng và hóa đơn thanh toán</td><td>sản phẩm, số lượng, giá, giảm giá, ngày thanh toán</td></tr><tr><td>Email + schedule</td><td>hỏi lịch và lịch chính thức</td><td>ngày, giờ, địa điểm, thay đổi lịch</td></tr><tr><td>Advertisement + email</td><td>quảng cáo và người đọc phản hồi</td><td>ưu đãi, điều kiện, người đăng ký, câu hỏi của khách</td></tr><tr><td>Notice + email</td><td>thông báo và phản hồi cá nhân</td><td>quy định, thời gian, người bị ảnh hưởng, yêu cầu thêm</td></tr><tr><td>Article + message</td><td>bài viết và trao đổi về nội dung bài viết</td><td>sự kiện, người liên quan, kế hoạch tiếp theo</td></tr></table><p>Khi nhìn thấy hai văn bản, hãy hỏi: <strong>Văn bản 2 bổ sung, phản hồi, xác nhận hay thay đổi điều gì từ văn bản 1?</strong></p><h3>5. Các loại câu hỏi trong double passages</h3><p>Double passages có các dạng câu hỏi quen thuộc của Part 7, nhưng có thêm dạng liên kết hai văn bản.</p><table border='1' cellpadding='6' cellspacing='0'><tr><th>Dạng câu hỏi</th><th>Ví dụ</th><th>Cách làm</th></tr><tr><td>Main idea</td><td>What are the passages mainly about?</td><td>Xác định sự việc chung của cả hai văn bản</td></tr><tr><td>Detail</td><td>What item did Ms. Lee order?</td><td>Tìm keyword trong văn bản phù hợp</td></tr><tr><td>Purpose</td><td>Why did Mr. Kim write the email?</td><td>Tìm mục đích trong email hoặc văn bản liên quan</td></tr><tr><td>Inference</td><td>What can be inferred about the order?</td><td>Kết hợp bằng chứng từ hai văn bản</td></tr><tr><td>Cross-text</td><td>What change is shown in the invoice?</td><td>So sánh thông tin ở cả hai văn bản</td></tr></table><p>Dạng cross-text là dạng quan trọng nhất trong double passages. Cross-text nghĩa là câu hỏi yêu cầu dùng thông tin từ cả hai văn bản.</p><h3>6. Quy trình đọc double passages</h3><ol><li><strong>Đọc nhanh tiêu đề/loại văn bản của cả hai văn bản.</strong> Ví dụ: Email và Invoice.</li><li><strong>Xác định mối liên hệ.</strong> Văn bản 2 phản hồi, xác nhận hay bổ sung văn bản 1?</li><li><strong>Đọc văn bản 1 để hiểu bối cảnh.</strong> Ai viết, viết về việc gì?</li><li><strong>Đọc văn bản 2 để tìm thông tin bổ sung.</strong> Có gì mới, thay đổi hoặc xác nhận?</li><li><strong>Đọc câu hỏi.</strong> Xác định câu hỏi cần văn bản 1, văn bản 2 hay cả hai.</li><li><strong>Tìm keyword.</strong> Tên người, ngày, sản phẩm, giá, địa điểm, số lượng.</li><li><strong>Quay lại đúng văn bản để tìm evidence.</strong></li><li><strong>Nếu là câu hỏi liên kết, đối chiếu hai văn bản trước khi chọn.</strong></li></ol><h3>7. Cách biết câu hỏi cần một hay hai văn bản</h3><p>Một số câu hỏi có thể trả lời bằng một văn bản duy nhất. Một số câu hỏi phải dùng cả hai.</p><ul><li>Nếu câu hỏi hỏi một chi tiết chỉ xuất hiện trong email, có thể chỉ cần văn bản 1.</li><li>Nếu câu hỏi hỏi tổng tiền trên invoice, có thể chỉ cần văn bản 2.</li><li>Nếu câu hỏi hỏi điều gì thay đổi so với yêu cầu ban đầu, cần cả hai văn bản.</li><li>Nếu câu hỏi hỏi điều gì có thể suy luận về người mua sau khi đọc hóa đơn, có thể cần cả hai.</li><li>Nếu đáp án chứa thông tin từ cả email và invoice, hãy kiểm tra cả hai.</li></ul><p>Dấu hiệu câu hỏi cần cả hai văn bản thường là các từ như <strong>according to both passages</strong>, <strong>what can be inferred</strong>, <strong>what change</strong>, <strong>why</strong>, <strong>which item</strong> khi thông tin nằm rải rác.</p><h3>8. Các quan hệ thông tin giữa hai văn bản</h3><table border='1' cellpadding='6' cellspacing='0'><tr><th>Quan hệ</th><th>Ý nghĩa</th><th>Ví dụ</th></tr><tr><td>Xác nhận</td><td>Văn bản 2 xác nhận điều trong văn bản 1</td><td>Email đặt 20 ghế, invoice ghi 20 chairs</td></tr><tr><td>Bổ sung</td><td>Văn bản 2 thêm thông tin mới</td><td>Email hỏi giá, invoice thêm phí giao hàng</td></tr><tr><td>Thay đổi</td><td>Văn bản 2 cho thấy thông tin khác với ban đầu</td><td>Email đặt 20 ghế, invoice chỉ có 18 ghế</td></tr><tr><td>Giải thích</td><td>Văn bản 2 giải thích lý do</td><td>Email phàn nàn giao chậm, notice nói bảo trì kho hàng</td></tr><tr><td>Hành động tiếp theo</td><td>Văn bản 2 cho biết ai sẽ làm gì sau đó</td><td>Email yêu cầu xác nhận, message nói đã xác nhận</td></tr></table><p>Khi làm bài, hãy đặc biệt chú ý các điểm khác nhau giữa hai văn bản. TOEIC rất hay hỏi chỗ thay đổi hoặc bổ sung.</p><h3>9. Bẫy thường gặp trong double passages</h3><ul><li>Chỉ đọc văn bản 1 và bỏ qua văn bản 2.</li><li>Nhầm thông tin ban đầu với thông tin đã cập nhật.</li><li>Nhầm người gửi của văn bản 1 với người nhận của văn bản 2.</li><li>Chọn đáp án có từ giống một văn bản nhưng mâu thuẫn văn bản còn lại.</li><li>Không phân biệt số lượng đặt hàng và số lượng thực tế trên invoice.</li><li>Không chú ý discount, delivery fee, tax hoặc deadline.</li><li>Suy luận quá xa khi chỉ có một bằng chứng yếu.</li><li>Không quay lại đúng văn bản để kiểm tra evidence.</li></ul><h3>10. Paraphrase trong double passages</h3><p>Double passages thường dùng paraphrase giữa hai văn bản hoặc giữa câu hỏi và văn bản.</p><table border='1' cellpadding='6' cellspacing='0'><tr><th>Văn bản 1</th><th>Văn bản 2/câu hỏi có thể là</th><th>Nghĩa</th></tr><tr><td>order</td><td>purchase</td><td>đơn hàng, mua hàng</td></tr><tr><td>delivery fee</td><td>shipping charge</td><td>phí giao hàng</td></tr><tr><td>discount</td><td>reduced price</td><td>giảm giá</td></tr><tr><td>final amount</td><td>total cost</td><td>tổng tiền cuối cùng</td></tr><tr><td>available</td><td>in stock</td><td>có sẵn trong kho</td></tr><tr><td>confirm</td><td>verify</td><td>xác nhận</td></tr></table><p>Nếu thấy từ khác nhau nhưng cùng nghĩa, hãy nối hai thông tin lại với nhau.</p><h3>11. Bài đọc mẫu: Email and Invoice</h3><p><strong>Passage 1 - Email</strong></p><p><strong>Subject: Office Chair Order</strong></p><p>Dear Mr. Chen,</p><p>I would like to order 20 black office chairs for our new training room. If possible, please deliver them by May 12. I saw on your website that orders of 15 chairs or more receive a 10 percent discount. Please let me know the final cost, including delivery.</p><p>Best regards,<br>Laura Kim</p><p><strong>Passage 2 - Invoice</strong></p><p><strong>Office Furniture Direct</strong></p><p>Customer: Laura Kim<br>Item: Black office chairs<br>Quantity: 20<br>Original price: $80 per chair<br>Discount: 10 percent<br>Delivery fee: $50<br>Delivery date: May 12<br>Total amount due: $1,490</p><p><strong>Word count:</strong> 98 words.</p><h3>12. Dịch gợi ý</h3><p><strong>Văn bản 1 - Email</strong></p><p><strong>Chủ đề: Đơn hàng ghế văn phòng</strong></p><p>Gửi ông Chen,</p><p>Tôi muốn đặt 20 chiếc ghế văn phòng màu đen cho phòng đào tạo mới của chúng tôi. Nếu có thể, vui lòng giao chúng trước ngày 12 tháng 5. Tôi thấy trên trang web của ông rằng các đơn hàng từ 15 chiếc ghế trở lên được giảm giá 10 phần trăm. Vui lòng cho tôi biết chi phí cuối cùng, bao gồm cả giao hàng.</p><p>Trân trọng,<br>Laura Kim</p><p><strong>Văn bản 2 - Hóa đơn</strong></p><p><strong>Office Furniture Direct</strong></p><p>Khách hàng: Laura Kim<br>Mặt hàng: Ghế văn phòng màu đen<br>Số lượng: 20<br>Giá gốc: 80 đô la mỗi ghế<br>Giảm giá: 10 phần trăm<br>Phí giao hàng: 50 đô la<br>Ngày giao hàng: 12 tháng 5<br>Tổng tiền phải trả: 1.490 đô la</p><h3>13. Phân tích bài đọc</h3><ul><li><strong>Email</strong> cho biết Laura Kim muốn đặt hàng.</li><li><strong>Invoice</strong> xác nhận chi tiết đơn hàng và tổng tiền.</li><li><strong>20 black office chairs</strong> xuất hiện ở cả hai văn bản.</li><li><strong>May 12</strong> là ngày giao hàng mong muốn và cũng là ngày giao trên invoice.</li><li><strong>10 percent discount</strong> được nhắc trong email và áp dụng trong invoice.</li><li><strong>$80 per chair</strong> là giá gốc mỗi ghế.</li><li><strong>Delivery fee: $50</strong> là thông tin bổ sung trong invoice.</li><li><strong>Total amount due: $1,490</strong> là tổng tiền cuối cùng.</li><li><strong>orders of 15 chairs or more</strong> giải thích vì sao được giảm giá.</li><li><strong>including delivery</strong> liên hệ với delivery fee trong invoice.</li></ul><h3>14. Mini listening script</h3><p><strong>Script:</strong> Listen to a short lesson about double passages in TOEIC Part 7. Double passages include two related texts, such as an email and an invoice. First, identify the type of each text. Then find the relationship between them. One text may request something, and the other may confirm it. Some questions need only one text, but harder questions require information from both texts. Always check names, dates, quantities, prices, discounts and fees. A correct answer must be supported by evidence from the correct passage or from both passages.</p><p><strong>Keywords:</strong> double passages, related texts, email, invoice, order, purchase, quantity, original price, discount, delivery fee, total amount, final cost, customer, item, delivery date, evidence, cross-text question.</p><h3>15. Tự luyện trên lớp</h3><p><strong>Bài 1: Nhận diện thông tin trong hai văn bản</strong></p><ul><li>Văn bản 1: email đặt hàng.</li><li>Văn bản 2: invoice xác nhận đơn hàng.</li><li>Người đặt hàng: Laura Kim.</li><li>Mặt hàng: black office chairs.</li><li>Số lượng: 20.</li><li>Giá gốc: $80 per chair.</li><li>Giảm giá: 10 percent.</li><li>Phí giao hàng: $50.</li><li>Ngày giao hàng: May 12.</li><li>Tổng tiền: $1,490.</li></ul><p><strong>Bài 2: Cách tính tổng tiền</strong></p><p>20 chairs x $80 = $1,600. Giảm giá 10 percent nghĩa là giảm $160. Sau giảm giá còn $1,440. Cộng delivery fee $50 thì tổng tiền là $1,490.</p><p><strong>Bài 3: Tự hỏi khi làm double passages</strong></p><ul><li>Hai văn bản thuộc loại nào?</li><li>Chúng liên hệ với nhau như thế nào?</li><li>Câu hỏi cần văn bản 1, văn bản 2 hay cả hai?</li><li>Keyword nằm ở văn bản nào?</li><li>Có thông tin nào được cập nhật hoặc bổ sung không?</li><li>Đáp án có bằng chứng ở đâu?</li></ul><h3>16. Bài tập về nhà</h3><ul><li>Học 15 từ vựng/cụm từ của buổi 172.</li><li>Đọc lại email và invoice mẫu, tự viết 5 câu hỏi Part 7.</li><li>Gạch chân bằng chứng trong từng văn bản.</li><li>Tạo một cặp double passages gồm email đặt phòng và confirmation message.</li><li>Tạo 5 câu hỏi, trong đó ít nhất 2 câu cần dùng cả hai văn bản.</li><li>Ôn paraphrase: order/purchase, delivery fee/shipping charge, discount/reduced price, final amount/total cost, available/in stock.</li></ul><h3>17. Ghi nhớ cuối buổi</h3><p>Trong TOEIC Part 7 dạng <strong>double passages</strong>, em phải đọc hai văn bản liên quan và biết liên kết thông tin giữa chúng. Hãy xác định loại văn bản, mối quan hệ, keyword và evidence. Một số câu hỏi chỉ cần một văn bản, nhưng câu khó thường cần cả hai. Đặc biệt chú ý thông tin được xác nhận, bổ sung hoặc thay đổi giữa hai văn bản. Đừng chọn đáp án chỉ vì thấy một từ giống trong một văn bản; hãy kiểm tra xem đáp án có khớp với cả bối cảnh hay không.</p>",
+"vocabulary": [
+{
+"word": "double passages",
+"pronunciation": "/ˈdʌb.əl ˈpæs.ɪdʒɪz/",
+"meanings": [
+"(n phrase) double passages: hai văn bản liên quan"
+],
+"phrase_example": "Practice double passages",
+"phrase_translation": "Luyện hai văn bản liên quan.",
+"sentence_example": "Double passages require students to connect information from two texts.",
+"sentence_translation": "Double passages yêu cầu học sinh liên kết thông tin từ hai văn bản."
+},
+{
+"word": "related texts",
+"pronunciation": "/rɪˈleɪ.t̬ɪd teksts/",
+"meanings": [
+"(n phrase) related texts: các văn bản có liên quan"
+],
+"phrase_example": "Read related texts",
+"phrase_translation": "Đọc các văn bản có liên quan.",
+"sentence_example": "An email and an invoice can be related texts.",
+"sentence_translation": "Một email và một hóa đơn có thể là các văn bản liên quan."
+},
+{
+"word": "invoice",
+"pronunciation": "/ˈɪn.vɔɪs/",
+"meanings": [
+"(n) invoice: hóa đơn"
+],
+"phrase_example": "Check the invoice",
+"phrase_translation": "Kiểm tra hóa đơn.",
+"sentence_example": "The invoice shows the quantity, discount and total amount.",
+"sentence_translation": "Hóa đơn cho biết số lượng, giảm giá và tổng tiền."
+},
+{
+"word": "order",
+"pronunciation": "/ˈɔːr.dɚ/",
+"meanings": [
+"(n/v) order: đơn hàng; đặt hàng"
+],
+"phrase_example": "Place an order",
+"phrase_translation": "Đặt một đơn hàng.",
+"sentence_example": "Laura Kim wants to order 20 office chairs.",
+"sentence_translation": "Laura Kim muốn đặt 20 chiếc ghế văn phòng."
+},
+{
+"word": "purchase",
+"pronunciation": "/ˈpɝː.tʃəs/",
+"meanings": [
+"(n/v) purchase: sự mua hàng; mua"
+],
+"phrase_example": "Make a purchase",
+"phrase_translation": "Thực hiện mua hàng.",
+"sentence_example": "The invoice confirms the purchase.",
+"sentence_translation": "Hóa đơn xác nhận việc mua hàng."
+},
+{
+"word": "quantity",
+"pronunciation": "/ˈkwɑːn.tə.t̬i/",
+"meanings": [
+"(n) quantity: số lượng"
+],
+"phrase_example": "Check the quantity",
+"phrase_translation": "Kiểm tra số lượng.",
+"sentence_example": "The quantity on the invoice is 20 chairs.",
+"sentence_translation": "Số lượng trên hóa đơn là 20 chiếc ghế."
+},
+{
+"word": "original price",
+"pronunciation": "/əˈrɪdʒ.ən.əl praɪs/",
+"meanings": [
+"(n phrase) original price: giá gốc"
+],
+"phrase_example": "Original price per chair",
+"phrase_translation": "Giá gốc mỗi chiếc ghế.",
+"sentence_example": "The original price is 80 dollars per chair.",
+"sentence_translation": "Giá gốc là 80 đô la mỗi chiếc ghế."
+},
+{
+"word": "discount",
+"pronunciation": "/ˈdɪs.kaʊnt/",
+"meanings": [
+"(n/v) discount: sự giảm giá; giảm giá"
+],
+"phrase_example": "Receive a discount",
+"phrase_translation": "Nhận giảm giá.",
+"sentence_example": "Orders of 15 chairs or more receive a 10 percent discount.",
+"sentence_translation": "Các đơn hàng từ 15 chiếc ghế trở lên được giảm giá 10 phần trăm."
+},
+{
+"word": "delivery fee",
+"pronunciation": "/dɪˈlɪv.ɚ.i fiː/",
+"meanings": [
+"(n phrase) delivery fee: phí giao hàng"
+],
+"phrase_example": "Include the delivery fee",
+"phrase_translation": "Bao gồm phí giao hàng.",
+"sentence_example": "The delivery fee is 50 dollars.",
+"sentence_translation": "Phí giao hàng là 50 đô la."
+},
+{
+"word": "total amount",
+"pronunciation": "/ˈtoʊ.t̬əl əˈmaʊnt/",
+"meanings": [
+"(n phrase) total amount: tổng số tiền"
+],
+"phrase_example": "Total amount due",
+"phrase_translation": "Tổng tiền phải trả.",
+"sentence_example": "The total amount due is 1,490 dollars.",
+"sentence_translation": "Tổng tiền phải trả là 1.490 đô la."
+},
+{
+"word": "final cost",
+"pronunciation": "/ˈfaɪ.nəl kɑːst/",
+"meanings": [
+"(n phrase) final cost: chi phí cuối cùng"
+],
+"phrase_example": "Calculate the final cost",
+"phrase_translation": "Tính chi phí cuối cùng.",
+"sentence_example": "Laura asks Mr. Chen to tell her the final cost.",
+"sentence_translation": "Laura yêu cầu ông Chen cho cô biết chi phí cuối cùng."
+},
+{
+"word": "customer",
+"pronunciation": "/ˈkʌs.tə.mɚ/",
+"meanings": [
+"(n) customer: khách hàng"
+],
+"phrase_example": "Customer name",
+"phrase_translation": "Tên khách hàng.",
+"sentence_example": "The customer on the invoice is Laura Kim.",
+"sentence_translation": "Khách hàng trên hóa đơn là Laura Kim."
+},
+{
+"word": "item",
+"pronunciation": "/ˈaɪ.t̬əm/",
+"meanings": [
+"(n) item: mặt hàng, món hàng"
+],
+"phrase_example": "Order item",
+"phrase_translation": "Mặt hàng được đặt.",
+"sentence_example": "The item on the invoice is black office chairs.",
+"sentence_translation": "Mặt hàng trên hóa đơn là ghế văn phòng màu đen."
+},
+{
+"word": "delivery date",
+"pronunciation": "/dɪˈlɪv.ɚ.i deɪt/",
+"meanings": [
+"(n phrase) delivery date: ngày giao hàng"
+],
+"phrase_example": "Confirm the delivery date",
+"phrase_translation": "Xác nhận ngày giao hàng.",
+"sentence_example": "The delivery date is May 12.",
+"sentence_translation": "Ngày giao hàng là ngày 12 tháng 5."
+},
+{
+"word": "cross-text question",
+"pronunciation": "/krɔːs tekst ˈkwes.tʃən/",
+"meanings": [
+"(n phrase) cross-text question: câu hỏi cần liên kết nhiều văn bản"
+],
+"phrase_example": "Answer a cross-text question",
+"phrase_translation": "Trả lời câu hỏi liên kết nhiều văn bản.",
+"sentence_example": "A cross-text question may require evidence from both passages.",
+"sentence_translation": "Một câu hỏi liên kết nhiều văn bản có thể cần bằng chứng từ cả hai văn bản."
+}
+],
+"quiz": [
+{
+"id": "q1",
+"question": "[Ý chính] Buổi 172 học trọng tâm gì?",
+"options": [
+"Part 7: double passages",
+"Part 7: text message chain",
+"Part 7: article",
+"Part 6: chọn câu chèn"
+],
+"correct_answer": "Part 7: double passages",
+"explanation": "Buổi 172 tập trung vào dạng hai văn bản liên quan trong TOEIC Part 7."
+},
+{
+"id": "q2",
+"question": "[Khái niệm] Double passages nghĩa là gì?",
+"options": [
+"Hai văn bản liên quan",
+"Một văn bản đơn",
+"Một câu có chỗ trống",
+"Một bài nghe"
+],
+"correct_answer": "Hai văn bản liên quan",
+"explanation": "Double passages gồm hai văn bản có liên hệ với nhau."
+},
+{
+"id": "q3",
+"question": "[Strategy] Kỹ năng quan trọng nhất trong double passages là gì?",
+"options": [
+"Liên kết thông tin giữa hai văn bản",
+"Chỉ đọc văn bản đầu tiên",
+"Chọn đáp án dài nhất",
+"Dịch từng từ không cần câu hỏi"
+],
+"correct_answer": "Liên kết thông tin giữa hai văn bản",
+"explanation": "Câu khó thường yêu cầu dùng thông tin từ cả hai văn bản."
+},
+{
+"id": "q4",
+"question": "[Text pair] Email + invoice thường liên quan đến điều gì?",
+"options": [
+"Đơn hàng và thanh toán",
+"Bài báo và xu hướng xã hội",
+"Thông báo bảo trì và bản đồ",
+"Lời chào và lời kết"
+],
+"correct_answer": "Đơn hàng và thanh toán",
+"explanation": "Email có thể đặt hàng, còn invoice xác nhận chi tiết thanh toán."
+},
+{
+"id": "q5",
+"question": "[Text pair] Advertisement + email thường liên quan đến điều gì?",
+"options": [
+"Quảng cáo và phản hồi của người đọc",
+"Hóa đơn và biên lai",
+"Lịch họp và danh sách nhân viên",
+"Tin nhắn và thời tiết"
+],
+"correct_answer": "Quảng cáo và phản hồi của người đọc",
+"explanation": "Người đọc có thể gửi email hỏi hoặc đăng ký sau khi xem quảng cáo."
+},
+{
+"id": "q6",
+"question": "[Question type] Cross-text question là gì?",
+"options": [
+"Câu hỏi cần liên kết thông tin từ nhiều văn bản",
+"Câu hỏi chỉ hỏi phát âm",
+"Câu hỏi chỉ hỏi một từ loại",
+"Câu hỏi không cần đọc bài"
+],
+"correct_answer": "Câu hỏi cần liên kết thông tin từ nhiều văn bản",
+"explanation": "Cross-text question thường cần bằng chứng từ cả hai văn bản."
+},
+{
+"id": "q7",
+"question": "[Strategy] Bước đầu tiên khi làm double passages là gì?",
+"options": [
+"Đọc nhanh loại văn bản của cả hai văn bản",
+"Chỉ đọc đáp án",
+"Bỏ qua văn bản 2",
+"Chọn câu có số lớn nhất"
+],
+"correct_answer": "Đọc nhanh loại văn bản của cả hai văn bản",
+"explanation": "Cần biết hai văn bản thuộc loại gì để xác định mối liên hệ."
+},
+{
+"id": "q8",
+"question": "[Strategy] Nếu câu hỏi hỏi 'what change is shown', thường cần làm gì?",
+"options": [
+"So sánh thông tin ở hai văn bản",
+"Chỉ đọc tiêu đề",
+"Chỉ đọc lời chào",
+"Không cần bằng chứng"
+],
+"correct_answer": "So sánh thông tin ở hai văn bản",
+"explanation": "Câu hỏi về thay đổi thường yêu cầu đối chiếu văn bản 1 và văn bản 2."
+},
+{
+"id": "q9",
+"question": "[Relationship] Nếu văn bản 2 cho biết thông tin giống văn bản 1, đó là quan hệ gì?",
+"options": [
+"Xác nhận",
+"Mâu thuẫn hoàn toàn",
+"Không liên quan",
+"Quảng cáo"
+],
+"correct_answer": "Xác nhận",
+"explanation": "Văn bản 2 xác nhận điều đã nêu trong văn bản 1."
+},
+{
+"id": "q10",
+"question": "[Relationship] Nếu văn bản 2 thêm phí giao hàng mà văn bản 1 chưa nêu rõ, đó là quan hệ gì?",
+"options": [
+"Bổ sung",
+"Xóa bỏ",
+"Không liên quan",
+"Lời chào"
+],
+"correct_answer": "Bổ sung",
+"explanation": "Văn bản 2 thêm thông tin mới vào bối cảnh đã có."
+},
+{
+"id": "q11",
+"question": "[Vocabulary] Invoice nghĩa là gì?",
+"options": [
+"Hóa đơn",
+"Lối vào",
+"Bài viết",
+"Tin nhắn"
+],
+"correct_answer": "Hóa đơn",
+"explanation": "Invoice là hóa đơn ghi chi tiết đơn hàng và thanh toán."
+},
+{
+"id": "q12",
+"question": "[Vocabulary] Quantity nghĩa là gì?",
+"options": [
+"Số lượng",
+"Giá gốc",
+"Người gửi",
+"Thông báo"
+],
+"correct_answer": "Số lượng",
+"explanation": "Quantity là số lượng của mặt hàng."
+},
+{
+"id": "q13",
+"question": "[Vocabulary] Original price nghĩa là gì?",
+"options": [
+"Giá gốc",
+"Tổng tiền cuối",
+"Phí giao hàng",
+"Ngày giao hàng"
+],
+"correct_answer": "Giá gốc",
+"explanation": "Original price là giá ban đầu trước giảm giá."
+},
+{
+"id": "q14",
+"question": "[Vocabulary] Delivery fee nghĩa là gì?",
+"options": [
+"Phí giao hàng",
+"Giá gốc",
+"Mã giảm giá",
+"Người nhận"
+],
+"correct_answer": "Phí giao hàng",
+"explanation": "Delivery fee là khoản phí cho việc giao hàng."
+},
+{
+"id": "q15",
+"question": "[Vocabulary] Total amount due nghĩa là gì?",
+"options": [
+"Tổng tiền phải trả",
+"Số lượng mặt hàng",
+"Ngày giao hàng",
+"Tên khách hàng"
+],
+"correct_answer": "Tổng tiền phải trả",
+"explanation": "Total amount due là tổng số tiền cuối cùng cần thanh toán."
+},
+{
+"id": "q16",
+"question": "[Paraphrase] Order có thể được paraphrase thành gì?",
+"options": [
+"purchase",
+"entrance",
+"article",
+"greeting"
+],
+"correct_answer": "purchase",
+"explanation": "Order và purchase đều có thể liên quan đến việc mua/đặt hàng."
+},
+{
+"id": "q17",
+"question": "[Paraphrase] Delivery fee có thể được paraphrase thành gì?",
+"options": [
+"shipping charge",
+"main idea",
+"staff member",
+"lead sentence"
+],
+"correct_answer": "shipping charge",
+"explanation": "Delivery fee và shipping charge đều là phí giao hàng."
+},
+{
+"id": "q18",
+"question": "[Paraphrase] Final amount có thể được paraphrase thành gì?",
+"options": [
+"total cost",
+"side entrance",
+"free trial",
+"project overview"
+],
+"correct_answer": "total cost",
+"explanation": "Final amount và total cost đều chỉ tổng tiền cuối cùng."
+},
+{
+"id": "q19",
+"question": "[Reading sample] Văn bản 1 là loại văn bản gì?",
+"options": [
+"Email",
+"Invoice",
+"Article",
+"Notice"
+],
+"correct_answer": "Email",
+"explanation": "Passage 1 có subject, Dear và Best regards, nên là email."
+},
+{
+"id": "q20",
+"question": "[Reading sample] Văn bản 2 là loại văn bản gì?",
+"options": [
+"Invoice",
+"Email",
+"Advertisement",
+"Text message chain"
+],
+"correct_answer": "Invoice",
+"explanation": "Passage 2 ghi Office Furniture Direct, Customer, Item, Quantity, Total amount due."
+},
+{
+"id": "q21",
+"question": "[Reading sample] Ai là khách hàng trên invoice?",
+"options": [
+"Laura Kim",
+"Mr. Chen",
+"Office Furniture Direct",
+"Maria Lopez"
+],
+"correct_answer": "Laura Kim",
+"explanation": "Invoice ghi Customer: Laura Kim."
+},
+{
+"id": "q22",
+"question": "[Reading sample] Laura Kim muốn đặt gì?",
+"options": [
+"20 black office chairs",
+"15 white tables",
+"A training course",
+"A computer program"
+],
+"correct_answer": "20 black office chairs",
+"explanation": "Email nói Laura muốn order 20 black office chairs."
+},
+{
+"id": "q23",
+"question": "[Reading sample] Ghế dùng cho nơi nào?",
+"options": [
+"A new training room",
+"A restaurant kitchen",
+"A parking area",
+"A hotel lobby"
+],
+"correct_answer": "A new training room",
+"explanation": "Email nói ghế dành cho our new training room."
+},
+{
+"id": "q24",
+"question": "[Reading sample] Ngày giao hàng được yêu cầu là ngày nào?",
+"options": [
+"May 12",
+"June 20",
+"March 15",
+"August 8"
+],
+"correct_answer": "May 12",
+"explanation": "Email yêu cầu deliver them by May 12."
+},
+{
+"id": "q25",
+"question": "[Reading sample] Ngày giao hàng trên invoice là ngày nào?",
+"options": [
+"May 12",
+"May 15",
+"June 12",
+"March 15"
+],
+"correct_answer": "May 12",
+"explanation": "Invoice ghi Delivery date: May 12."
+},
+{
+"id": "q26",
+"question": "[Reading sample] Giá gốc mỗi ghế là bao nhiêu?",
+"options": [
+"$80",
+"$50",
+"$1,490",
+"$160"
+],
+"correct_answer": "$80",
+"explanation": "Invoice ghi Original price: $80 per chair."
+},
+{
+"id": "q27",
+"question": "[Reading sample] Số lượng ghế trên invoice là bao nhiêu?",
+"options": [
+"20",
+"15",
+"18",
+"12"
+],
+"correct_answer": "20",
+"explanation": "Invoice ghi Quantity: 20."
+},
+{
+"id": "q28",
+"question": "[Reading sample] Mức giảm giá là bao nhiêu?",
+"options": [
+"10 percent",
+"15 percent",
+"20 percent",
+"50 percent"
+],
+"correct_answer": "10 percent",
+"explanation": "Email và invoice đều nhắc 10 percent discount."
+},
+{
+"id": "q29",
+"question": "[Reading sample] Phí giao hàng là bao nhiêu?",
+"options": [
+"$50",
+"$80",
+"$160",
+"$1,440"
+],
+"correct_answer": "$50",
+"explanation": "Invoice ghi Delivery fee: $50."
+},
+{
+"id": "q30",
+"question": "[Reading sample] Tổng tiền phải trả là bao nhiêu?",
+"options": [
+"$1,490",
+"$1,600",
+"$1,440",
+"$50"
+],
+"correct_answer": "$1,490",
+"explanation": "Invoice ghi Total amount due: $1,490."
+},
+{
+"id": "q31",
+"question": "[Calculation] 20 chairs x $80 bằng bao nhiêu?",
+"options": [
+"$1,600",
+"$1,490",
+"$1,440",
+"$160"
+],
+"correct_answer": "$1,600",
+"explanation": "20 x 80 = 1,600."
+},
+{
+"id": "q32",
+"question": "[Calculation] 10 percent discount của $1,600 là bao nhiêu?",
+"options": [
+"$160",
+"$50",
+"$1,490",
+"$80"
+],
+"correct_answer": "$160",
+"explanation": "10 phần trăm của 1,600 là 160."
+},
+{
+"id": "q33",
+"question": "[Calculation] Sau giảm giá, tiền ghế là bao nhiêu trước khi cộng phí giao hàng?",
+"options": [
+"$1,440",
+"$1,600",
+"$1,490",
+"$50"
+],
+"correct_answer": "$1,440",
+"explanation": "$1,600 - $160 = $1,440."
+},
+{
+"id": "q34",
+"question": "[Calculation] Vì sao total amount due là $1,490?",
+"options": [
+"$1,440 sau giảm giá cộng $50 phí giao hàng",
+"$1,600 cộng $160 giảm giá",
+"$80 cộng $50",
+"$1,490 trừ $50"
+],
+"correct_answer": "$1,440 sau giảm giá cộng $50 phí giao hàng",
+"explanation": "Sau giảm giá còn $1,440; cộng delivery fee $50 thành $1,490."
+},
+{
+"id": "q35",
+"question": "[Cross-text] Thông tin nào được xác nhận ở cả hai văn bản?",
+"options": [
+"Laura đặt 20 ghế văn phòng màu đen",
+"Laura đặt 15 bàn màu trắng",
+"Laura hủy đơn hàng",
+"Laura muốn giao hàng sau May 12"
+],
+"correct_answer": "Laura đặt 20 ghế văn phòng màu đen",
+"explanation": "Email và invoice đều xác nhận 20 black office chairs."
+},
+{
+"id": "q36",
+"question": "[Cross-text] Thông tin nào chủ yếu được bổ sung trong invoice?",
+"options": [
+"Delivery fee and total amount due",
+"Greeting and closing",
+"Reason for building closure",
+"Project overview"
+],
+"correct_answer": "Delivery fee and total amount due",
+"explanation": "Invoice bổ sung phí giao hàng và tổng tiền cụ thể."
+},
+{
+"id": "q37",
+"question": "[Inference] Có thể suy luận điều gì về đơn hàng?",
+"options": [
+"The order qualifies for the discount.",
+"The order was canceled.",
+"The delivery date was changed to May 15.",
+"Only 10 chairs were available."
+],
+"correct_answer": "The order qualifies for the discount.",
+"explanation": "Email nói orders of 15 chairs or more receive discount; invoice có 20 chairs và discount 10 percent."
+},
+{
+"id": "q38",
+"question": "[Trap] Đáp án nào sai theo hai văn bản?",
+"options": [
+"The delivery date is May 15.",
+"The item is black office chairs.",
+"The quantity is 20.",
+"The delivery fee is $50."
+],
+"correct_answer": "The delivery date is May 15.",
+"explanation": "Cả email và invoice đều cho thấy ngày giao là May 12, không phải May 15."
+},
+{
+"id": "q39",
+"question": "[Main idea] Ý chính tốt nhất của buổi 172 là gì?",
+"options": [
+"Double passages yêu cầu đọc hai văn bản liên quan và liên kết thông tin bằng evidence.",
+"Double passages chỉ cần đọc văn bản đầu tiên.",
+"Double passages không có câu hỏi suy luận.",
+"Double passages chỉ kiểm tra phát âm."
+],
+"correct_answer": "Double passages yêu cầu đọc hai văn bản liên quan và liên kết thông tin bằng evidence.",
+"explanation": "Buổi học nhấn mạnh đọc hai văn bản, xác định quan hệ và kiểm tra bằng chứng."
+},
+{
+"id": "q40",
+"question": "[Ghi nhớ] Bài học quan trọng nhất của buổi 172 là gì?",
+"options": [
+"Trong double passages, phải biết câu hỏi cần văn bản 1, văn bản 2 hay cả hai, rồi đối chiếu evidence.",
+"Trong double passages, luôn chọn đáp án có số tiền lớn nhất.",
+"Không cần đọc văn bản thứ hai.",
+"Không cần phân biệt email và invoice."
+],
+"correct_answer": "Trong double passages, phải biết câu hỏi cần văn bản 1, văn bản 2 hay cả hai, rồi đối chiếu evidence.",
+"explanation": "Dạng này bẫy ở việc thông tin nằm ở nhiều văn bản, nên cần đối chiếu cẩn thận."
+}
+]
 }
